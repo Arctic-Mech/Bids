@@ -1,0 +1,2090 @@
+[
+ {
+  "div": 1,
+  "row": 22,
+  "code": "1-01",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A22)+'MCAA RECAP'!F48+'MCAA RECAP'!F98",
+  "cached": 1066.29
+ },
+ {
+  "div": 1,
+  "row": 22,
+  "code": "1-01",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A22)+'MCAA RECAP'!H48+'MCAA RECAP'!H98",
+  "cached": 126579.29
+ },
+ {
+  "div": 1,
+  "row": 22,
+  "code": "1-01",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A22)+SUMIF('MCAA RECAP'!$A$101:$A$105,A22,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 23,
+  "code": "1-02",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A23)+SUMIF('MCAA RECAP'!$A$103:$A$105,$A23,'MCAA RECAP'!$H$103:$H$105)+'MCAA RECAP'!H96",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 23,
+  "code": "1-02",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A23)+SUMIF('MCAA RECAP'!$A$101:$A$105,A23,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 24,
+  "code": "1-03",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A24)+SUM('MCAA RECAP'!E12:G12)+'MCAA RECAP'!F102",
+  "cached": 882.1764000000001
+ },
+ {
+  "div": 1,
+  "row": 24,
+  "code": "1-03",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A24)+('MCAA RECAP'!E12*CrewRate_Plumb)+('MCAA RECAP'!F12*CrewRate_Pipe)+('MCAA RECAP'!G12*CrewRate_SMField)+'MCAA RECAP'!H102",
+  "cached": 101978.42598
+ },
+ {
+  "div": 1,
+  "row": 24,
+  "code": "1-03",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A24)+SUMIF('MCAA RECAP'!$A$101:$A$105,A24,'MCAA RECAP'!$H$101:$H$105)-'MCAA RECAP'!H102",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 25,
+  "code": "1-04",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A25)+SUMIF('MCAA RECAP'!$A$103:$A$105,$A25,'MCAA RECAP'!$H$103:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 25,
+  "code": "1-04",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A25)+SUMIF('MCAA RECAP'!$A$101:$A$105,A25,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 26,
+  "code": "1-05",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A26)+SUMIF('MCAA RECAP'!$A$103:$A$105,$A26,'MCAA RECAP'!$H$103:$H$105)+'MCAA RECAP'!H100",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 26,
+  "code": "1-05",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A26)+SUMIF('MCAA RECAP'!$A$101:$A$105,A26,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 27,
+  "code": "1-06",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A27)+Trucking_Hrs*Trucking_Loads",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 27,
+  "code": "1-06",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A27)+Trucking_Total",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 27,
+  "code": "1-06",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A27)+SUMIF('MCAA RECAP'!$A$101:$A$105,A27,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 28,
+  "code": "1-07",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A28)+'MCAA RECAP'!H91+SUMIF('MCAA RECAP'!$A$101:$A$105,A28,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 29,
+  "code": "1-08",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A29)+SUMIF('MCAA RECAP'!$A$101:$A$105,A29,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 30,
+  "code": "1-09",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A30)+SUMIF('MCAA RECAP'!$A$101:$A$105,A30,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 31,
+  "code": "1-10",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A31)+'MCAA RECAP'!H78+'MCAA RECAP'!H85+SUMIF('MCAA RECAP'!$A$101:$A$105,A31,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 4198.13
+ },
+ {
+  "div": 1,
+  "row": 32,
+  "code": "1-11",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A32)+'MCAA RECAP'!H89+SUMIF('MCAA RECAP'!$A$101:$A$105,A32,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 33,
+  "code": "1-12",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A33)+'MCAA RECAP'!H90+SUMIF('MCAA RECAP'!$A$101:$A$105,A33,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 34,
+  "code": "1-13",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A34)+SUMIF('MCAA RECAP'!$A$101:$A$105,A34,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 35,
+  "code": "1-14",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A35)+SUM('MCAA RECAP'!H82,'MCAA RECAP'!H83)+SUMIF('MCAA RECAP'!$A$101:$A$105,A35,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 36,
+  "code": "1-15",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A36)+'MCAA RECAP'!H79+SUMIF('MCAA RECAP'!$A$101:$A$105,A36,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 37290.78
+ },
+ {
+  "div": 1,
+  "row": 37,
+  "code": "1-16",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A37)+SUMIF('MCAA RECAP'!$A$101:$A$105,A37,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 38,
+  "code": "1-17",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A38)+'MCAA RECAP'!H67+SUMIF('MCAA RECAP'!$A$101:$A$105,A38,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 89211.43000000001
+ },
+ {
+  "div": 1,
+  "row": 39,
+  "code": "1-18",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A39)+SUMIF('MCAA RECAP'!$A$101:$A$105,A39,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 40,
+  "code": "1-19",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A40)+'MCAA RECAP'!H86+SUMIF('MCAA RECAP'!$A$101:$A$105,A40,'MCAA RECAP'!$H$101:$H$105)+'MCAA RECAP'!J116+'MCAA RECAP'!J117+'MCAA RECAP'!J118+'MCAA RECAP'!J119+'MCAA RECAP'!J120+'MCAA RECAP'!J121+'MCAA RECAP'!J122+'MCAA RECAP'!J123+'MCAA RECAP'!J124+'MCAA RECAP'!J125",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 41,
+  "code": "1-20",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A41)+SUMIF('MCAA RECAP'!$A$101:$A$105,A41,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 42,
+  "code": "1-21",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A42)+'MCAA RECAP'!H99+SUMIF('MCAA RECAP'!$A$101:$A$105,A42,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 43,
+  "code": "1-22",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A43)+SUM('MCAA RECAP'!E17:H17)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 43,
+  "code": "1-22",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A43)+('MCAA RECAP'!E17*'MCAA RECAP'!E21)+('MCAA RECAP'!F17*'MCAA RECAP'!F22)+('MCAA RECAP'!G17*'MCAA RECAP'!G23)+('MCAA RECAP'!H17*'MCAA RECAP'!H24)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 43,
+  "code": "1-22",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A43)+SUMIF('MCAA RECAP'!$A$101:$A$105,A43,'MCAA RECAP'!$H$101:$H$105)+'MCAA RECAP'!H65+'MCAA RECAP'!H106",
+  "cached": 133683.66
+ },
+ {
+  "div": 1,
+  "row": 44,
+  "code": "1-23",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A44)+SUMIF('MCAA RECAP'!$A$103:$A$105,A44,'MCAA RECAP'!$H$103:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 44,
+  "code": "1-23",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A44)+SUMIF('MCAA RECAP'!$A$101:$A$105,A44,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 45,
+  "code": "1-24",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A45)+'MCAA RECAP'!H80+SUMIF('MCAA RECAP'!$A$101:$A$105,A45,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 46,
+  "code": "1-25",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A46)+SUM('MCAA RECAP'!H92:H95)+SUMIF('MCAA RECAP'!$A$103:$A$105,A46,'MCAA RECAP'!$H$103:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 46,
+  "code": "1-25",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A46)+SUMIF('MCAA RECAP'!$A$101:$A$105,A46,'MCAA RECAP'!$H$101:$H$105)+'MCAA RECAP'!H88",
+  "cached": 283972
+ },
+ {
+  "div": 1,
+  "row": 47,
+  "code": "1-26",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A47)+'MCAA RECAP'!H84+SUMIF('MCAA RECAP'!$A$101:$A$105,A47,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 48,
+  "code": "1-27",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A48)+'MCAA RECAP'!H66+SUMIF('MCAA RECAP'!$A$101:$A$105,A48,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 49,
+  "code": "1-28",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A49)+'MCAA RECAP'!H87+SUMIF('MCAA RECAP'!$A$101:$A$105,A49,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 50,
+  "code": "1-29",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A50)+SUMIF('MCAA RECAP'!$A$101:$A$105,A50,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 51,
+  "code": "1-30",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A51)+SUMIF('MCAA RECAP'!$A$101:$A$105,A51,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 52,
+  "code": "1-31",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A52)+SUMIF('MCAA RECAP'!$A$101:$A$105,A52,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 53,
+  "code": "1-32",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A53)+SUMIF('MCAA RECAP'!$A$101:$A$105,A53,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 54,
+  "code": "1-33",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A54)+SUMIF('MCAA RECAP'!$A$101:$A$105,A54,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 55,
+  "code": "1-34",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A55)+SUMIF('MCAA RECAP'!$A$101:$A$105,A55,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 56,
+  "code": "1-35",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A56)+SUMIF('MCAA RECAP'!$A$101:$A$105,A56,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 57,
+  "code": "1-36",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A57)+SUMIF('MCAA RECAP'!$A$101:$A$105,A57,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 58,
+  "code": "1-37",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A58)+SUMIF('MCAA RECAP'!$A$101:$A$105,A58,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 59,
+  "code": "1-38",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A59)+SUMIF('MCAA RECAP'!$A$101:$A$105,A59,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 60,
+  "code": "1-39",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A60)+SUMIF('MCAA RECAP'!$A$101:$A$105,A60,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 61,
+  "code": "1-40",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A61)+SUMIF('MCAA RECAP'!$A$101:$A$105,A61,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 62,
+  "code": "1-41",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A62)+SUMIF('MCAA RECAP'!$A$101:$A$105,A62,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 63,
+  "code": "1-42",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A63)+SUMIF('MCAA RECAP'!$A$101:$A$105,A63,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 64,
+  "code": "1-43",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A64)+SUMIF('MCAA RECAP'!$A$101:$A$105,A64,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 65,
+  "code": "1-44",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A65)+SUMIF('MCAA RECAP'!$A$101:$A$105,A65,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 66,
+  "code": "1-45",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A66)+SUMIF('MCAA RECAP'!$A$101:$A$105,A66,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 67,
+  "code": "1-46",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A67)+SUMIF('MCAA RECAP'!$A$101:$A$105,A67,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 68,
+  "code": "1-47",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A68)+SUMIF('MCAA RECAP'!$A$101:$A$105,A68,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 69,
+  "code": "1-48",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A69)+SUMIF('MCAA RECAP'!$A$101:$A$105,A69,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 70,
+  "code": "1-49",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A70)+SUMIF('MCAA RECAP'!$A$101:$A$105,A70,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 71,
+  "code": "1-50",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A71)+SUMIF('MCAA RECAP'!$A$101:$A$105,A71,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 72,
+  "code": "1-51",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A72)+SUMIF('MCAA RECAP'!$A$101:$A$105,A72,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 73,
+  "code": "1-52",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A73)+SUMIF('MCAA RECAP'!$A$101:$A$105,A73,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 74,
+  "code": "1-53",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A74)+SUMIF('MCAA RECAP'!$A$101:$A$105,A74,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 75,
+  "code": "1-54",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A75)+SUMIF('MCAA RECAP'!$A$101:$A$105,A75,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 76,
+  "code": "1-55",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A76)+SUMIF('MCAA RECAP'!$A$101:$A$105,A76,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 77,
+  "code": "1-56",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A77)+SUMIF('MCAA RECAP'!$A$101:$A$105,A77,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 78,
+  "code": "1-57",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A78)+SUMIF('MCAA RECAP'!$A$101:$A$105,A78,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 79,
+  "code": "1-58",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A79)+SUMIF('MCAA RECAP'!$A$101:$A$105,A79,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 80,
+  "code": "1-59",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A80)+SUMIF('MCAA RECAP'!$A$101:$A$105,A80,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 81,
+  "code": "1-60",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A81)+SUMIF('MCAA RECAP'!$A$101:$A$105,A81,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 82,
+  "code": "1-61",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A82)+SUMIF('MCAA RECAP'!$A$101:$A$105,A82,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 83,
+  "code": "1-62",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A83)+SUMIF('MCAA RECAP'!$A$101:$A$105,A83,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 84,
+  "code": "1-63",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A84)+SUMIF('MCAA RECAP'!$A$101:$A$105,A84,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 85,
+  "code": "1-64",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A85)+SUMIF('MCAA RECAP'!$A$101:$A$105,A85,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 86,
+  "code": "1-65",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A86)+SUMIF('MCAA RECAP'!$A$101:$A$105,A86,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 87,
+  "code": "1-66",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A87)+SUMIF('MCAA RECAP'!$A$101:$A$105,A87,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 88,
+  "code": "1-67",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A88)+SUMIF('MCAA RECAP'!$A$101:$A$105,A88,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 89,
+  "code": "1-68",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A89)+SUMIF('MCAA RECAP'!$A$101:$A$105,A89,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 90,
+  "code": "1-69",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A90)+SUMIF('MCAA RECAP'!$A$101:$A$105,A90,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 91,
+  "code": "1-70",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A91)+SUMIF('MCAA RECAP'!$A$101:$A$105,A91,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 92,
+  "code": "1-71",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A92)+SUMIF('MCAA RECAP'!$A$101:$A$105,A92,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 93,
+  "code": "1-72",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A93)+SUMIF('MCAA RECAP'!$A$101:$A$105,A93,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 94,
+  "code": "1-73",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A94)+SUMIF('MCAA RECAP'!$A$101:$A$105,A94,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 95,
+  "code": "1-74",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A95)+SUMIF('MCAA RECAP'!$A$101:$A$105,A95,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 96,
+  "code": "1-75",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A96)+SUMIF('MCAA RECAP'!$A$101:$A$105,A96,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 97,
+  "code": "1-76",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A97)+SUMIF('MCAA RECAP'!$A$101:$A$105,A97,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 98,
+  "code": "1-77",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A98)+SUMIF('MCAA RECAP'!$A$101:$A$105,A98,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 99,
+  "code": "1-78",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A99)+SUMIF('MCAA RECAP'!$A$101:$A$105,A99,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 100,
+  "code": "1-79",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A100)+SUMIF('MCAA RECAP'!$A$101:$A$105,A100,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 101,
+  "code": "1-80",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A101)+SUMIF('MCAA RECAP'!$A$101:$A$105,A101,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 102,
+  "code": "1-81",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A102)+SUMIF('MCAA RECAP'!$A$101:$A$105,A102,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 103,
+  "code": "1-82",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A103)+SUMIF('MCAA RECAP'!$A$101:$A$105,A103,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 104,
+  "code": "1-83",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A104)+SUMIF('MCAA RECAP'!$A$101:$A$105,A104,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 105,
+  "code": "1-84",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A105)+SUMIF('MCAA RECAP'!$A$101:$A$105,A105,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 106,
+  "code": "1-85",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A106)+SUMIF('MCAA RECAP'!$A$101:$A$105,A106,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 107,
+  "code": "1-86",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A107)+SUMIF('MCAA RECAP'!$A$101:$A$105,A107,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 108,
+  "code": "1-87",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A108)+SUMIF('MCAA RECAP'!$A$101:$A$105,A108,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 109,
+  "code": "1-88",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A109)+SUMIF('MCAA RECAP'!$A$101:$A$105,A109,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 110,
+  "code": "1-89",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A110)+SUMIF('MCAA RECAP'!$A$101:$A$105,A110,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 111,
+  "code": "1-90",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A111)+SUMIF('MCAA RECAP'!$A$101:$A$105,A111,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 112,
+  "code": "1-91",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A112)+SUMIF('MCAA RECAP'!$A$101:$A$105,A112,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 113,
+  "code": "1-92",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A113)+SUMIF('MCAA RECAP'!$A$101:$A$105,A113,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 114,
+  "code": "1-93",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A114)+SUMIF('MCAA RECAP'!$A$101:$A$105,A114,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 115,
+  "code": "1-94",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A115)+SUMIF('MCAA RECAP'!$A$101:$A$105,A115,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 116,
+  "code": "1-95",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A116)+SUMIF('MCAA RECAP'!$A$101:$A$105,A116,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 117,
+  "code": "1-96",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A117)+SUMIF('MCAA RECAP'!$A$101:$A$105,A117,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 118,
+  "code": "1-97",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A118)+SUMIF('MCAA RECAP'!$A$101:$A$105,A118,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 119,
+  "code": "1-98",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A119)+SUMIF('MCAA RECAP'!$A$101:$A$105,A119,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 1,
+  "row": 120,
+  "code": "1-99",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A120)+SUMIF('MCAA RECAP'!$A$101:$A$105,A120,'MCAA RECAP'!$H$101:$H$105)",
+  "cached": 0
+ },
+ {
+  "div": 2,
+  "row": 131,
+  "code": "2-04",
+  "col": "D",
+  "f": "=SUMIFS(SM_ShopLaborColumn,PC_SM_Shop,$A131)+'MCAA RECAP'!H15",
+  "cached": 0
+ },
+ {
+  "div": 2,
+  "row": 131,
+  "code": "2-04",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Shop_Labor_Cost,PC_SM_Shop,$A131)+('MCAA RECAP'!H15*CrewRate_SMShop)",
+  "cached": 0
+ },
+ {
+  "div": 2,
+  "row": 132,
+  "code": "2-05",
+  "col": "D",
+  "f": "=SUMIFS(SM_ShopLaborColumn,PC_SM_Shop,$A132)+'MCAA RECAP'!H12",
+  "cached": 52.24
+ },
+ {
+  "div": 2,
+  "row": 132,
+  "code": "2-05",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Shop_Labor_Cost,PC_SM_Shop,$A132)+('MCAA RECAP'!H12*CrewRate_SMShop)",
+  "cached": 5822.148
+ },
+ {
+  "div": 2,
+  "row": 133,
+  "code": "2-06",
+  "col": "D",
+  "f": "=SUMIFS(SM_ShopLaborColumn,PC_SM_Shop,$A133)+'MCAA RECAP'!H16",
+  "cached": 0
+ },
+ {
+  "div": 2,
+  "row": 133,
+  "code": "2-06",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Shop_Labor_Cost,PC_SM_Shop,$A133)+('MCAA RECAP'!H16*CrewRate_SMShop)",
+  "cached": 0
+ },
+ {
+  "div": 2,
+  "row": 135,
+  "code": "2-08",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Shop_Labor_Cost,PC_SM_Shop,$A135)+(ABS('Work Recovery'!H6)*-1)",
+  "cached": 0
+ },
+ {
+  "div": 2,
+  "row": 136,
+  "code": "2-09",
+  "col": "D",
+  "f": "=SUMIFS(SM_ShopLaborColumn,PC_SM_Shop,$A136)+'MCAA RECAP'!H14",
+  "cached": 0
+ },
+ {
+  "div": 2,
+  "row": 136,
+  "code": "2-09",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Shop_Labor_Cost,PC_SM_Shop,$A136)+('MCAA RECAP'!H14*CrewRate_SMShop)",
+  "cached": 0
+ },
+ {
+  "div": 2,
+  "row": 137,
+  "code": "2-10",
+  "col": "D",
+  "f": "=SUMIFS(SM_ShopLaborColumn,PC_SM_Shop,$A137)+'MCAA RECAP'!H13",
+  "cached": 0
+ },
+ {
+  "div": 2,
+  "row": 137,
+  "code": "2-10",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Shop_Labor_Cost,PC_SM_Shop,$A137)+('MCAA RECAP'!H13*CrewRate_SMShop)",
+  "cached": 0
+ },
+ {
+  "div": 3,
+  "row": 234,
+  "code": "3-01",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A234)+'MCAA RECAP'!F52",
+  "cached": 533.63
+ },
+ {
+  "div": 3,
+  "row": 234,
+  "code": "3-01",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A234)+'MCAA RECAP'!H52",
+  "cached": 61522.2027
+ },
+ {
+  "div": 3,
+  "row": 237,
+  "code": "3-04",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A237)+'MCAA RECAP'!G15",
+  "cached": 0
+ },
+ {
+  "div": 3,
+  "row": 237,
+  "code": "3-04",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A237)+('MCAA RECAP'!G15*CrewRate_SMField)",
+  "cached": 0
+ },
+ {
+  "div": 3,
+  "row": 239,
+  "code": "3-06",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A239)+'MCAA RECAP'!G16",
+  "cached": 426.9
+ },
+ {
+  "div": 3,
+  "row": 239,
+  "code": "3-06",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A239)+('MCAA RECAP'!G16*CrewRate_SMField)",
+  "cached": 44000.58299999999
+ },
+ {
+  "div": 3,
+  "row": 241,
+  "code": "3-08",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A241)+(ABS('Work Recovery'!H4)*-1)",
+  "cached": 0
+ },
+ {
+  "div": 3,
+  "row": 242,
+  "code": "3-09",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A242)+'MCAA RECAP'!G14",
+  "cached": 85.38
+ },
+ {
+  "div": 3,
+  "row": 242,
+  "code": "3-09",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A242)+('MCAA RECAP'!G14*CrewRate_SMField)",
+  "cached": 8800.1166
+ },
+ {
+  "div": 3,
+  "row": 243,
+  "code": "3-10",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A243)+'MCAA RECAP'!G13",
+  "cached": 42.69
+ },
+ {
+  "div": 3,
+  "row": 243,
+  "code": "3-10",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A243)+('MCAA RECAP'!G13*CrewRate_SMField)",
+  "cached": 4400.0583
+ },
+ {
+  "div": 3,
+  "row": 244,
+  "code": "3-11",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A244)+'MCAA RECAP'!F97",
+  "cached": 0
+ },
+ {
+  "div": 3,
+  "row": 244,
+  "code": "3-11",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A244)+'MCAA RECAP'!H97",
+  "cached": 0
+ },
+ {
+  "div": 3,
+  "row": 332,
+  "code": "3-99",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A332)+'MCAA RECAP'!C27",
+  "cached": 0
+ },
+ {
+  "div": 5,
+  "row": 446,
+  "code": "5-01",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A446)+'MCAA RECAP'!F49",
+  "cached": 21.66
+ },
+ {
+  "div": 5,
+  "row": 446,
+  "code": "5-01",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A446)+'MCAA RECAP'!H49",
+  "cached": 3082.6600000000003
+ },
+ {
+  "div": 5,
+  "row": 449,
+  "code": "5-04",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A449)+'MCAA RECAP'!E15",
+  "cached": 0
+ },
+ {
+  "div": 5,
+  "row": 449,
+  "code": "5-04",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A449)+('MCAA RECAP'!E15*CrewRate_Plumb)",
+  "cached": 0
+ },
+ {
+  "div": 5,
+  "row": 451,
+  "code": "5-06",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A451)+'MCAA RECAP'!E16",
+  "cached": 16.922
+ },
+ {
+  "div": 5,
+  "row": 451,
+  "code": "5-06",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A451)+('MCAA RECAP'!E16*CrewRate_Plumb)",
+  "cached": 2249.7799
+ },
+ {
+  "div": 5,
+  "row": 453,
+  "code": "5-08",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A453)+(ABS('Work Recovery'!H10)*-1)",
+  "cached": 0
+ },
+ {
+  "div": 5,
+  "row": 454,
+  "code": "5-09",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A454)+'MCAA RECAP'!E14",
+  "cached": 3.3844
+ },
+ {
+  "div": 5,
+  "row": 454,
+  "code": "5-09",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A454)+('MCAA RECAP'!E14*CrewRate_Plumb)",
+  "cached": 449.95597999999995
+ },
+ {
+  "div": 5,
+  "row": 455,
+  "code": "5-10",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A455)+'MCAA RECAP'!E13",
+  "cached": 6.7688
+ },
+ {
+  "div": 5,
+  "row": 455,
+  "code": "5-10",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A455)+('MCAA RECAP'!E13*CrewRate_Plumb)",
+  "cached": 899.9119599999999
+ },
+ {
+  "div": 6,
+  "row": 552,
+  "code": "6-01",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A552)+'MCAA RECAP'!F50",
+  "cached": 352.39
+ },
+ {
+  "div": 6,
+  "row": 552,
+  "code": "6-01",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A552)+'MCAA RECAP'!H50",
+  "cached": 50152.15
+ },
+ {
+  "div": 6,
+  "row": 555,
+  "code": "6-04",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A555)+'MCAA RECAP'!F15",
+  "cached": 0
+ },
+ {
+  "div": 6,
+  "row": 555,
+  "code": "6-04",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A555)+('MCAA RECAP'!F15*CrewRate_Pipe)",
+  "cached": 0
+ },
+ {
+  "div": 6,
+  "row": 557,
+  "code": "6-06",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A557)+'MCAA RECAP'!F16",
+  "cached": 279.672
+ },
+ {
+  "div": 6,
+  "row": 557,
+  "code": "6-06",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A557)+('MCAA RECAP'!F16*CrewRate_Pipe)",
+  "cached": 37182.3924
+ },
+ {
+  "div": 6,
+  "row": 559,
+  "code": "6-08",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A559)+(ABS('Work Recovery'!H12)*-1)",
+  "cached": 0
+ },
+ {
+  "div": 6,
+  "row": 560,
+  "code": "6-09",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A560)+'MCAA RECAP'!F14",
+  "cached": 69.918
+ },
+ {
+  "div": 6,
+  "row": 560,
+  "code": "6-09",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A560)+('MCAA RECAP'!F14*CrewRate_Pipe)",
+  "cached": 9295.5981
+ },
+ {
+  "div": 6,
+  "row": 561,
+  "code": "6-10",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A561)+'MCAA RECAP'!F13",
+  "cached": 209.754
+ },
+ {
+  "div": 6,
+  "row": 561,
+  "code": "6-10",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A561)+('MCAA RECAP'!F13*CrewRate_Pipe)",
+  "cached": 27886.794299999998
+ },
+ {
+  "div": 7,
+  "row": 658,
+  "code": "7-01",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A658)+SUMIF('MCAA RECAP'!$A$36:$A$44,A658,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A658,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 67500
+ },
+ {
+  "div": 7,
+  "row": 659,
+  "code": "7-02",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A659)+SUMIF('MCAA RECAP'!$A$36:$A$44,A659,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A659,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 660,
+  "code": "7-03",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A660)+SUMIF('MCAA RECAP'!$A$36:$A$44,A660,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A660,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 445653
+ },
+ {
+  "div": 7,
+  "row": 661,
+  "code": "7-04",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A661)+SUMIF('MCAA RECAP'!$A$36:$A$44,A661,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A661,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 662,
+  "code": "7-05",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A662)+SUMIF('MCAA RECAP'!$A$36:$A$44,A662,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A662,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 663,
+  "code": "7-06",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A663)+SUMIF('MCAA RECAP'!$A$36:$A$44,A663,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A663,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 664,
+  "code": "7-07",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A664)+SUMIF('MCAA RECAP'!$A$36:$A$44,A664,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A664,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 665,
+  "code": "7-08",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A665)+SUMIF('MCAA RECAP'!$A$36:$A$44,A665,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A665,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 666,
+  "code": "7-09",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A666)+SUMIF('MCAA RECAP'!$A$36:$A$44,A666,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A666,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 667,
+  "code": "7-10",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A667)+SUMIF('MCAA RECAP'!$A$36:$A$44,A667,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A667,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 668,
+  "code": "7-11",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A668)+SUMIF('MCAA RECAP'!$A$36:$A$44,A668,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A668,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 669,
+  "code": "7-12",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A669)+SUMIF('MCAA RECAP'!$A$36:$A$44,A669,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A669,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 670,
+  "code": "7-13",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A670)+SUMIF('MCAA RECAP'!$A$36:$A$44,A670,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A670,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 671,
+  "code": "7-14",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A671)+SUMIF('MCAA RECAP'!$A$36:$A$44,A671,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A671,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 672,
+  "code": "7-15",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A672)+SUMIF('MCAA RECAP'!$A$36:$A$44,A672,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A672,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 129576.36839999999
+ },
+ {
+  "div": 7,
+  "row": 673,
+  "code": "7-16",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A673)+SUMIF('MCAA RECAP'!$A$36:$A$44,A673,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A673,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 674,
+  "code": "7-17",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A674)+SUMIF('MCAA RECAP'!$A$36:$A$44,A674,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A674,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 675,
+  "code": "7-18",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A675)+SUMIF('MCAA RECAP'!$A$36:$A$44,A675,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A675,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 676,
+  "code": "7-19",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A676)+SUMIF('MCAA RECAP'!$A$36:$A$44,A676,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A676,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 677,
+  "code": "7-20",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A677)+SUMIF('MCAA RECAP'!$A$36:$A$44,A677,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A677,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 678,
+  "code": "7-21",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A678)+SUMIF('MCAA RECAP'!$A$36:$A$44,A678,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A678,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 679,
+  "code": "7-22",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A679)+SUMIF('MCAA RECAP'!$A$36:$A$44,A679,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A679,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 680,
+  "code": "7-23",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A680)+SUMIF('MCAA RECAP'!$A$36:$A$44,A680,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A680,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 681,
+  "code": "7-24",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A681)+SUMIF('MCAA RECAP'!$A$36:$A$44,A681,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A681,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 682,
+  "code": "7-25",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A682)+SUMIF('MCAA RECAP'!$A$36:$A$44,A682,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A682,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 683,
+  "code": "7-26",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A683)+SUMIF('MCAA RECAP'!$A$36:$A$44,A683,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A683,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 684,
+  "code": "7-27",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A684)+SUMIF('MCAA RECAP'!$A$36:$A$44,A684,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A684,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 685,
+  "code": "7-28",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A685)+SUMIF('MCAA RECAP'!$A$36:$A$44,A685,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A685,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 686,
+  "code": "7-29",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A686)+SUMIF('MCAA RECAP'!$A$36:$A$44,A686,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A686,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 687,
+  "code": "7-30",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A687)+SUMIF('MCAA RECAP'!$A$36:$A$44,A687,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A687,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 688,
+  "code": "7-31",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A688)+SUMIF('MCAA RECAP'!$A$36:$A$44,A688,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A688,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 689,
+  "code": "7-32",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A689)+SUMIF('MCAA RECAP'!$A$36:$A$44,A689,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A689,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 690,
+  "code": "7-33",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A690)+SUMIF('MCAA RECAP'!$A$36:$A$44,A690,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A690,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 691,
+  "code": "7-34",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A691)+SUMIF('MCAA RECAP'!$A$36:$A$44,A691,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A691,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 692,
+  "code": "7-35",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A692)+SUMIF('MCAA RECAP'!$A$36:$A$44,A692,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A692,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 693,
+  "code": "7-36",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A693)+SUMIF('MCAA RECAP'!$A$36:$A$44,A693,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A693,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 694,
+  "code": "7-37",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A694)+SUMIF('MCAA RECAP'!$A$36:$A$44,A694,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A694,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 695,
+  "code": "7-38",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A695)+SUMIF('MCAA RECAP'!$A$36:$A$44,A695,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A695,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 696,
+  "code": "7-39",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A696)+SUMIF('MCAA RECAP'!$A$36:$A$44,A696,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A696,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 697,
+  "code": "7-40",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A697)+SUMIF('MCAA RECAP'!$A$36:$A$44,A697,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A697,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 698,
+  "code": "7-41",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A698)+SUMIF('MCAA RECAP'!$A$36:$A$44,A698,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A698,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 699,
+  "code": "7-42",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A699)+SUMIF('MCAA RECAP'!$A$36:$A$44,A699,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A699,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 700,
+  "code": "7-43",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A700)+SUMIF('MCAA RECAP'!$A$36:$A$44,A700,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A700,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 701,
+  "code": "7-44",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A701)+SUMIF('MCAA RECAP'!$A$36:$A$44,A701,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A701,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 702,
+  "code": "7-45",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A702)+SUMIF('MCAA RECAP'!$A$36:$A$44,A702,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A702,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 703,
+  "code": "7-46",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A703)+SUMIF('MCAA RECAP'!$A$36:$A$44,A703,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A703,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 704,
+  "code": "7-47",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A704)+SUMIF('MCAA RECAP'!$A$36:$A$44,A704,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A704,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 705,
+  "code": "7-48",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A705)+SUMIF('MCAA RECAP'!$A$36:$A$44,A705,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A705,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 706,
+  "code": "7-49",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A706)+SUMIF('MCAA RECAP'!$A$36:$A$44,A706,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A706,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 707,
+  "code": "7-50",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A707)+SUMIF('MCAA RECAP'!$A$36:$A$44,A707,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A707,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 708,
+  "code": "7-51",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A708)+SUMIF('MCAA RECAP'!$A$36:$A$44,A708,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A708,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 709,
+  "code": "7-52",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A709)+SUMIF('MCAA RECAP'!$A$36:$A$44,A709,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A709,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 710,
+  "code": "7-53",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A710)+SUMIF('MCAA RECAP'!$A$36:$A$44,A710,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A710,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 711,
+  "code": "7-54",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A711)+SUMIF('MCAA RECAP'!$A$36:$A$44,A711,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A711,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 712,
+  "code": "7-55",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A712)+SUMIF('MCAA RECAP'!$A$36:$A$44,A712,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A712,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 713,
+  "code": "7-56",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A713)+SUMIF('MCAA RECAP'!$A$36:$A$44,A713,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A713,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 714,
+  "code": "7-57",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A714)+SUMIF('MCAA RECAP'!$A$36:$A$44,A714,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A714,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 715,
+  "code": "7-58",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A715)+SUMIF('MCAA RECAP'!$A$36:$A$44,A715,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A715,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 716,
+  "code": "7-59",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A716)+SUMIF('MCAA RECAP'!$A$36:$A$44,A716,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A716,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 717,
+  "code": "7-60",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A717)+SUMIF('MCAA RECAP'!$A$36:$A$44,A717,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A717,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 718,
+  "code": "7-61",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A718)+SUMIF('MCAA RECAP'!$A$36:$A$44,A718,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A718,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 719,
+  "code": "7-62",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A719)+SUMIF('MCAA RECAP'!$A$36:$A$44,A719,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A719,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 720,
+  "code": "7-63",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A720)+SUMIF('MCAA RECAP'!$A$36:$A$44,A720,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A720,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 721,
+  "code": "7-64",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A721)+SUMIF('MCAA RECAP'!$A$36:$A$44,A721,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A721,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 722,
+  "code": "7-65",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A722)+SUMIF('MCAA RECAP'!$A$36:$A$44,A722,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A722,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 723,
+  "code": "7-66",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A723)+SUMIF('MCAA RECAP'!$A$36:$A$44,A723,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A723,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 724,
+  "code": "7-67",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A724)+SUMIF('MCAA RECAP'!$A$36:$A$44,A724,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A724,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 725,
+  "code": "7-68",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A725)+SUMIF('MCAA RECAP'!$A$36:$A$44,A725,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A725,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 726,
+  "code": "7-69",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A726)+SUMIF('MCAA RECAP'!$A$36:$A$44,A726,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A726,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 727,
+  "code": "7-70",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A727)+SUMIF('MCAA RECAP'!$A$36:$A$44,A727,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A727,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 728,
+  "code": "7-71",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A728)+SUMIF('MCAA RECAP'!$A$36:$A$44,A728,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A728,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 729,
+  "code": "7-72",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A729)+SUMIF('MCAA RECAP'!$A$36:$A$44,A729,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A729,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 730,
+  "code": "7-73",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A730)+SUMIF('MCAA RECAP'!$A$36:$A$44,A730,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A730,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 731,
+  "code": "7-74",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A731)+SUMIF('MCAA RECAP'!$A$36:$A$44,A731,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A731,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 732,
+  "code": "7-75",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A732)+SUMIF('MCAA RECAP'!$A$36:$A$44,A732,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A732,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 733,
+  "code": "7-76",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A733)+SUMIF('MCAA RECAP'!$A$36:$A$44,A733,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A733,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 734,
+  "code": "7-77",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A734)+SUMIF('MCAA RECAP'!$A$36:$A$44,A734,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A734,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 735,
+  "code": "7-78",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A735)+SUMIF('MCAA RECAP'!$A$36:$A$44,A735,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A735,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 736,
+  "code": "7-79",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A736)+SUMIF('MCAA RECAP'!$A$36:$A$44,A736,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A736,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 737,
+  "code": "7-80",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A737)+SUMIF('MCAA RECAP'!$A$36:$A$44,A737,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A737,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 738,
+  "code": "7-81",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A738)+SUMIF('MCAA RECAP'!$A$36:$A$44,A738,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A738,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 739,
+  "code": "7-82",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A739)+SUMIF('MCAA RECAP'!$A$36:$A$44,A739,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A739,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 740,
+  "code": "7-83",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A740)+SUMIF('MCAA RECAP'!$A$36:$A$44,A740,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A740,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 741,
+  "code": "7-84",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A741)+SUMIF('MCAA RECAP'!$A$36:$A$44,A741,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A741,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 742,
+  "code": "7-85",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A742)+SUMIF('MCAA RECAP'!$A$36:$A$44,A742,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A742,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 743,
+  "code": "7-86",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A743)+SUMIF('MCAA RECAP'!$A$36:$A$44,A743,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A743,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 744,
+  "code": "7-87",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A744)+SUMIF('MCAA RECAP'!$A$36:$A$44,A744,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A744,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 745,
+  "code": "7-88",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A745)+SUMIF('MCAA RECAP'!$A$36:$A$44,A745,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A745,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 746,
+  "code": "7-89",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A746)+SUMIF('MCAA RECAP'!$A$36:$A$44,A746,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A746,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 747,
+  "code": "7-90",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A747)+SUMIF('MCAA RECAP'!$A$36:$A$44,A747,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A747,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 748,
+  "code": "7-91",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A748)+SUMIF('MCAA RECAP'!$A$36:$A$44,A748,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A748,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 749,
+  "code": "7-92",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A749)+SUMIF('MCAA RECAP'!$A$36:$A$44,A749,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A749,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 750,
+  "code": "7-93",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A750)+SUMIF('MCAA RECAP'!$A$36:$A$44,A750,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A750,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 751,
+  "code": "7-94",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A751)+SUMIF('MCAA RECAP'!$A$36:$A$44,A751,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A751,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 752,
+  "code": "7-95",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A752)+SUMIF('MCAA RECAP'!$A$36:$A$44,A752,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A752,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 753,
+  "code": "7-96",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A753)+SUMIF('MCAA RECAP'!$A$36:$A$44,A753,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A753,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 754,
+  "code": "7-97",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A754)+SUMIF('MCAA RECAP'!$A$36:$A$44,A754,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A754,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 755,
+  "code": "7-98",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A755)+SUMIF('MCAA RECAP'!$A$36:$A$44,A755,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A755,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 7,
+  "row": 756,
+  "code": "7-99",
+  "col": "F",
+  "f": "=SUMIFS(SM_MaterialColumn,PC_SM_Material,$A756)+SUMIF('MCAA RECAP'!$A$36:$A$44,A756,'MCAA RECAP'!$J$36:$J$44)+SUMIF('MCAA RECAP'!$A$114:$A$129,A756,'MCAA RECAP'!$J$114:$J$129)",
+  "cached": 0
+ },
+ {
+  "div": 8,
+  "row": 764,
+  "code": "8-01",
+  "col": "D",
+  "f": "=SUMIFS(SM_FieldLaborColumn,PC_SM_Field,$A764)+'MCAA RECAP'!F51",
+  "cached": 0
+ },
+ {
+  "div": 8,
+  "row": 764,
+  "code": "8-01",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A764)+'MCAA RECAP'!H51",
+  "cached": 0
+ },
+ {
+  "div": 8,
+  "row": 783,
+  "code": "8-20",
+  "col": "E",
+  "f": "=SUMIFS(Takeoff_Total_Field_Labor_Cost,PC_SM_Field,$A783)+(ABS(WorkRecovery_Arch)*-1)",
+  "cached": 0
+ }
+]

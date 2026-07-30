@@ -1,0 +1,25 @@
+# Fails if the committed index.html is not what src/ builds to — i.e. someone
+# changed a source file and forgot to rebuild, or edited index.html by hand.
+# Pure python3 (standard library only): no browser, no installs, a few seconds.
+name: build check
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: index.html matches src/
+        run: |
+          if ! python3 build.py --check; then
+            python3 build.py
+            echo "::error::index.html is stale. Run 'python3 build.py' and commit index.html."
+            exit 1
+          fi
+      - name: upload the correct index.html
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: index-html-rebuilt
+          path: index.html

@@ -1,0 +1,558 @@
+{
+ "smImport": {
+  "headerRow": 8,
+  "firstDataRow": 9,
+  "namedRangeLastRow": 78,
+  "columns": {
+   "A": "Floor",
+   "B": "Service",
+   "C": "Type",
+   "D": "Material",
+   "E": "Cut Type",
+   "F": "Qty",
+   "G": "Field Hours",
+   "H": "Calculated \nField Hours",
+   "I": "Shop Hours",
+   "J": "Calculated \nShop Hours",
+   "K": "Material Cost",
+   "L": "Field % of Labor",
+   "M": "Field Difficulty",
+   "N": "Shop % of Labor",
+   "O": "Shop Difficulty"
+  },
+  "totalsRow7": {
+   "F7": {
+    "f": "=SUM(SMImport_Qty)",
+    "nf": "0"
+   },
+   "H7": {
+    "f": "=SUM(SMImport_CalcFieldHours)",
+    "nf": "0.00"
+   },
+   "J7": {
+    "f": "=SUM(SMImport_CalcShopHours)",
+    "nf": "0.00"
+   },
+   "K7": {
+    "f": "=SUM(SMImport_MaterialCost)",
+    "nf": "\"$\"#,##0.00"
+   }
+  },
+  "rowFormulas": {
+   "H9": "=IF(G9=\"\",\"\",IF($L9=0,G9,G9*$L9))",
+   "J9": "=IF(I9=\"\",\"\",IF($N9=0,I9,I9*$N9))",
+   "L9": "=IF(G9=\"\",\"\",1)",
+   "M9": "=IF(L9=\"\",\"\",IF(L9=0,\"Standard\",IF(L9=1,\"Standard\",IF(L9<1,\"Easy\",IF(L9>1,\"Hard\",\"\")))))",
+   "N9": "=IF(I9=\"\",\"\",1)",
+   "O9": "=IF(N9=\"\",\"\",IF(N9=0,\"Standard\",IF(N9=1,\"Standard\",IF(N9<1,\"Easy\",IF(N9>1,\"Hard\",\"\")))))"
+  },
+  "unlockedCols": [
+   "L",
+   "N"
+  ],
+  "namedRanges": {
+   "SMImport_Type": "'SM Import'!$C$9:$C$78",
+   "SMImport_Material": "'SM Import'!$D$9:$D$78",
+   "SMImport_CutType": "'SM Import'!$E$9:$E$78",
+   "SMImport_Qty": "'SM Import'!$F$9:$F$78",
+   "SMImport_CalcFieldHours": "'SM Import'!$H$9:$H$78",
+   "SMImport_CalcShopHours": "'SM Import'!$J$9:$J$78",
+   "SMImport_MaterialCost": "'SM Import'!$K$9:$K$78",
+   "CAE_Field_Hours_Total": "'SM Import'!$H$7",
+   "CAE_Shop_Hours_Total": "'SM Import'!$J$7",
+   "CAE_Material_Cost_Total": "'SM Import'!$K$7"
+  }
+ },
+ "tsiAuditTrail": {
+  "sheet": "SM Audit Trail",
+  "headerRow": 1,
+  "columns": {
+   "A": "Drawing",
+   "B": "Section",
+   "C": "Zone",
+   "D": "Service",
+   "E": "Service Type",
+   "F": "Description",
+   "G": "Alias",
+   "H": "Qty",
+   "I": "Specification",
+   "J": "Cut Type",
+   "K": "Bought Out",
+   "L": "Length",
+   "M": "Material",
+   "N": "Gauge",
+   "O": "M-Rate",
+   "P": "Fab time",
+   "Q": "Install time",
+   "R": "Insulation",
+   "S": "Insul Material",
+   "T": "Insul Thickness",
+   "U": "Liner Area",
+   "V": "Liner Cost",
+   "W": "Ext Wrap Area",
+   "X": "Ext Wrap Cost",
+   "Y": "Insul Fab time",
+   "Z": "Required Date",
+   "AA": "Job No",
+   "AB": "Date",
+   "AC": "Time",
+   "AD": "Estimate Tables"
+  },
+  "sourceFile": "C:\\MAP-Software\\EST\\Exports\\FESTR.txt",
+  "delimiters": [
+   "tab",
+   "comma"
+  ],
+  "textQualifier": "\""
+ },
+ "qpAuditTrail": {
+  "sheet": "QP SM Audit Trail",
+  "headerRow": 1,
+  "columns": {
+   "A": "Floor",
+   "B": "Service Type",
+   "C": "Material",
+   "D": "Shape",
+   "E": "Cut Type",
+   "F": "Labor Type",
+   "G": "Material Cost",
+   "H": "Base Labor Cost",
+   "I": "Fringe Cost",
+   "J": "Labor Hours",
+   "K": "$/hr",
+   "L": "Weight",
+   "M": "Length",
+   "N": "Area",
+   "O": "Qty"
+  },
+  "sourceFile": "C:\\MAP-Software\\EST\\Exports\\FESTR_QP.txt",
+  "delimiters": [
+   "tab",
+   "comma"
+  ],
+  "textQualifier": "\""
+ },
+ "pivotSheetLabels": {
+  "A1": "TSI SM",
+  "M1": "QP All",
+  "V1": "QP Wrap",
+  "A4": "Bought Out",
+  "B4": "(All)",
+  "M4": "Labor Type",
+  "N4": "(Multiple Items)",
+  "F6": "Values",
+  "R6": "Values",
+  "V6": "Cut Type",
+  "W6": "(blank)",
+  "A7": "Section",
+  "B7": "Service",
+  "C7": "Service Type",
+  "D7": "Material",
+  "E7": "Cut Type",
+  "F7": "Sum of Qty",
+  "G7": "Sum of Install Hours",
+  "H7": "Sum of Fab Hours",
+  "I7": "Sum of Total Material Cost",
+  "J7": "Sum of Ext Wrap Area",
+  "K7": "Sum of Ext Wrap Cost",
+  "M7": "Row Labels",
+  "N7": "Service Type",
+  "O7": "Material",
+  "P7": "Shape",
+  "Q7": "Cut Type",
+  "R7": "Sum of Material Cost",
+  "S7": "Sum of Labor Hours",
+  "T7": "Sum of Qty",
+  "A8": "(blank)",
+  "B8": "(blank)",
+  "C8": "(blank)",
+  "D8": "(blank)",
+  "E8": "(blank)",
+  "G8": 0,
+  "H8": 0,
+  "I8": 0,
+  "M8": "Grand Total",
+  "V8": "Values",
+  "A9": "Grand Total",
+  "G9": 0,
+  "H9": 0,
+  "I9": 0,
+  "V9": "Sum of Material Cost",
+  "W9": "Sum of Area"
+ },
+ "pivotTables": {
+  "All Material": {
+   "source": "SM Audit Trail",
+   "filter": "Bought Out",
+   "rows": [
+    "Section",
+    "Service",
+    "Service Type",
+    "Material",
+    "Cut Type"
+   ],
+   "values": [
+    "Sum of Qty",
+    "Sum of Install Hours",
+    "Sum of Fab Hours",
+    "Sum of Total Material Cost",
+    "Sum of Ext Wrap Area",
+    "Sum of Ext Wrap Cost"
+   ],
+   "anchor": "Pivot!A1"
+  },
+  "QP All": {
+   "source": "QP SM Audit Trail",
+   "filter": "Labor Type",
+   "rows": [
+    "Service Type",
+    "Material",
+    "Shape",
+    "Cut Type"
+   ],
+   "values": [
+    "Sum of Material Cost",
+    "Sum of Labor Hours",
+    "Sum of Qty"
+   ],
+   "anchor": "Pivot!M1"
+  },
+  "QP Wrap": {
+   "source": "QP SM Audit Trail",
+   "filter": "Cut Type (=Wrap)",
+   "values": [
+    "Sum of Material Cost",
+    "Sum of Area"
+   ],
+   "anchor": "Pivot!V1"
+  }
+ },
+ "importMappings": {
+  "TSI": {
+   "Section": "A",
+   "Service": "B",
+   "Service Type": "C",
+   "Material": "D",
+   "Cut Type": "E",
+   "Sum of Qty": "F",
+   "Sum of Install Hours": "G",
+   "Sum of Fab Hours": "I",
+   "Sum of Total Material Cost": "K",
+   "fillDownBlanks": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "extInsulNames": {
+    "Ext_Insul": "Sum of Ext Wrap Area",
+    "Ext_Insul_Cost": "Sum of Ext Wrap Cost"
+   },
+   "replacements": [
+    {
+     "find": "Spiral Straight",
+     "replace": "Decoiled Straight",
+     "match": "part"
+    }
+   ]
+  },
+  "QP": {
+   "Floor": "A",
+   "Service Type": "B",
+   "Shape": "C",
+   "Material": "D",
+   "Cut Type": "E",
+   "Sum Of Qty (Labor Type=Field)": "F",
+   "Sum of Labor Hours (Labor Type=Field)": "G",
+   "Sum of Labor Hours (Labor Type=Shop)": "I",
+   "Sum of Material Cost (Labor Type all except blank/N-A)": "K",
+   "fillDownBlanks": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "extInsulNames": {
+    "Ext_Insul": "QP Wrap: Sum of Area (Cut Type=Wrap)",
+    "Ext_Insul_Cost": "QP Wrap: Sum of Material Cost (Cut Type=Wrap)"
+   },
+   "replacements": [
+    {
+     "find": "3003H14Aluminum",
+     "replace": "Alum",
+     "match": "whole"
+    },
+    {
+     "find": "Flex Connector",
+     "replace": "Canvas Connector",
+     "match": "whole"
+    }
+   ],
+   "rowFixups": [
+    "If col E == 'Hanger' or 'Canvas Connector': shift that cell left into D (row has no Cut Type)",
+    "If col C (Material) is 0/empty: set to 'N/A'"
+   ]
+  },
+  "common": {
+   "deleteBlankToken": "(blank)",
+   "appendBehavior": "QP import appends at first empty row of each column (NextOpenCell)"
+  }
+ },
+ "smSchedule": {
+  "grid": {
+   "packages": 19,
+   "tasksPerPackage": 10,
+   "rowBlock": 11,
+   "firstPackageRow": 4,
+   "lastRow": 212,
+   "weeks": 48,
+   "dayColumns": [
+    "M",
+    "IR"
+   ],
+   "workdaysPerWeek": 5
+  },
+  "packages": [
+   {
+    "index": 1,
+    "headerRow": 4,
+    "taskRows": [
+     5,
+     14
+    ],
+    "nameFormula": "=Breakdown!$A9",
+    "cachedName": "Package 1 Fan deck room"
+   },
+   {
+    "index": 2,
+    "headerRow": 15,
+    "taskRows": [
+     16,
+     25
+    ],
+    "nameFormula": "=Breakdown!$A10",
+    "cachedName": "Package 1 Boiler room"
+   },
+   {
+    "index": 3,
+    "headerRow": 26,
+    "taskRows": [
+     27,
+     36
+    ],
+    "nameFormula": "=Breakdown!$A11",
+    "cachedName": "Package 1 ED Penthouse "
+   },
+   {
+    "index": 4,
+    "headerRow": 37,
+    "taskRows": [
+     38,
+     47
+    ],
+    "nameFormula": "=Breakdown!$A12",
+    "cachedName": "Package 1 Small mech room penthouse"
+   },
+   {
+    "index": 5,
+    "headerRow": 48,
+    "taskRows": [
+     49,
+     58
+    ],
+    "nameFormula": "=Breakdown!$A13",
+    "cachedName": "Package 1 DOAS and temp ducting "
+   },
+   {
+    "index": 6,
+    "headerRow": 59,
+    "taskRows": [
+     60,
+     69
+    ],
+    "nameFormula": "=Breakdown!$A14",
+    "cachedName": "Package 1 piping   HI Steve!!!"
+   },
+   {
+    "index": 7,
+    "headerRow": 70,
+    "taskRows": [
+     71,
+     80
+    ],
+    "nameFormula": "=Breakdown!$A15",
+    "cachedName": "Package 2 Piping"
+   },
+   {
+    "index": 8,
+    "headerRow": 81,
+    "taskRows": [
+     82,
+     91
+    ],
+    "nameFormula": "=Breakdown!$A16",
+    "cachedName": "Plumbing"
+   },
+   {
+    "index": 9,
+    "headerRow": 92,
+    "taskRows": [
+     93,
+     102
+    ],
+    "nameFormula": "=Breakdown!$A17",
+    "cachedName": null
+   },
+   {
+    "index": 10,
+    "headerRow": 103,
+    "taskRows": [
+     104,
+     113
+    ],
+    "nameFormula": "=Breakdown!$A18",
+    "cachedName": null
+   },
+   {
+    "index": 11,
+    "headerRow": 114,
+    "taskRows": [
+     115,
+     124
+    ],
+    "nameFormula": "=Breakdown!$A19",
+    "cachedName": null
+   },
+   {
+    "index": 12,
+    "headerRow": 125,
+    "taskRows": [
+     126,
+     135
+    ],
+    "nameFormula": "=Breakdown!$A20",
+    "cachedName": null
+   },
+   {
+    "index": 13,
+    "headerRow": 136,
+    "taskRows": [
+     137,
+     146
+    ],
+    "nameFormula": "=Breakdown!$A21",
+    "cachedName": null
+   },
+   {
+    "index": 14,
+    "headerRow": 147,
+    "taskRows": [
+     148,
+     157
+    ],
+    "nameFormula": "=Breakdown!$A22",
+    "cachedName": null
+   },
+   {
+    "index": 15,
+    "headerRow": 158,
+    "taskRows": [
+     159,
+     168
+    ],
+    "nameFormula": "=Breakdown!$A23",
+    "cachedName": null
+   },
+   {
+    "index": 16,
+    "headerRow": 169,
+    "taskRows": [
+     170,
+     179
+    ],
+    "nameFormula": "=Breakdown!$A24",
+    "cachedName": null
+   },
+   {
+    "index": 17,
+    "headerRow": 180,
+    "taskRows": [
+     181,
+     190
+    ],
+    "nameFormula": "=Breakdown!$A25",
+    "cachedName": null
+   },
+   {
+    "index": 18,
+    "headerRow": 191,
+    "taskRows": [
+     192,
+     201
+    ],
+    "nameFormula": "=Breakdown!$A26",
+    "cachedName": null
+   },
+   {
+    "index": 19,
+    "headerRow": 202,
+    "taskRows": [
+     203,
+     212
+    ],
+    "nameFormula": "=Breakdown!$A27",
+    "cachedName": null
+   }
+  ],
+  "statusOptions": [
+   "Not Started",
+   "In Progress",
+   "Completed"
+  ],
+  "anchorFormulaM3": "=IF(M1=\"\",DATE(YEAR(MIN(E4,E15,E26,E37,E48,E59,E70,E81,E92,E103,E114,E125,E136,E147,E158,E169,E180,E191,E202)),MONTH(MIN(E4,E15,E26,E37,E48,E59,E70,E81,E92,E103,E114,E125,E136,E147,E158,E169,E180,E191,E202)),7)-WEEKDAY(DATE(YEAR(MIN(E4,E15,E26,E37,E48,E59,E70,E81,E92,E103,E114,E125,E136,E147,E158,E169,E180,E191,E202)),MONTH(MIN(E4,E15,E26,E37,E48,E59,E70,E81,E92,E103,E114,E125,E136,E147,E158,E169,E180,E191,E202)),7),3),M1)",
+  "weekHeaderFormulas": {
+   "M": "=IF(M1=\"\",DATE(YEAR(MIN(E4,E15,E26,E37,E48,E59,E70,E81,E92,E103,E114,E125,E136,E147,E158,E169,E180,E191,E202)),MONTH(MIN(E4,E15,E26,E37,E48,E59,E70,E81,E92,E103,E114,E125,E136,E147,E158,E169,E180,E191,E202)),7)-WEEKDAY(DATE(YEAR(MIN(E4,E15,E26,E37,E48,E59,E70,E81,E92,E103,E114,E125,E136,E147,E158,E169,E180,E191,E202)),MONTH(MIN(E4,E15,E26,E37,E48,E59,E70,E81,E92,E103,E114,E125,E136,E147,E158,E169,E180,E191,E202)),7),3),M1)",
+   "R": "=M3+7",
+   "W": "=R3+7"
+  },
+  "projectNameFormulaA1": "=\"PROJECT NAME: \" & Info_Job_Name",
+  "comments": {
+   "M1": "Any entered date becomes first date displayed in Gantt below. Leave blank to use earliest task start date as beginning. If you enter manual date enter a date that is on a Monday for the weeks to work properly.",
+   "L3": "Assumes 5 work days per calendar week"
+  },
+  "hiddenCols": [
+   "G",
+   "H",
+   "J",
+   "K"
+  ],
+  "columnRoles": {
+   "A": "WBS number (locked literals: pkg n, tasks n.1..n.9, n.10 shown via nf 0.00)",
+   "C": "Task description (pkg row = Breakdown!A9+i formula; task rows unlocked, default \"Task A\"..\"Task J\")",
+   "D": "MAN POWER (user input, informational)",
+   "E": "Planned start date (task rows input; pkg row =IF(E+1=\"\",\"\",MIN(tasks)))",
+   "F": "Planned finish date (task rows input; pkg row =MAX(tasks))",
+   "G": "STATUS (hidden; dropdown)",
+   "H": "ACTUAL FINISH DATE (hidden; input)",
+   "I": "NOTES (input)",
+   "J": "Cal Start helper (hidden) =IF(E=\"\",\"\",E-$M$3+1); pkg row =MIN(block)",
+   "K": "Cal End helper (hidden) =IF(F=\"\",\"\",F-$M$3+1); pkg row =MAX(block)",
+   "L": "Work Days =SUM(M:IR row)",
+   "M..IR": "Gantt cells =IF(AND(day#>=$J,day#<=$K),1,\"\")"
+  },
+  "dayNumbering": "Row 2: M..Q = 1..5; each new week jumps +3 over the weekend (R2=Q2+3, then +1) so numbers are calendar-day offsets from the anchor Monday; 48 week headers in row 3 (M3 anchor, each merged over 5 cols, +7 days)"
+ },
+ "jobNameSanitize": {
+  "/": "-",
+  ".": "_",
+  "\\": "-",
+  "\"": "-",
+  "|": "-",
+  "[": "-",
+  "]": "-",
+  "{": "-",
+  "}": "-"
+ }
+}

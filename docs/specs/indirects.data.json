@@ -1,0 +1,960 @@
+{
+ "permits": {
+  "constructionValueCell": "Permits!F1",
+  "constructionValueFormula": "='MCAA RECAP'!H63",
+  "selectorCell": "Permits!R1",
+  "selectorOptions": [
+   {
+    "value": 1,
+    "label": "City of Portland / Multnomah County",
+    "block": "right-top",
+    "totalCell": "O18"
+   },
+   {
+    "value": 2,
+    "label": "City of Hillsboro (Washington County)",
+    "block": "left-top",
+    "totalCell": "F18"
+   },
+   {
+    "value": 3,
+    "label": "Clackamas County",
+    "block": "left-mid",
+    "totalCell": "F37"
+   },
+   {
+    "value": 4,
+    "label": "Custom",
+    "block": "right-mid",
+    "totalCell": "O37"
+   },
+   {
+    "value": 5,
+    "label": "No Permits",
+    "block": null,
+    "totalCell": null
+   },
+   {
+    "value": 6,
+    "label": "City of Tualatin",
+    "block": "left-bottom",
+    "totalCell": "F57"
+   },
+   {
+    "value": 0,
+    "label": "(none selected)",
+    "block": null,
+    "totalCell": null
+   }
+  ],
+  "jurisdictions": [
+   {
+    "id": "hillsboro",
+    "selectorValue": 2,
+    "name": "City of Hillsboro (Washington County)",
+    "asOf": "4/4/23",
+    "tiers": [
+     {
+      "min": 0,
+      "max": 5000,
+      "fee": 64.9,
+      "increment": 2000,
+      "cells": {
+       "min": "B6",
+       "max": "C6",
+       "fee": "D6",
+       "increment": "E6"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 5000,
+      "max": 10000,
+      "fee": 2.36,
+      "increment": 100,
+      "cells": {
+       "min": "B7",
+       "max": "C7",
+       "fee": "D7",
+       "increment": "E7"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 10000,
+      "max": 100000,
+      "fee": 6.61,
+      "increment": 1000,
+      "cells": {
+       "min": "B8",
+       "max": "C8",
+       "fee": "D8",
+       "increment": "E8"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 100000,
+      "max": 999999999,
+      "fee": 2.95,
+      "increment": 1000,
+      "cells": {
+       "min": "B9",
+       "max": "C9",
+       "fee": "D9",
+       "increment": "E9"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     }
+    ],
+    "planReviewPct": {
+     "value": 0.25,
+     "cell": "Permits!G14",
+     "unlocked": false
+    },
+    "markupPct": {
+     "value": 0.05,
+     "cell": "Permits!G16",
+     "unlocked": false
+    }
+   },
+   {
+    "id": "portland_multnomah",
+    "selectorValue": 1,
+    "name": "City of Portland / Multnomah County",
+    "asOf": "4/4/23",
+    "tiers": [
+     {
+      "min": 0,
+      "max": 1000,
+      "fee": 127,
+      "increment": 1000,
+      "cells": {
+       "min": "K6",
+       "max": "L6",
+       "fee": "M6",
+       "increment": "N6"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 1000,
+      "max": 10000,
+      "fee": 2.69,
+      "increment": 100,
+      "cells": {
+       "min": "K7",
+       "max": "L7",
+       "fee": "M7",
+       "increment": "N7"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 10000,
+      "max": 100000,
+      "fee": 16.45,
+      "increment": 1000,
+      "cells": {
+       "min": "K8",
+       "max": "L8",
+       "fee": "M8",
+       "increment": "N8"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 100000,
+      "max": 999999999,
+      "fee": 11.28,
+      "increment": 1000,
+      "cells": {
+       "min": "K9",
+       "max": "L9",
+       "fee": "M9",
+       "increment": "N9"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     }
+    ],
+    "planReviewPct": {
+     "value": 0.65,
+     "cell": "Permits!P14",
+     "unlocked": false
+    },
+    "markupPct": {
+     "value": 0.05,
+     "cell": "Permits!P16",
+     "unlocked": false
+    }
+   },
+   {
+    "id": "clackamas",
+    "selectorValue": 3,
+    "name": "Clackamas County",
+    "asOf": "4/4/23",
+    "tiers": [
+     {
+      "min": 0,
+      "max": 5000,
+      "fee": 85,
+      "increment": 5000,
+      "cells": {
+       "min": "B25",
+       "max": "C25",
+       "fee": "D25",
+       "increment": "E25"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 5000,
+      "max": 10000,
+      "fee": 1.66,
+      "increment": 100,
+      "cells": {
+       "min": "B26",
+       "max": "C26",
+       "fee": "D26",
+       "increment": "E26"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 10000,
+      "max": 100000,
+      "fee": 12.34,
+      "increment": 1000,
+      "cells": {
+       "min": "B27",
+       "max": "C27",
+       "fee": "D27",
+       "increment": "E27"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 100000,
+      "max": 999999999,
+      "fee": 8.47,
+      "increment": 1000,
+      "cells": {
+       "min": "B28",
+       "max": "C28",
+       "fee": "D28",
+       "increment": "E28"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     }
+    ],
+    "planReviewPct": {
+     "value": 0.65,
+     "cell": "Permits!G33",
+     "unlocked": false
+    },
+    "markupPct": {
+     "value": 0.05,
+     "cell": "Permits!G35",
+     "unlocked": false
+    }
+   },
+   {
+    "id": "custom",
+    "selectorValue": 4,
+    "name": "Custom",
+    "asOf": "4/4/23 Based on City of Salem",
+    "tiers": [
+     {
+      "min": 0,
+      "max": 2000,
+      "fee": 67.25,
+      "increment": 2000,
+      "cells": {
+       "min": "K25",
+       "max": "L25",
+       "fee": "M25",
+       "increment": "N25"
+      },
+      "unlocked": {
+       "min": false,
+       "max": true,
+       "fee": true,
+       "increment": true
+      }
+     },
+     {
+      "min": 2000,
+      "max": 25000,
+      "fee": 11,
+      "increment": 1000,
+      "cells": {
+       "min": "K26",
+       "max": "L26",
+       "fee": "M26",
+       "increment": "N26"
+      },
+      "unlocked": {
+       "min": true,
+       "max": true,
+       "fee": true,
+       "increment": true
+      }
+     },
+     {
+      "min": 25000,
+      "max": 50000,
+      "fee": 9,
+      "increment": 1000,
+      "cells": {
+       "min": "K27",
+       "max": "L27",
+       "fee": "M27",
+       "increment": "N27"
+      },
+      "unlocked": {
+       "min": true,
+       "max": true,
+       "fee": true,
+       "increment": true
+      }
+     },
+     {
+      "min": 50000,
+      "max": 100000,
+      "fee": 6,
+      "increment": 1000,
+      "cells": {
+       "min": "K28",
+       "max": "L28",
+       "fee": "M28",
+       "increment": "N28"
+      },
+      "unlocked": {
+       "min": true,
+       "max": true,
+       "fee": true,
+       "increment": true
+      }
+     },
+     {
+      "min": 100000,
+      "max": 999999999,
+      "fee": 4,
+      "increment": 1000,
+      "cells": {
+       "min": "K29",
+       "max": "L29",
+       "fee": "M29",
+       "increment": "N29"
+      },
+      "unlocked": {
+       "min": true,
+       "max": true,
+       "fee": true,
+       "increment": true
+      }
+     }
+    ],
+    "planReviewPct": {
+     "value": 0.65,
+     "cell": "Permits!P33",
+     "unlocked": true
+    },
+    "markupPct": {
+     "value": 0.05,
+     "cell": "Permits!P35",
+     "unlocked": true
+    }
+   },
+   {
+    "id": "tualatin",
+    "selectorValue": 6,
+    "name": "City of Tualatin",
+    "asOf": "4/4/22",
+    "tiers": [
+     {
+      "min": 0,
+      "max": 500,
+      "fee": 45,
+      "increment": 500,
+      "cells": {
+       "min": "B44",
+       "max": "C44",
+       "fee": "D44",
+       "increment": "E44"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 501,
+      "max": 2000,
+      "fee": 7,
+      "increment": 100,
+      "cells": {
+       "min": "B45",
+       "max": "C45",
+       "fee": "D45",
+       "increment": "E45"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 2001,
+      "max": 25000,
+      "fee": 27,
+      "increment": 1000,
+      "cells": {
+       "min": "B46",
+       "max": "C46",
+       "fee": "D46",
+       "increment": "E46"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 25001,
+      "max": 50000,
+      "fee": 20,
+      "increment": 1000,
+      "cells": {
+       "min": "B47",
+       "max": "C47",
+       "fee": "D47",
+       "increment": "E47"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 50001,
+      "max": 100000,
+      "fee": 14,
+      "increment": 1000,
+      "cells": {
+       "min": "B48",
+       "max": "C48",
+       "fee": "D48",
+       "increment": "E48"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     },
+     {
+      "min": 100001,
+      "max": 999999999,
+      "fee": 11,
+      "increment": 1000,
+      "cells": {
+       "min": "B49",
+       "max": "C49",
+       "fee": "D49",
+       "increment": "E49"
+      },
+      "unlocked": {
+       "min": false,
+       "max": false,
+       "fee": false,
+       "increment": false
+      }
+     }
+    ],
+    "planReviewPct": {
+     "value": 0.65,
+     "cell": "Permits!G53",
+     "unlocked": false
+    },
+    "markupPct": {
+     "value": 0.05,
+     "cell": "Permits!G55",
+     "unlocked": false
+    }
+   }
+  ]
+ },
+ "bond": {
+  "sellPriceCell": "Bond!C2",
+  "sellPriceFormula": "=SUM('MCAA RECAP'!H63,'MCAA RECAP'!H64,'MCAA RECAP'!H65,'MCAA RECAP'!H67)",
+  "brackets": [
+   {
+    "label": "1st",
+    "width": 500000,
+    "ratePer1000": 14.4,
+    "cells": {
+     "width": "Bond!B4",
+     "rate": "Bond!C4"
+    }
+   },
+   {
+    "label": "Next:",
+    "width": 2000000,
+    "ratePer1000": 8.7,
+    "cells": {
+     "width": "Bond!B5",
+     "rate": "Bond!C5"
+    }
+   },
+   {
+    "label": "Next:",
+    "width": 2500000,
+    "ratePer1000": 6.9,
+    "cells": {
+     "width": "Bond!B6",
+     "rate": "Bond!C6"
+    }
+   },
+   {
+    "label": "Next:",
+    "width": 2500000,
+    "ratePer1000": 6.3,
+    "cells": {
+     "width": "Bond!B7",
+     "rate": "Bond!C7"
+    }
+   },
+   {
+    "label": "Over:",
+    "width": 7500000,
+    "ratePer1000": 5.76,
+    "cells": {
+     "width": "Bond!B8",
+     "rate": "Bond!C8"
+    }
+   }
+  ],
+  "totalCell": "Bond!E9",
+  "totalNamedRange": "Bond",
+  "jobLengthMonths": {
+   "cell": "Bond!C10",
+   "formula": "=ROUNDUP(('Crew Mix'!I7-'Crew Mix'!I5)/30,0)",
+   "daysPerMonth": 30
+  }
+ },
+ "ocip": {
+  "wcClasses": [
+   {
+    "row": 139,
+    "description": "Sheet Metal Work (Arch)",
+    "classCode": 5535,
+    "pctOnsite": 1,
+    "wcRatePer100": 0.0297,
+    "cells": {
+     "description": "OCIP!B139",
+     "classCode": "OCIP!F139",
+     "pctOnsite": "OCIP!G139",
+     "wcRate": "OCIP!M139"
+    }
+   },
+   {
+    "row": 140,
+    "description": "Contractor Exec Supervisor",
+    "classCode": 5606,
+    "pctOnsite": 0.25,
+    "wcRatePer100": 0.0039,
+    "cells": {
+     "description": "OCIP!B140",
+     "classCode": "OCIP!F140",
+     "pctOnsite": "OCIP!G140",
+     "wcRate": "OCIP!M140"
+    }
+   },
+   {
+    "row": 141,
+    "description": "AC Heating and Refrig",
+    "classCode": 5537,
+    "pctOnsite": 1,
+    "wcRatePer100": 0.0224,
+    "cells": {
+     "description": "OCIP!B141",
+     "classCode": "OCIP!F141",
+     "pctOnsite": "OCIP!G141",
+     "wcRate": "OCIP!M141"
+    }
+   },
+   {
+    "row": 142,
+    "description": "Plumbing",
+    "classCode": 5183,
+    "pctOnsite": 1,
+    "wcRatePer100": 0.0132,
+    "cells": {
+     "description": "OCIP!B142",
+     "classCode": "OCIP!F142",
+     "pctOnsite": "OCIP!G142",
+     "wcRate": "OCIP!M142"
+    }
+   }
+  ],
+  "scopeWCCodes": [
+   {
+    "row": 42,
+    "trade": "Arch",
+    "classCode": 5535
+   },
+   {
+    "row": 43,
+    "trade": "Super",
+    "classCode": 5606
+   },
+   {
+    "row": 44,
+    "trade": "HVAC",
+    "classCode": 5537
+   },
+   {
+    "row": 45,
+    "trade": "Plumb",
+    "classCode": 5183
+   }
+  ],
+  "glClasses": [
+   {
+    "row": 161,
+    "description": " Premises & Operations Classes:",
+    "classCode": 98884,
+    "ratePer1000": 3.59,
+    "cells": {
+     "rate": "OCIP!M161"
+    }
+   },
+   {
+    "row": 163,
+    "description": " Products/Completed Ops. Classes",
+    "classCode": 98884,
+    "ratePer1000": 8.59,
+    "cells": {
+     "rate": "OCIP!M163"
+    }
+   },
+   {
+    "row": 165,
+    "description": " Excess Liability",
+    "classCode": null,
+    "ratePer1000": 0,
+    "payrollOverride": 0,
+    "premiumLiteral": 0,
+    "note": "NA - Fixed Premium",
+    "cells": {
+     "rate": "OCIP!M165",
+     "payroll": "OCIP!I165",
+     "premium": "OCIP!O165"
+    }
+   }
+  ],
+  "factors": {
+   "payrollFractionOfLaborCost": {
+    "value": 0.6,
+    "source": "hard-coded literal '*0.6' inside OCIP!N42,N43,N44,N45",
+    "meaning": "assumed bare-payroll share of fully burdened labor dollars"
+   },
+   "otherApplicableFactors": {
+    "value": 0.89,
+    "cell": "OCIP!O148",
+    "label": "Other Applicable Factors: Partial Waiver of Sub, AGC , TRIA"
+   },
+   "experienceModifier": {
+    "formula": "='Crew Mix'!Q11",
+    "cachedValue": 0.6,
+    "cells": [
+     "OCIP!O146",
+     "OCIP!N16"
+    ]
+   },
+   "oregonTaxFactor": {
+    "formula": "='Crew Mix'!W11-1",
+    "cachedValue": -0.169,
+    "cell": "OCIP!N150",
+    "meaning": "Crew Mix W11 (0.831) is the post-tax retention factor; N150 = W11-1"
+   }
+  },
+  "formDefaults": {
+   "companyName": "Arctic Sheet Metal",
+   "address1": "2310 NE Columbia Blvd",
+   "address2": "Portland, OR 97211",
+   "phoneFax": "503.288.5844/503.386.4239",
+   "federalId": "93-0680369",
+   "wcRiskId": " ",
+   "anniversaryDate": "10/1/11",
+   "insuranceContact": {
+    "name": "Arlene Frazier",
+    "phone": "503-288-5844",
+    "fax": "503-288-5849",
+    "email": "afrazier@arcticsheetmetal.com"
+   },
+   "contact2": {
+    "name": "Arlene Frazier",
+    "phone": "503-288-5844",
+    "fax": "503-288-5849",
+    "email": "afrazier@arcticsheetmetal.com"
+   },
+   "safetyRep": {
+    "name": "Hailey Latherow",
+    "address": "2310 NE Columbia Blvd, Portland, OR 97211",
+    "phone": "503.288.5844",
+    "email": "hlatherow@arcticsheetmetal.com"
+   },
+   "authorizedRep": {
+    "title": "Payroll / HR",
+    "printedName": "Arlene Frazier"
+   },
+   "wcInsurer": "SAIF Corporation",
+   "glInsurer": " ",
+   "ocipAdmin": {
+    "contact": "Kathryn Swazo, OCIP Program Manager: 503-613-9290; Fax 971-217-9800; Cell Phone 503-348-6544",
+    "email": "e-mail address: Kathrynx.M.Swazo@Intel.com"
+   },
+   "worksheetContact": {
+    "company": "Arctic Sheet Metal",
+    "person": "Arlene Frazier",
+    "phone": "503.288.5844",
+    "fax": "503.288.5849",
+    "contractNo": " "
+   },
+   "owner": "INTEL CORPORATION"
+  },
+  "radioGroups": [
+   {
+    "linkCell": "OCIP!Y18",
+    "question": "Applicant is:",
+    "options": 4,
+    "current": 1,
+    "optionLabelsSource": "VML shape text (not extracted); per note OCIP!I21 likely Corporation/Partnership/Sole Prop./Joint Venture"
+   },
+   {
+    "linkCell": "OCIP!Y50",
+    "question": "Who is your contract with?",
+    "options": [
+     {
+      "value": 1,
+      "label": "Owner Directly"
+     },
+     {
+      "value": 2,
+      "label": "Construction Manager"
+     },
+     {
+      "value": 3,
+      "label": "General/Prime Contractor"
+     },
+     {
+      "value": 4,
+      "label": "Subcontracor - Please Identify:"
+     }
+    ],
+    "current": 3
+   },
+   {
+    "linkCell": "OCIP!Y54",
+    "question": "Will you subcontract any of your work?",
+    "options": "Yes/No (order unverified; current=1 is first radio)",
+    "current": 1
+   },
+   {
+    "linkCell": "OCIP!Y123",
+    "question": "Bid type",
+    "options": [
+     {
+      "value": 1,
+      "label": "Original Bid"
+     },
+     {
+      "value": 2,
+      "label": "Change Order"
+     }
+    ],
+    "current": 1
+   },
+   {
+    "linkCell": "OCIP!Y130",
+    "question": "Contract Type:",
+    "options": [
+     {
+      "value": 1,
+      "label": "GMP"
+     },
+     {
+      "value": 2,
+      "label": "FIXED PRICE"
+     },
+     {
+      "value": 3,
+      "label": "TIME & MATERIALS"
+     }
+    ],
+    "current": 2
+   },
+   {
+    "linkCell": "OCIP!Y157",
+    "question": "Is the rate shown a ccombined rate for Premiums and Operations and Products/Completed Operations?",
+    "options": "Yes/No (order unverified; current=1 is first radio)",
+    "current": 1
+   }
+  ],
+  "outputs": {
+   "totalWCCost": "OCIP!O151",
+   "totalGLPremium": "OCIP!O167",
+   "totalLiabilityPremium": "OCIP!O169",
+   "grandTotal": {
+    "cell": "OCIP!O174",
+    "namedRange": "OCIP_Deduct_Total"
+   }
+  }
+ },
+ "workRecovery": {
+  "rows": [
+   {
+    "row": 4,
+    "trade": "SM Field",
+    "takeoffHoursFormula": "='MCAA RECAP'!G18-'MCAA RECAP'!D27-'MCAA RECAP'!G12",
+    "namedRangeGroup": "WorkRecovery_SM"
+   },
+   {
+    "row": 6,
+    "trade": "SM Shop",
+    "takeoffHoursFormula": "='MCAA RECAP'!H18",
+    "namedRangeGroup": "WorkRecovery_SM"
+   },
+   {
+    "row": 8,
+    "trade": "Arch Field",
+    "takeoffHoursFormula": "='MCAA RECAP'!D27",
+    "namedRangeGroup": "WorkRecovery_Arch"
+   },
+   {
+    "row": 10,
+    "trade": "Plumber",
+    "takeoffHoursFormula": "='MCAA RECAP'!E18-'MCAA RECAP'!E12",
+    "namedRangeGroup": "WorkRecovery_Pipe"
+   },
+   {
+    "row": 12,
+    "trade": "Fitter",
+    "takeoffHoursFormula": "='MCAA RECAP'!F18-'MCAA RECAP'!F12",
+    "namedRangeGroup": "WorkRecovery_Pipe"
+   }
+  ],
+  "inputs": {
+   "ratePerHourApproved": "D4,D6,D8,D10,D12 (blank, unlocked)",
+   "maxHours": "F4,F6,F8,F10,F12 (blank, unlocked)"
+  },
+  "usedFormulaPattern": "=IF(F{r}>B{r},ROUND(D{r}*B{r},0),ROUND(D{r}*F{r},0))",
+  "totalCell": "'Work Recovery'!H14",
+  "namedRanges": {
+   "WorkRecovery_SM": "'Work Recovery'!H4:H6",
+   "WorkRecovery_Arch": "'Work Recovery'!H8",
+   "WorkRecovery_Pipe": "'Work Recovery'!H10:H12"
+  }
+ },
+ "emo": {
+  "title": "Equipment Markup Override",
+  "equipmentValueFormula": "=SUMIFS(SM_MaterialColumn,TakeOff!P:P,\"Yes\")",
+  "originalMarkupPctSource": {
+   "formula": "='MCAA RECAP'!G62",
+   "cachedValue": 0.24,
+   "meaning": "MCAA RECAP G62 = Overhead & Profit %"
+  },
+  "revisedMarkupPctSource": {
+   "formula": "='MCAA RECAP'!G61",
+   "cachedValue": 0.1,
+   "meaning": "MCAA RECAP G61 = Equipment Mark Up %"
+  },
+  "outputs": {
+   "originalEquipMarkup": {
+    "cell": "EMO!E6",
+    "formula": "=ROUND(A6*C6,2)"
+   },
+   "revisedEquipMarkup": {
+    "cell": "EMO!E12",
+    "formula": "=ROUND(A6*C12,2)",
+    "consumedBy": "'MCAA RECAP'!H61"
+   },
+   "delta": {
+    "cell": "EMO!E18",
+    "formula": "=ABS(E6-E12)",
+    "consumedBy": "'MCAA RECAP'!M62 (message)"
+   }
+  }
+ }
+}

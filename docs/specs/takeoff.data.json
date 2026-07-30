@@ -1,0 +1,2689 @@
+{
+ "_generated": "from extract/TakeOff.json via python; cached values are the Excel-computed reference results for verification",
+ "dropdowns": {
+  "takeoffType": [
+   "Sheet Metal Takeoff",
+   "Plumb Takeoff",
+   "Pipe Takeoff"
+  ],
+  "overtime": [
+   "OT",
+   "DBLT"
+  ],
+  "shift_firstItemRow": [
+   "SWING",
+   "GRAVE",
+   "SPECIAL"
+  ],
+  "shift_otherItemRows": [
+   "SWING",
+   "GRAVE",
+   "HAZARD"
+  ],
+  "equipmentMarkupOverride": [
+   "Yes"
+  ],
+  "exclude": [
+   "FALSE",
+   "TRUE"
+  ],
+  "materialPhase": "named range Phase_Code_List_Material = 'Phase Codes'!$S$4:$S$795",
+  "shopPhase": "named range Phase_Code_List_Shop = 'Phase Codes'!$Q$4:$Q$102",
+  "fieldPhase": "named range Phase_Code_List_Field = 'Phase Codes'!$O$4:$O$696"
+ },
+ "groups": [
+  {
+   "id": "CAE",
+   "nameCell": "D9",
+   "headerRow": 9,
+   "itemsStart": 10,
+   "itemsEnd": 35,
+   "subtotalRow": 36,
+   "typeCell": "F9",
+   "excludeCell": null,
+   "spareHiddenRow": null
+  },
+  {
+   "id": 1,
+   "nameCell": "D40",
+   "headerRow": 38,
+   "itemsStart": 41,
+   "itemsEnd": 69,
+   "subtotalRow": 70,
+   "typeCell": "F38",
+   "excludeCell": "K38",
+   "spareHiddenRow": 69
+  },
+  {
+   "id": 2,
+   "nameCell": "D74",
+   "headerRow": 72,
+   "itemsStart": 75,
+   "itemsEnd": 100,
+   "subtotalRow": 101,
+   "typeCell": "F72",
+   "excludeCell": "K72",
+   "spareHiddenRow": 100
+  },
+  {
+   "id": 3,
+   "nameCell": "D105",
+   "headerRow": 103,
+   "itemsStart": 106,
+   "itemsEnd": 133,
+   "subtotalRow": 134,
+   "typeCell": "F103",
+   "excludeCell": "K103",
+   "spareHiddenRow": 133
+  },
+  {
+   "id": 4,
+   "nameCell": "D138",
+   "headerRow": 136,
+   "itemsStart": 139,
+   "itemsEnd": 168,
+   "subtotalRow": 169,
+   "typeCell": "F136",
+   "excludeCell": "K136",
+   "spareHiddenRow": 168
+  },
+  {
+   "id": 5,
+   "nameCell": "D173",
+   "headerRow": 171,
+   "itemsStart": 174,
+   "itemsEnd": 201,
+   "subtotalRow": 202,
+   "typeCell": "F171",
+   "excludeCell": "K171",
+   "spareHiddenRow": 201
+  },
+  {
+   "id": 6,
+   "nameCell": "D206",
+   "headerRow": 204,
+   "itemsStart": 207,
+   "itemsEnd": 269,
+   "subtotalRow": 270,
+   "typeCell": "F204",
+   "excludeCell": "K204",
+   "spareHiddenRow": 269
+  },
+  {
+   "id": 7,
+   "nameCell": "D274",
+   "headerRow": 272,
+   "itemsStart": 275,
+   "itemsEnd": 301,
+   "subtotalRow": 302,
+   "typeCell": "F272",
+   "excludeCell": "K272",
+   "spareHiddenRow": 301
+  },
+  {
+   "id": 8,
+   "nameCell": "D306",
+   "headerRow": 304,
+   "itemsStart": 307,
+   "itemsEnd": 332,
+   "subtotalRow": 333,
+   "typeCell": "F304",
+   "excludeCell": "K304",
+   "spareHiddenRow": 332
+  },
+  {
+   "id": 9,
+   "nameCell": "D337",
+   "headerRow": 335,
+   "itemsStart": 338,
+   "itemsEnd": 363,
+   "subtotalRow": 364,
+   "typeCell": "F335",
+   "excludeCell": "K335",
+   "spareHiddenRow": 363
+  },
+  {
+   "id": 10,
+   "nameCell": "D368",
+   "headerRow": 366,
+   "itemsStart": 369,
+   "itemsEnd": 394,
+   "subtotalRow": 395,
+   "typeCell": "F366",
+   "excludeCell": "K366",
+   "spareHiddenRow": 394
+  },
+  {
+   "id": 11,
+   "nameCell": "D399",
+   "headerRow": 397,
+   "itemsStart": 400,
+   "itemsEnd": 425,
+   "subtotalRow": 426,
+   "typeCell": "F397",
+   "excludeCell": "K397",
+   "spareHiddenRow": 425
+  },
+  {
+   "id": 12,
+   "nameCell": "D430",
+   "headerRow": 428,
+   "itemsStart": 431,
+   "itemsEnd": 456,
+   "subtotalRow": 457,
+   "typeCell": "F428",
+   "excludeCell": "K428",
+   "spareHiddenRow": 456
+  },
+  {
+   "id": 13,
+   "nameCell": "D461",
+   "headerRow": 459,
+   "itemsStart": 462,
+   "itemsEnd": 487,
+   "subtotalRow": 488,
+   "typeCell": "F459",
+   "excludeCell": "K459",
+   "spareHiddenRow": 487
+  },
+  {
+   "id": 14,
+   "nameCell": "D492",
+   "headerRow": 490,
+   "itemsStart": 493,
+   "itemsEnd": 518,
+   "subtotalRow": 519,
+   "typeCell": "F490",
+   "excludeCell": "K490",
+   "spareHiddenRow": 518
+  },
+  {
+   "id": 15,
+   "nameCell": "D523",
+   "headerRow": 521,
+   "itemsStart": 524,
+   "itemsEnd": 549,
+   "subtotalRow": 550,
+   "typeCell": "F521",
+   "excludeCell": "K521",
+   "spareHiddenRow": 549
+  },
+  {
+   "id": 16,
+   "nameCell": "D554",
+   "headerRow": 552,
+   "itemsStart": 555,
+   "itemsEnd": 580,
+   "subtotalRow": 581,
+   "typeCell": "F552",
+   "excludeCell": "K552",
+   "spareHiddenRow": 580
+  },
+  {
+   "id": 17,
+   "nameCell": "D585",
+   "headerRow": 583,
+   "itemsStart": 586,
+   "itemsEnd": 611,
+   "subtotalRow": 612,
+   "typeCell": "F583",
+   "excludeCell": "K583",
+   "spareHiddenRow": 611
+  },
+  {
+   "id": 18,
+   "nameCell": "D616",
+   "headerRow": 614,
+   "itemsStart": 617,
+   "itemsEnd": 642,
+   "subtotalRow": 643,
+   "typeCell": "F614",
+   "excludeCell": "K614",
+   "spareHiddenRow": 642
+  },
+  {
+   "id": 19,
+   "nameCell": "D647",
+   "headerRow": 645,
+   "itemsStart": 648,
+   "itemsEnd": 673,
+   "subtotalRow": 674,
+   "typeCell": "F645",
+   "excludeCell": "K645",
+   "spareHiddenRow": 673
+  },
+  {
+   "id": 20,
+   "nameCell": "D678",
+   "headerRow": 676,
+   "itemsStart": 679,
+   "itemsEnd": 704,
+   "subtotalRow": 705,
+   "typeCell": "F676",
+   "excludeCell": "K676",
+   "spareHiddenRow": 704
+  },
+  {
+   "id": 21,
+   "nameCell": "D709",
+   "headerRow": 707,
+   "itemsStart": 710,
+   "itemsEnd": 735,
+   "subtotalRow": 736,
+   "typeCell": "F707",
+   "excludeCell": "K707",
+   "spareHiddenRow": 735
+  },
+  {
+   "id": 22,
+   "nameCell": "D740",
+   "headerRow": 738,
+   "itemsStart": 741,
+   "itemsEnd": 766,
+   "subtotalRow": 767,
+   "typeCell": "F738",
+   "excludeCell": "K738",
+   "spareHiddenRow": 766
+  },
+  {
+   "id": 23,
+   "nameCell": "D771",
+   "headerRow": 769,
+   "itemsStart": 772,
+   "itemsEnd": 797,
+   "subtotalRow": 798,
+   "typeCell": "F769",
+   "excludeCell": "K769",
+   "spareHiddenRow": 797
+  },
+  {
+   "id": 24,
+   "nameCell": "D802",
+   "headerRow": 800,
+   "itemsStart": 803,
+   "itemsEnd": 828,
+   "subtotalRow": 829,
+   "typeCell": "F800",
+   "excludeCell": "K800",
+   "spareHiddenRow": 828
+  },
+  {
+   "id": 25,
+   "nameCell": "D833",
+   "headerRow": 831,
+   "itemsStart": 834,
+   "itemsEnd": 859,
+   "subtotalRow": 860,
+   "typeCell": "F831",
+   "excludeCell": "K831",
+   "spareHiddenRow": 859
+  },
+  {
+   "id": 26,
+   "nameCell": "D864",
+   "headerRow": 862,
+   "itemsStart": 865,
+   "itemsEnd": 890,
+   "subtotalRow": 891,
+   "typeCell": "F862",
+   "excludeCell": "K862",
+   "spareHiddenRow": 890
+  },
+  {
+   "id": 27,
+   "nameCell": "D895",
+   "headerRow": 893,
+   "itemsStart": 896,
+   "itemsEnd": 921,
+   "subtotalRow": 922,
+   "typeCell": "F893",
+   "excludeCell": "K893",
+   "spareHiddenRow": 921
+  },
+  {
+   "id": 28,
+   "nameCell": "D926",
+   "headerRow": 924,
+   "itemsStart": 927,
+   "itemsEnd": 952,
+   "subtotalRow": 953,
+   "typeCell": "F924",
+   "excludeCell": "K924",
+   "spareHiddenRow": 952
+  },
+  {
+   "id": 29,
+   "nameCell": "D957",
+   "headerRow": 955,
+   "itemsStart": 958,
+   "itemsEnd": 983,
+   "subtotalRow": 984,
+   "typeCell": "F955",
+   "excludeCell": "K955",
+   "spareHiddenRow": 983
+  },
+  {
+   "id": 30,
+   "nameCell": "D988",
+   "headerRow": 986,
+   "itemsStart": 989,
+   "itemsEnd": 1014,
+   "subtotalRow": 1015,
+   "typeCell": "F986",
+   "excludeCell": "K986",
+   "spareHiddenRow": 1014
+  },
+  {
+   "id": 31,
+   "nameCell": "D1019",
+   "headerRow": 1017,
+   "itemsStart": 1020,
+   "itemsEnd": 1045,
+   "subtotalRow": 1046,
+   "typeCell": "F1017",
+   "excludeCell": "K1017",
+   "spareHiddenRow": 1045
+  }
+ ],
+ "rateCells": {
+  "U2": {
+   "desc": "SM field straight rate",
+   "formula": "=CrewRate_SMField",
+   "cachedValue": 103.07
+  },
+  "V2": {
+   "desc": "SM field OT add",
+   "formula": "=CrewRate_SMField_Overtime-CrewRate_SMField",
+   "cachedValue": 34.66
+  },
+  "W2": {
+   "desc": "SM field DT add",
+   "formula": "=CrewRate_SMField_DoubleTime-CrewRate_SMField",
+   "cachedValue": 68.96000000000001
+  },
+  "X2": {
+   "desc": "SM field swing add",
+   "formula": "=CrewRate_SMField_Swing",
+   "cachedValue": 8.436
+  },
+  "Y2": {
+   "desc": "SM field grave add",
+   "formula": "=CrewRate_SMField_Grave",
+   "cachedValue": 12.935200000000002
+  },
+  "Z2": {
+   "desc": "SM field special add",
+   "formula": "=CrewRate_SMField_Special",
+   "cachedValue": 5.6240000000000006
+  },
+  "U3": {
+   "desc": "Plumb straight rate",
+   "formula": "=CrewRate_PlumbFitter_Straight",
+   "cachedValue": 132.95
+  },
+  "V3": {
+   "desc": "Plumb OT add",
+   "formula": "=CrewRate_PlumbFitter_Overtime-CrewRate_PlumbFitter_Straight",
+   "cachedValue": 46.31
+  },
+  "W3": {
+   "desc": "Plumb DT add",
+   "formula": "=CrewRate_PlumbFitter_DoubleTime-CrewRate_PlumbFitter_Straight",
+   "cachedValue": 92.25
+  },
+  "X3": {
+   "desc": "Plumb swing add",
+   "formula": "=CrewRate_PlumbFitter_Swing",
+   "cachedValue": 7.32
+  },
+  "Y3": {
+   "desc": "Plumb grave add (uses swing)",
+   "formula": "=CrewRate_PlumbFitter_Swing",
+   "cachedValue": 7.32
+  },
+  "Z3": {
+   "desc": "Plumb special add (uses swing)",
+   "formula": "=CrewRate_PlumbFitter_Swing",
+   "cachedValue": 7.32
+  },
+  "U4": {
+   "desc": "Pipe straight rate",
+   "formula": "=CrewRate_PlumbFitter_Straight",
+   "cachedValue": 132.95
+  },
+  "V4": {
+   "desc": "Pipe OT add",
+   "formula": "=CrewRate_PlumbFitter_Overtime-CrewRate_PlumbFitter_Straight",
+   "cachedValue": 46.31
+  },
+  "W4": {
+   "desc": "Pipe DT add",
+   "formula": "=CrewRate_PlumbFitter_DoubleTime-CrewRate_PlumbFitter_Straight",
+   "cachedValue": 92.25
+  },
+  "X4": {
+   "desc": "Pipe swing add",
+   "formula": "=CrewRate_PlumbFitter_Swing",
+   "cachedValue": 7.32
+  },
+  "Y4": {
+   "desc": "Pipe grave add (uses swing)",
+   "formula": "=CrewRate_PlumbFitter_Swing",
+   "cachedValue": 7.32
+  },
+  "Z4": {
+   "desc": "Pipe special add (uses swing)",
+   "formula": "=CrewRate_PlumbFitter_Swing",
+   "cachedValue": 7.32
+  },
+  "AA2": {
+   "desc": "Shop straight rate",
+   "formula": "=CrewRate_SMShop_Straight",
+   "cachedValue": 111.45
+  },
+  "AB2": {
+   "desc": "Shop OT add",
+   "formula": "=CrewRate_SMShop_Overtime-CrewRate_SMShop_Straight",
+   "cachedValue": 31.61
+  },
+  "AC2": {
+   "desc": "Shop DT add",
+   "formula": "=CrewRate_SMShop_DoubleTime-CrewRate_SMShop_Straight",
+   "cachedValue": 63.219999999999985
+  },
+  "AD2": {
+   "desc": "Shop swing add",
+   "formula": "=CrewRate_SMShop_Swing",
+   "cachedValue": 8.436
+  },
+  "AE2": {
+   "desc": "Shop grave add",
+   "formula": "=CrewRate_SMShop_Grave",
+   "cachedValue": 12.935200000000002
+  },
+  "AF2": {
+   "desc": "Shop special add",
+   "formula": "=CrewRate_SMShop_Special",
+   "cachedValue": 5.6240000000000006
+  }
+ },
+ "grandTotalsRow7_cached": {
+  "H7": 7934.12,
+  "K7": 653,
+  "M7": 2099065.3684,
+  "U7": 927283.5800000001,
+  "V7": 0,
+  "W7": 0,
+  "X7": 0,
+  "Y7": 0,
+  "Z7": 0,
+  "AA7": 72776.85,
+  "AB7": 0,
+  "AC7": 0,
+  "AD7": 0,
+  "AE7": 0,
+  "AF7": 0,
+  "AG7": 927283.5800000001,
+  "AH7": 72776.85,
+  "AI7": 1000060.4300000002,
+  "AJ7": 3099125.7984,
+  "AL7": 0,
+  "AM7": 0
+ },
+ "caeMappingTable": [
+  {
+   "row": 10,
+   "label": "Hanger",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Hanger\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Hanger\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Hanger\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Hanger\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 11,
+   "label": "Floor Support",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Floor Support\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Floor Support\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Floor Support\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Floor Support\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 12,
+   "label": "Galvanized Duct",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Rectangular Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Rectangular Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Rectangular Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Rectangular Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_MaterialCost)"
+  },
+  {
+   "row": 13,
+   "label": "Galvanized Fittings",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Rectangular Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Machine Cut\"),SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Rectangular Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Machine Cut\"),SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Rectangular Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Machine Cut\"),SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Rectangular Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Machine Cut\"),SMImport_MaterialCost)"
+  },
+  {
+   "row": 14,
+   "label": "Galvanized Spiral Pipe",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_MaterialCost)"
+  },
+  {
+   "row": 15,
+   "label": "Round Fittings",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Machine Cut\"),SMImport_Qty)+SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Pipework\"),SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Machine Cut\"),SMImport_CalcFieldHours)+SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Pipework\"),SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Machine Cut\"),SMImport_CalcShopHours)+SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Pipework\"),SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Machine Cut\"),SMImport_MaterialCost)+SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Pipework\"),SMImport_MaterialCost)"
+  },
+  {
+   "row": 16,
+   "label": "SS Duct",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Material=\"SS\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_Qty)+SUMPRODUCT((SMImport_Material=\"SS 304 2B\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Material=\"SS\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_CalcFieldHours)+SUMPRODUCT((SMImport_Material=\"SS 304 2B\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Material=\"SS\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_CalcShopHours)+SUMPRODUCT((SMImport_Material=\"SS 304 2B\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Material=\"SS\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_MaterialCost)+SUMPRODUCT((SMImport_Material=\"SS 304 2B\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_MaterialCost)"
+  },
+  {
+   "row": 17,
+   "label": "SS Fittings",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Material=\"SS\")*(SMImport_CutType=\"Machine Cut\"),SMImport_Qty)+SUMPRODUCT((SMImport_Material=\"SS 304 2B\")*(SMImport_CutType=\"Machine Cut\"),SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Material=\"SS\")*(SMImport_CutType=\"Machine Cut\"),SMImport_CalcFieldHours)+SUMPRODUCT((SMImport_Material=\"SS 304 2B\")*(SMImport_CutType=\"Machine Cut\"),SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Material=\"SS\")*(SMImport_CutType=\"Machine Cut\"),SMImport_CalcShopHours)+SUMPRODUCT((SMImport_Material=\"SS 304 2B\")*(SMImport_CutType=\"Machine Cut\"),SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Material=\"SS\")*(SMImport_CutType=\"Machine Cut\"),SMImport_MaterialCost)+SUMPRODUCT((SMImport_Material=\"SS 304 2B\")*(SMImport_CutType=\"Machine Cut\"),SMImport_MaterialCost)"
+  },
+  {
+   "row": 18,
+   "label": "Oval Duct",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Oval Duct\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Oval Duct\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Oval Duct\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Oval Duct\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 19,
+   "label": "Aluminum Duct",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Material=\"Alum\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Material=\"Alum\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Material=\"Alum\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Material=\"Alum\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 20,
+   "label": "Black Iron Duct",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Material=\"BLK\")*(SMImport_Type=\"Rectangular Duct\"),SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Material=\"BLK\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Material=\"BLK\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Material=\"BLK\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 21,
+   "label": "Fire Smoke Dampers",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Fire Smoke Damper\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Fire Smoke Damper\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Fire Smoke Damper\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Fire Smoke Damper\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 22,
+   "label": "Fire Dampers",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Fire Damper\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Fire Damper\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Fire Damper\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Fire Damper\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 23,
+   "label": "Canvas Connectors",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Canvas Connector\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Canvas Connector\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Canvas Connector\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Canvas Connector\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 24,
+   "label": "GRDs",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Air Device\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Air Device\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Air Device\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Air Device\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 25,
+   "label": "Flex",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Flex Duct\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Flex Duct\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Flex Duct\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Flex Duct\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 26,
+   "label": "Louvers",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Louver\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Louver\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Louver\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Louver\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 27,
+   "label": "Access Doors",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Access Door\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Access Door\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Access Door\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Access Door\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 28,
+   "label": "Control Dampers",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Control Damper\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Control Damper\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Control Damper\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Control Damper\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 29,
+   "label": "VAV's",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"VAV\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"VAV\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"VAV\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"VAV\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 30,
+   "label": "Duct Accessories",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Duct Accessory\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Duct Accessory\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Duct Accessory\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Duct Accessory\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 31,
+   "label": "Exhaust Fans",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"Exhaust Fan\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Exhaust Fan\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"Exhaust Fan\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"Exhaust Fan\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 32,
+   "label": "AHU's",
+   "qtyFormula": "=SUMPRODUCT((SMImport_Type=\"AHU\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_Type=\"AHU\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_Type=\"AHU\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_Type=\"AHU\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 33,
+   "label": "Liner",
+   "qtyFormula": "=SUMPRODUCT((SMImport_CutType=\"Liner\")*1,SMImport_Qty)",
+   "fieldHoursFormula": "=SUMPRODUCT((SMImport_CutType=\"Liner\")*1,SMImport_CalcFieldHours)",
+   "shopHoursFormula": "=SUMPRODUCT((SMImport_CutType=\"Liner\")*1,SMImport_CalcShopHours)",
+   "materialFormula": "=SUMPRODUCT((SMImport_CutType=\"Liner\")*1,SMImport_MaterialCost)"
+  },
+  {
+   "row": 34,
+   "label": "Miscellaneous",
+   "qtyFormula": "='SM Import'!F7-SUM(E10:E33)",
+   "fieldHoursFormula": "=CAE_Field_Hours_Total-SUM(TakeOff!H10:H33)",
+   "shopHoursFormula": "=CAE_Shop_Hours_Total-SUM(TakeOff!K10:K33)",
+   "materialFormula": "=ABS(CAE_Material_Cost_Total-SUM(M10:M33))"
+  }
+ ],
+ "seedData": [
+  {
+   "id": "CAE",
+   "name": "CAE",
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": null,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": [
+    {
+     "row": 10,
+     "A": "3-02",
+     "B": "2-07",
+     "C": "3-02",
+     "D": "Hanger",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Hanger\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 11,
+     "A": "3-03",
+     "B": "2-07",
+     "C": "3-03",
+     "D": "Floor Support",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Floor Support\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 12,
+     "A": "2-12",
+     "B": "2-07",
+     "C": "3-12",
+     "D": "Galvanized Duct",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Rectangular Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 13,
+     "A": "2-13",
+     "B": "2-07",
+     "C": "3-12",
+     "D": "Galvanized Fittings",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Rectangular Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Machine Cut\"),SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 14,
+     "A": "2-23",
+     "B": "2-07",
+     "C": "3-12",
+     "D": "Galvanized Spiral Pipe",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 15,
+     "A": "2-13",
+     "B": "2-07",
+     "C": "3-12",
+     "D": "Round Fittings",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Machine Cut\"),SMImport_Qty)+SUMPRODUCT((SMImport_Type=\"Round Duct\")*(SMImport_Material=\"GALV\")*(SMImport_CutType=\"Pipework\"),SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 16,
+     "A": "2-14",
+     "B": "2-07",
+     "C": "3-14",
+     "D": "SS Duct",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Material=\"SS\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_Qty)+SUMPRODUCT((SMImport_Material=\"SS 304 2B\")*(SMImport_CutType=\"Decoiled Straight\"),SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 17,
+     "A": "2-14",
+     "B": "2-07",
+     "C": "3-14",
+     "D": "SS Fittings",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Material=\"SS\")*(SMImport_CutType=\"Machine Cut\"),SMImport_Qty)+SUMPRODUCT((SMImport_Material=\"SS 304 2B\")*(SMImport_CutType=\"Machine Cut\"),SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 18,
+     "A": "2-13",
+     "B": "2-07",
+     "C": "3-18",
+     "D": "Oval Duct",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Oval Duct\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 19,
+     "A": "2-15",
+     "B": "2-07",
+     "C": "3-15",
+     "D": "Aluminum Duct",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Material=\"Alum\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 20,
+     "A": "2-16",
+     "B": "2-07",
+     "C": "3-13",
+     "D": "Black Iron Duct",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Material=\"BLK\")*(SMImport_Type=\"Rectangular Duct\"),SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 21,
+     "A": "3-21",
+     "B": "2-07",
+     "C": "3-21",
+     "D": "Fire Smoke Dampers",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Fire Smoke Damper\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 22,
+     "A": "3-21",
+     "B": "2-07",
+     "C": "3-21",
+     "D": "Fire Dampers",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Fire Damper\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 23,
+     "A": "2-13",
+     "B": "2-07",
+     "C": "3-22",
+     "D": "Canvas Connectors",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Canvas Connector\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 24,
+     "A": "3-22",
+     "B": "2-07",
+     "C": "3-22",
+     "D": "GRDs",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Air Device\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 25,
+     "A": "3-25",
+     "B": "2-07",
+     "C": "3-25",
+     "D": "Flex",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Flex Duct\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 26,
+     "A": "3-23",
+     "B": "2-07",
+     "C": "3-23",
+     "D": "Louvers",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Louver\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 27,
+     "A": "3-29",
+     "B": "2-07",
+     "C": "3-29",
+     "D": "Access Doors",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Access Door\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 28,
+     "A": "3-24",
+     "B": "2-07",
+     "C": "3-24",
+     "D": "Control Dampers",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Control Damper\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 29,
+     "A": "3-31",
+     "B": "2-07",
+     "C": "3-31",
+     "D": "VAV's",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"VAV\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 30,
+     "A": "2-07",
+     "B": "2-07",
+     "C": "3-07",
+     "D": "Duct Accessories",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Duct Accessory\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 31,
+     "A": "3-31",
+     "B": "2-07",
+     "C": "3-31",
+     "D": "Exhaust Fans",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"Exhaust Fan\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 32,
+     "A": "3-31",
+     "B": "2-07",
+     "C": "3-31",
+     "D": "AHU's",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_Type=\"AHU\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 33,
+     "A": "2-21",
+     "B": "2-07",
+     "C": "3-25",
+     "D": "Liner",
+     "E": {
+      "f": "=SUMPRODUCT((SMImport_CutType=\"Liner\")*1,SMImport_Qty)",
+      "v": 0
+     }
+    },
+    {
+     "row": 34,
+     "A": "2-07",
+     "B": "2-07",
+     "C": "3-07",
+     "D": "Miscellaneous",
+     "E": {
+      "f": "='SM Import'!F7-SUM(E10:E33)",
+      "v": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "name": "Package 1 Fan deck room",
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 1052,
+    "shopHours": 165,
+    "material": 605248.586
+   },
+   "rows": [
+    {
+     "row": 43,
+     "C": "3-39",
+     "D": "Demo out ductwork and AHU's",
+     "E": 5,
+     "F": 80
+    },
+    {
+     "row": 45,
+     "A": "3-13",
+     "B": "2-39",
+     "C": "3-39",
+     "D": "TSI take of for duct work",
+     "E": 1,
+     "F": 200,
+     "I": 105,
+     "L": 6800
+    },
+    {
+     "row": 47,
+     "C": "3-39",
+     "D": "Set AHU ",
+     "E": 5,
+     "F": 40
+    },
+    {
+     "row": 48,
+     "C": "3-39",
+     "D": "Siesmic AHU ",
+     "E": 1,
+     "F": 24
+    },
+    {
+     "row": 49,
+     "C": "3-39",
+     "D": "Hang 17x Tu boxes",
+     "E": 17,
+     "F": 4
+    },
+    {
+     "row": 50,
+     "A": "3-13",
+     "B": "2-39",
+     "C": "3-39",
+     "D": "98x40 OSA duct up to roof with hood",
+     "E": 1,
+     "F": 80,
+     "I": 20,
+     "L": 1800
+    },
+    {
+     "row": 52,
+     "A": "3-13",
+     "B": "2-39",
+     "D": "Shop fab ",
+     "E": 1,
+     "I": 40,
+     "L": 5500
+    },
+    {
+     "row": 53,
+     "C": "3-44",
+     "D": "Commissioning ",
+     "E": 1,
+     "F": 80
+    },
+    {
+     "row": 55,
+     "A": "7-01",
+     "D": "Pre demo balancing ",
+     "E": 1,
+     "L": 12500,
+     "N": "Neudorfer"
+    },
+    {
+     "row": 56,
+     "A": "3-45",
+     "D": "TU boxes ",
+     "E": 1,
+     "L": 14310,
+     "N": "JB"
+    },
+    {
+     "row": 57,
+     "A": "3-49",
+     "D": "Seismic Engineering",
+     "E": 1,
+     "L": {
+      "f": "=20916+28200+11132+13628+13628+11254+14370+14370+10054+1160",
+      "v": 138712
+     },
+     "N": "ISAT",
+     "P": "Yes"
+    },
+    {
+     "row": 58,
+     "A": "3-50",
+     "D": "Faster Permits",
+     "E": 1,
+     "L": 2500,
+     "N": "Plug"
+    },
+    {
+     "row": 59,
+     "A": "7-01",
+     "D": "Air Balancing ",
+     "E": 1,
+     "L": 47500,
+     "N": "Neudorfer",
+     "P": "Yes"
+    },
+    {
+     "row": 60,
+     "A": "7-03",
+     "D": "Insulation ",
+     "E": 1,
+     "L": 91713,
+     "N": "VMI",
+     "P": "Yes"
+    },
+    {
+     "row": 61,
+     "D": "VFD's In wetside",
+     "L": 33700,
+     "N": "JB",
+     "P": "Yes"
+    },
+    {
+     "row": 62,
+     "A": "7-15",
+     "D": "Crane",
+     "E": 1,
+     "L": {
+      "f": "=(80730+250)+(80980*0.0057)",
+      "v": 81441.586
+     },
+     "N": "Omega",
+     "P": "Yes"
+    },
+    {
+     "row": 63,
+     "A": "3-42",
+     "D": "Humidifiers ",
+     "E": 1,
+     "L": 29150,
+     "N": "JB",
+     "P": "Yes"
+    },
+    {
+     "row": 64,
+     "A": "3-45",
+     "D": "Grilles",
+     "E": 1,
+     "L": 250,
+     "N": "JB"
+    },
+    {
+     "row": 65,
+     "A": "3-07",
+     "D": "Labels",
+     "E": 1,
+     "L": 2500,
+     "N": "Plug for Kolbi"
+    },
+    {
+     "row": 67,
+     "A": "1-25",
+     "D": "Subpay dryside for whole project",
+     "E": 1,
+     "L": 170572,
+     "N": "Subpay",
+     "P": "Yes"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Package 1 Boiler room",
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 74,
+    "shopHours": 16,
+    "material": 16800
+   },
+   "rows": [
+    {
+     "row": 76,
+     "C": "3-43",
+     "D": "Demo out duct and EF fan",
+     "E": 2,
+     "F": 16
+    },
+    {
+     "row": 78,
+     "A": "3-13",
+     "B": "2-43",
+     "C": "3-43",
+     "D": "Plug for duct work",
+     "E": 1,
+     "F": 20,
+     "I": 8,
+     "L": 500,
+     "N": "No take off was done small scope"
+    },
+    {
+     "row": 80,
+     "C": "3-43",
+     "D": "Hang new BCU-1 and BCU-2",
+     "E": 1,
+     "F": 8
+    },
+    {
+     "row": 81,
+     "C": "3-43",
+     "D": "Seismic BCU-1 and BCU-2",
+     "E": 1,
+     "F": 6
+    },
+    {
+     "row": 83,
+     "A": "3-13",
+     "B": "2-43",
+     "C": "3-43",
+     "D": "Secondary pans for BCU's",
+     "E": 2,
+     "F": 4,
+     "I": 4,
+     "L": 150
+    },
+    {
+     "row": 92,
+     "D": "Vendor Pricing"
+    },
+    {
+     "row": 93,
+     "A": "3-45",
+     "D": "BCU-1 and BCU-2 ",
+     "E": 1,
+     "L": 16000,
+     "N": "JB"
+    },
+    {
+     "row": 94,
+     "D": "Seismic Engineering",
+     "E": 1,
+     "N": "See above"
+    },
+    {
+     "row": 95,
+     "D": "Insulation",
+     "N": "See above"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Package 1 ED Penthouse ",
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 1329,
+    "shopHours": 201,
+    "material": 18555
+   },
+   "rows": [
+    {
+     "row": 107,
+     "C": "3-40",
+     "D": "Demo out units and ductwork",
+     "E": 5,
+     "F": 80
+    },
+    {
+     "row": 108,
+     "C": "3-40",
+     "D": "Demo louvers ",
+     "E": 1,
+     "F": 32
+    },
+    {
+     "row": 110,
+     "A": "2-13",
+     "B": "2-40",
+     "C": "3-40",
+     "D": "TSI take off for ductwork",
+     "E": 1,
+     "F": 251,
+     "I": 171,
+     "L": 10700
+    },
+    {
+     "row": 112,
+     "C": "3-40",
+     "D": "Set 4x AHU's ",
+     "E": 4,
+     "F": 120
+    },
+    {
+     "row": 113,
+     "C": "3-40",
+     "D": "Siesmic AHU ",
+     "E": 4,
+     "F": 24
+    },
+    {
+     "row": 114,
+     "C": "3-40",
+     "D": "Hang 6xTu boxes",
+     "E": 6,
+     "F": 4
+    },
+    {
+     "row": 115,
+     "C": "3-40",
+     "D": "Set 2x louvers ",
+     "E": 2,
+     "F": 16
+    },
+    {
+     "row": 116,
+     "C": "3-40",
+     "D": "Install 7x duct detectors (Provided by others??)",
+     "E": 7,
+     "F": 2
+    },
+    {
+     "row": 119,
+     "A": "2-13",
+     "B": "2-40",
+     "D": "Shop fab ",
+     "E": 1,
+     "I": 30,
+     "L": 5000
+    },
+    {
+     "row": 121,
+     "A": "2-13",
+     "D": "Louvers",
+     "E": 1,
+     "L": 2855,
+     "N": "JAP"
+    },
+    {
+     "row": 122,
+     "D": "TU boxes ",
+     "E": 1,
+     "N": "See above"
+    },
+    {
+     "row": 123,
+     "D": "Seismic Engineering",
+     "E": 1,
+     "N": "See above"
+    },
+    {
+     "row": 124,
+     "D": "Faster Permits",
+     "E": 1,
+     "N": "See above"
+    },
+    {
+     "row": 125,
+     "D": "Air Balancing ",
+     "E": 1,
+     "N": "See above"
+    },
+    {
+     "row": 126,
+     "D": "Insulation ",
+     "E": 1,
+     "N": "See above"
+    },
+    {
+     "row": 127,
+     "D": "VFD's",
+     "E": 1,
+     "N": "See above"
+    },
+    {
+     "row": 128,
+     "D": "Crane ",
+     "E": 1,
+     "N": "See above"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Package 1 Small mech room penthouse",
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 714,
+    "shopHours": 86,
+    "material": 31275
+   },
+   "rows": [
+    {
+     "row": 140,
+     "C": "3-41",
+     "D": "Demo out duct work and SU-19/SU-20",
+     "E": 5,
+     "F": 40
+    },
+    {
+     "row": 142,
+     "A": "2-13",
+     "B": "2-41",
+     "C": "3-41",
+     "D": "TSI take off from AHU to penthouse",
+     "E": 1,
+     "F": 68,
+     "I": 59,
+     "L": 4500
+    },
+    {
+     "row": 143,
+     "A": "2-13",
+     "C": "3-41",
+     "D": "Roof supports install ",
+     "E": 1,
+     "F": 80,
+     "L": 7500
+    },
+    {
+     "row": 144,
+     "C": "3-41",
+     "D": "Set curbs on roof for SU's",
+     "E": 2,
+     "F": 32
+    },
+    {
+     "row": 145,
+     "C": "3-41",
+     "D": "Set new SU-19 and SU-20",
+     "E": 2,
+     "F": 40
+    },
+    {
+     "row": 146,
+     "C": "3-41",
+     "D": "Seismic SU's",
+     "E": 2,
+     "F": 24
+    },
+    {
+     "row": 147,
+     "A": "2-13",
+     "B": "2-41",
+     "C": "3-41",
+     "D": "Black off for louver and seal",
+     "E": 1,
+     "F": 16,
+     "I": 2,
+     "L": 250
+    },
+    {
+     "row": 148,
+     "C": "3-41",
+     "D": "Hang Unit heater",
+     "E": 1,
+     "F": 6
+    },
+    {
+     "row": 149,
+     "A": "2-13",
+     "B": "2-41",
+     "C": "3-41",
+     "D": "Weather hood for fan deck room temp service",
+     "E": 1,
+     "F": 80,
+     "I": 20,
+     "L": 2500
+    },
+    {
+     "row": 151,
+     "C": "3-41",
+     "D": "Set EF-140",
+     "E": 1,
+     "F": 16
+    },
+    {
+     "row": 152,
+     "A": "2-13",
+     "B": "2-41",
+     "C": "3-41",
+     "D": "EF-140 work and ducting ",
+     "E": 1,
+     "F": 40,
+     "I": 5,
+     "L": 1200
+    },
+    {
+     "row": 153,
+     "C": "3-41",
+     "D": "Hang FF-19 and FF-20",
+     "E": 1,
+     "F": 16
+    },
+    {
+     "row": 156,
+     "A": "3-46",
+     "D": "FF-19 and FF-20",
+     "E": 1,
+     "L": 11450,
+     "N": "ACI"
+    },
+    {
+     "row": 157,
+     "A": "3-47",
+     "D": "EF-140",
+     "E": 1,
+     "L": 2390,
+     "N": "JAP"
+    },
+    {
+     "row": 158,
+     "A": "3-47",
+     "D": "Unit Heater ",
+     "E": 1,
+     "L": 1485,
+     "N": "JAP"
+    },
+    {
+     "row": 159,
+     "D": "Seismic Engineering",
+     "E": 1,
+     "N": "See above "
+    },
+    {
+     "row": 160,
+     "D": "Faster Permits",
+     "E": 1,
+     "N": "See above "
+    },
+    {
+     "row": 161,
+     "D": "Air Balancing ",
+     "E": 1,
+     "N": "See above "
+    },
+    {
+     "row": 162,
+     "D": "Insulation ",
+     "E": 1,
+     "N": "See above "
+    },
+    {
+     "row": 163,
+     "D": "VFD's ",
+     "E": 1,
+     "N": "See above "
+    },
+    {
+     "row": 164,
+     "D": "Crane ",
+     "E": 1,
+     "N": "See above "
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Package 1 DOAS and temp ducting ",
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 1100,
+    "shopHours": 185,
+    "material": 97500
+   },
+   "rows": [
+    {
+     "row": 176,
+     "A": "3-42",
+     "B": "2-42",
+     "C": "3-42",
+     "D": "Temp flex and duct connections in mech rooms 3x",
+     "E": 3,
+     "F": 120,
+     "I": 10,
+     "L": 500
+    },
+    {
+     "row": 177,
+     "C": "3-42",
+     "D": "Take off for field install of 60x42",
+     "E": 3,
+     "F": 180
+    },
+    {
+     "row": 178,
+     "A": "2-13",
+     "B": "2-42",
+     "D": "Take off Shop fab for temp ducting ",
+     "E": 1,
+     "I": 150,
+     "L": 16000
+    },
+    {
+     "row": 179,
+     "A": "3-42",
+     "B": "2-42",
+     "C": "3-42",
+     "D": "Roof supports/ wall hangers",
+     "E": 1,
+     "F": 200,
+     "I": 5,
+     "L": 15000
+    },
+    {
+     "row": 194,
+     "A": "3-48",
+     "D": "Temp unit rental Arctic to furnish per email convo",
+     "E": 1,
+     "L": 35000,
+     "N": "Sunbelt"
+    },
+    {
+     "row": 195,
+     "D": "This should be for duration of entire project"
+    },
+    {
+     "row": 196,
+     "A": "7-15",
+     "D": "Crane",
+     "E": 1,
+     "L": 30000,
+     "N": "PLUG"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Package 1 piping   HI Steve!!!",
+   "takeoffType": "Pipe Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 3054.4,
+    "shopHours": 0,
+    "material": 1101366
+   },
+   "rows": [
+    {
+     "row": 211,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Demo",
+     "E": 1,
+     "F": 232,
+     "L": 5500,
+     "N": "Plug"
+    },
+    {
+     "row": 213,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Chilled Water Piping",
+     "E": 1,
+     "F": 826.1,
+     "L": {
+      "f": "=432106*0.5",
+      "v": 216053
+     },
+     "N": "TO"
+    },
+    {
+     "row": 214,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Heating Water Piping",
+     "E": 1,
+     "F": 672.9,
+     "L": {
+      "f": "=304290*0.5",
+      "v": 152145
+     },
+     "N": "TO"
+    },
+    {
+     "row": 215,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Steam/Steam Condensate Piping",
+     "E": 1,
+     "F": 756.9,
+     "L": {
+      "f": "=171294*0.5",
+      "v": 85647
+     },
+     "N": "TO"
+    },
+    {
+     "row": 216,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Drain Piping",
+     "E": 1,
+     "F": 53,
+     "L": {
+      "f": "=6586*0.5",
+      "v": 3293
+     },
+     "N": "TO"
+    },
+    {
+     "row": 217,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Gas Piping",
+     "E": 1,
+     "F": 12,
+     "L": {
+      "f": "=800",
+      "v": 800
+     },
+     "N": "TO"
+    },
+    {
+     "row": 219,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Coil Kits",
+     "E": 25,
+     "F": 1.5,
+     "L": 360,
+     "N": "Plug"
+    },
+    {
+     "row": 221,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Rooftop Pipe Supports",
+     "E": 40,
+     "F": 1,
+     "L": 225,
+     "N": "Plug"
+    },
+    {
+     "row": 223,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Unit Heater Connections SM Penthouse",
+     "E": 1,
+     "F": 1.5,
+     "L": 350,
+     "N": "Plug"
+    },
+    {
+     "row": 225,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Heat Exchanger Set/Connections",
+     "E": 2,
+     "F": 6,
+     "L": 350,
+     "N": "Plug"
+    },
+    {
+     "row": 227,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Air Separator",
+     "E": 2,
+     "F": 2,
+     "L": 75,
+     "N": "Plug"
+    },
+    {
+     "row": 229,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Expansion Tank",
+     "E": 2,
+     "F": 2,
+     "L": 75,
+     "N": "Plug"
+    },
+    {
+     "row": 231,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "SPRV-1",
+     "E": 1,
+     "F": 1,
+     "L": 1500,
+     "N": "Plug"
+    },
+    {
+     "row": 232,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "SPRV-2",
+     "E": 1,
+     "F": 1,
+     "L": 1500,
+     "N": "Plug"
+    },
+    {
+     "row": 234,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Humidifiers/Connections",
+     "E": 5,
+     "F": 4,
+     "L": 1100,
+     "N": "Plug"
+    },
+    {
+     "row": 236,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Inline Main Pumps",
+     "E": 4,
+     "F": 6,
+     "L": 550,
+     "N": "Plug"
+    },
+    {
+     "row": 237,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Pump Supports",
+     "E": 4,
+     "F": 3,
+     "L": 350,
+     "N": "Plug"
+    },
+    {
+     "row": 238,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Recirculation Pumps",
+     "E": 7,
+     "F": 3,
+     "L": 450,
+     "N": "Plug"
+    },
+    {
+     "row": 239,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Pump Supports",
+     "E": 7,
+     "F": 2,
+     "L": 350,
+     "N": "Plug"
+    },
+    {
+     "row": 241,
+     "A": "3-45",
+     "C": "6-07",
+     "D": "VFD",
+     "E": 11,
+     "F": 1,
+     "L": {
+      "f": "=33700/11",
+      "v": 3063.6363636363635
+     },
+     "N": "JBO"
+    },
+    {
+     "row": 243,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Heat Trace",
+     "E": 1,
+     "F": 80,
+     "L": 45000,
+     "N": "Plug",
+     "P": "Yes"
+    },
+    {
+     "row": 245,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "BCU-1 & 2 Connections",
+     "E": 1,
+     "F": 1.5,
+     "L": 150,
+     "N": "Plug"
+    },
+    {
+     "row": 247,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "RPZ-HW-ED",
+     "E": 1,
+     "F": 1.5,
+     "L": 1500,
+     "N": "Plug"
+    },
+    {
+     "row": 248,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "RPZ-HW-131",
+     "E": 1,
+     "F": 1.5,
+     "L": 1500,
+     "N": "Plug"
+    },
+    {
+     "row": 250,
+     "D": "Epuipment:"
+    },
+    {
+     "row": 251,
+     "A": "3-45",
+     "D": "Humidifiers",
+     "E": 1,
+     "L": 32000,
+     "N": "JBO",
+     "P": "Yes"
+    },
+    {
+     "row": 252,
+     "A": "3-45",
+     "D": "Main Pumps",
+     "E": 1,
+     "L": {
+      "f": "=18395+5405",
+      "v": 23800
+     },
+     "N": "JBO",
+     "P": "Yes"
+    },
+    {
+     "row": 253,
+     "A": "3-45",
+     "D": "Recirculation Pumps",
+     "E": 1,
+     "L": {
+      "f": "=7441+300",
+      "v": 7741
+     },
+     "N": "JBO"
+    },
+    {
+     "row": 254,
+     "A": "3-45",
+     "D": "Expansion Tank",
+     "E": 1,
+     "L": 5500,
+     "N": "JBO"
+    },
+    {
+     "row": 255,
+     "A": "3-45",
+     "D": "Air Separator",
+     "E": 1,
+     "L": 8400,
+     "N": "JBO"
+    },
+    {
+     "row": 256,
+     "A": "3-45",
+     "D": "Heat Exchangers",
+     "E": 1,
+     "L": 17075,
+     "N": "JBO"
+    },
+    {
+     "row": 258,
+     "A": "7-03",
+     "D": "Insulation",
+     "E": 1,
+     "L": {
+      "f": "=25476+110018+18808+157053+3157",
+      "v": 314512
+     },
+     "N": "PCI",
+     "P": "Yes"
+    },
+    {
+     "row": 259,
+     "D": "Seismic Engineering",
+     "N": "In Dryside"
+    },
+    {
+     "row": 260,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Seismic Attachments",
+     "E": 48,
+     "F": 2,
+     "L": 50,
+     "N": "ISAT"
+    },
+    {
+     "row": 261,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Water Flush/Test",
+     "E": 1,
+     "F": 40,
+     "L": 10000,
+     "N": "Plug"
+    },
+    {
+     "row": 262,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Label/Tag",
+     "E": 1,
+     "F": 32,
+     "L": 1100,
+     "N": "Plug"
+    },
+    {
+     "row": 263,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Backflow Testing",
+     "E": 2,
+     "F": 1,
+     "L": 450,
+     "N": "Plug"
+    },
+    {
+     "row": 264,
+     "C": "6-07",
+     "D": "Start up",
+     "E": 1,
+     "F": 40,
+     "N": "Plug"
+    },
+    {
+     "row": 265,
+     "A": "1-25",
+     "D": "Sub Pay",
+     "E": 520,
+     "L": 180,
+     "N": "Plug",
+     "P": "Yes"
+    },
+    {
+     "row": 266,
+     "A": "6-07",
+     "C": "6-07",
+     "D": "Core Drill Into the ED Penthouse",
+     "E": 4,
+     "F": 1,
+     "L": 500,
+     "N": "Plug"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Package 2 Piping",
+   "takeoffType": "Pipe Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 441.5,
+    "shopHours": 0,
+    "material": 185135.2824
+   },
+   "rows": [
+    {
+     "row": 276,
+     "A": "6-40",
+     "C": "6-40",
+     "D": "Below Grade Chilled Water Piping",
+     "E": 1,
+     "F": 197.6,
+     "L": {
+      "f": "=27663+12876",
+      "v": 40539
+     },
+     "N": "TO/PWSI"
+    },
+    {
+     "row": 277,
+     "A": "6-40",
+     "C": "6-40",
+     "D": "Chilled Water Piping",
+     "E": 1,
+     "F": 119.9,
+     "L": {
+      "f": "=87443*0.5",
+      "v": 43721.5
+     },
+     "N": "TO"
+    },
+    {
+     "row": 279,
+     "A": "6-40",
+     "C": "6-40",
+     "D": "Set Chiller",
+     "E": 1,
+     "F": 16,
+     "L": 500
+    },
+    {
+     "row": 280,
+     "A": "6-40",
+     "C": "6-40",
+     "D": "Set Cooling Tower ",
+     "E": 1,
+     "F": 16,
+     "L": 500
+    },
+    {
+     "row": 282,
+     "A": "6-40",
+     "C": "6-40",
+     "D": "Heat Trace ",
+     "E": 1,
+     "F": 24,
+     "L": 10000,
+     "N": "Plug"
+    },
+    {
+     "row": 283,
+     "A": "6-40",
+     "C": "6-40",
+     "D": "Cooling Tower Connections/Misc.",
+     "E": 1,
+     "F": 40,
+     "L": 2500,
+     "N": "Plug"
+    },
+    {
+     "row": 284,
+     "A": "6-40",
+     "C": "6-40",
+     "D": "Chiller Connections/Misc.",
+     "E": 1,
+     "F": 24,
+     "L": 500,
+     "N": "Plug"
+    },
+    {
+     "row": 292,
+     "A": "3-49",
+     "D": "Seismic Engineering ",
+     "E": 1,
+     "L": {
+      "f": "=695+545+2330+1040",
+      "v": 4610
+     },
+     "N": "ISAT"
+    },
+    {
+     "row": 293,
+     "A": "3-49",
+     "C": "6-40",
+     "D": "Seismic Attachments",
+     "E": 2,
+     "F": 2,
+     "L": {
+      "f": "=482/2",
+      "v": 241
+     },
+     "N": "ISAT"
+    },
+    {
+     "row": 294,
+     "A": "7-01",
+     "D": "Balancing ",
+     "E": 1,
+     "L": 7500,
+     "N": "Neudorfer"
+    },
+    {
+     "row": 295,
+     "A": "7-03",
+     "D": "Insulation",
+     "E": 1,
+     "L": 39428,
+     "N": "Valley",
+     "P": "Yes"
+    },
+    {
+     "row": 296,
+     "A": "3-50",
+     "D": "Faster Permits",
+     "E": 1,
+     "L": 2500,
+     "N": "Plug"
+    },
+    {
+     "row": 297,
+     "A": "7-15",
+     "D": "Crane",
+     "E": 1,
+     "L": {
+      "f": "=(12290+5492+250)+(18032*0.0057)",
+      "v": 18134.7824
+     },
+     "N": "Omega",
+     "P": "Yes"
+    },
+    {
+     "row": 298,
+     "A": "1-25",
+     "D": "Sub Pay",
+     "E": 79,
+     "L": 180,
+     "N": "Plug",
+     "P": "Yes"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Plumbing",
+   "takeoffType": "Plumb Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 169.22,
+    "shopHours": 0,
+    "material": 43185.5
+   },
+   "rows": [
+    {
+     "row": 308,
+     "A": "5-07",
+     "C": "5-07",
+     "D": "Below Grade Waste/Storm",
+     "E": 1,
+     "F": 72.9,
+     "L": {
+      "f": "=17165*0.5",
+      "v": 8582.5
+     },
+     "N": "200'"
+    },
+    {
+     "row": 309,
+     "A": "5-07",
+     "C": "5-07",
+     "D": "Below Grade Water",
+     "E": 1,
+     "F": 17,
+     "L": {
+      "f": "=9700*0.5",
+      "v": 4850
+     }
+    },
+    {
+     "row": 310,
+     "A": "5-07",
+     "C": "5-07",
+     "D": "Water Piping",
+     "E": 1,
+     "F": 54.8,
+     "G": 0.9,
+     "L": {
+      "f": "=11446*0.5",
+      "v": 5723
+     },
+     "N": "80'"
+    },
+    {
+     "row": 312,
+     "D": "Modular Connections:"
+    },
+    {
+     "row": 313,
+     "A": "5-07",
+     "C": "5-07",
+     "D": "Trench Drains",
+     "E": 2,
+     "F": 4,
+     "L": 150,
+     "N": "Plug"
+    },
+    {
+     "row": 314,
+     "A": "5-07",
+     "C": "5-07",
+     "D": "Vent",
+     "E": 1,
+     "F": 4,
+     "L": 150,
+     "N": "Plug"
+    },
+    {
+     "row": 316,
+     "A": "5-07",
+     "C": "5-07",
+     "D": "COTG 6\"",
+     "E": 2,
+     "F": 1,
+     "L": 800,
+     "N": "Plug"
+    },
+    {
+     "row": 317,
+     "A": "5-07",
+     "C": "5-07",
+     "D": "COTG 4\"",
+     "E": 1,
+     "F": 1,
+     "L": 500,
+     "N": "Plug"
+    },
+    {
+     "row": 319,
+     "A": "5-07",
+     "C": "5-07",
+     "D": "Backflow Preventers",
+     "E": 2,
+     "F": 2,
+     "L": 2500,
+     "N": "Plug"
+    },
+    {
+     "row": 320,
+     "A": "5-07",
+     "C": "5-07",
+     "D": "Water Meter",
+     "E": 1,
+     "F": 1,
+     "L": 1100,
+     "N": "Plug"
+    },
+    {
+     "row": 321,
+     "A": "5-07",
+     "C": "5-07",
+     "D": "Vent Cap",
+     "E": 1,
+     "F": 1,
+     "L": 500,
+     "N": "Plug"
+    },
+    {
+     "row": 322,
+     "A": "5-07",
+     "C": "5-07",
+     "D": "6\" hub drain",
+     "E": 1,
+     "F": 1,
+     "L": 1000,
+     "N": "Plug"
+    },
+    {
+     "row": 323,
+     "A": "5-07",
+     "D": "Insulation",
+     "E": 1,
+     "L": {
+      "f": "=80*35",
+      "v": 2800
+     },
+     "N": "Plug"
+    },
+    {
+     "row": 324,
+     "A": "5-07",
+     "C": "5-07",
+     "D": "Heat Trace",
+     "E": 1,
+     "F": 8,
+     "L": 5500,
+     "N": "Plug"
+    },
+    {
+     "row": 326,
+     "A": "1-25",
+     "D": "Sub Pay",
+     "E": 31,
+     "L": 180,
+     "N": "Plug",
+     "P": "Yes"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 10,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 11,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 12,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 13,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 14,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 15,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": [
+    {
+     "row": 525,
+     "R": "GRAVE"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 17,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 18,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 19,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 20,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 21,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 22,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 23,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 24,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 25,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 26,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 27,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 28,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 29,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 30,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  },
+  {
+   "id": 31,
+   "name": null,
+   "takeoffType": "Sheet Metal Takeoff",
+   "exclude": false,
+   "cached": {
+    "fieldHours": 0,
+    "shopHours": 0,
+    "material": 0
+   },
+   "rows": []
+  }
+ ]
+}

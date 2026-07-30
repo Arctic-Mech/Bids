@@ -1,0 +1,441 @@
+{
+ "_source": "Crew Mix sheet \u2014 generated from extract/Crew_Mix.json",
+ "sections": {
+  "smField": {
+   "label": "SM Field Labor Rate",
+   "laborRatePeriod": {
+    "start": "2025-07-01T00:00:00",
+    "end": "2026-07-01T00:00:00",
+    "namedRanges": {
+     "Info_Schedule_Start_Date": "I5",
+     "Info_Schedule_End_Date": "I7"
+    }
+   },
+   "periodFactorDefault": 0.055,
+   "classes": [
+    {
+     "classification": "Senior General Foreman",
+     "cell_row": 11,
+     "ratioWeight": 1.25,
+     "baseWage": 69.99,
+     "fringe": 33.43,
+     "defaultQty": 0
+    },
+    {
+     "classification": "General Foreman",
+     "cell_row": 12,
+     "ratioWeight": 1.2,
+     "baseWage": 67.24,
+     "fringe": 33.43,
+     "defaultQty": 0
+    },
+    {
+     "classification": "Foreman",
+     "cell_row": 13,
+     "ratioWeight": 1.15,
+     "baseWage": 64.49,
+     "fringe": 33.43,
+     "defaultQty": 1
+    },
+    {
+     "classification": "Journeyman",
+     "cell_row": 14,
+     "ratioWeight": 1,
+     "baseWage": 56.24,
+     "fringe": 33.43,
+     "defaultQty": 4
+    },
+    {
+     "classification": "4th Year Apprentice - .90",
+     "cell_row": 15,
+     "ratioWeight": 0.9,
+     "baseWage": 50.62,
+     "fringe": 29.36,
+     "defaultQty": 0
+    },
+    {
+     "classification": "3rd Year Apprentice - .75",
+     "cell_row": 16,
+     "ratioWeight": 0.75,
+     "baseWage": 42.19,
+     "fringe": 28.94,
+     "defaultQty": 1
+    },
+    {
+     "classification": "2nd Year Apprentice - .65",
+     "cell_row": 17,
+     "ratioWeight": 0.65,
+     "baseWage": 36.57,
+     "fringe": 28.66,
+     "defaultQty": 0
+    },
+    {
+     "classification": "1st Year Apprentice - .55",
+     "cell_row": 18,
+     "ratioWeight": 0.55,
+     "baseWage": 30.95,
+     "fringe": 28.38,
+     "defaultQty": 0
+    },
+    {
+     "classification": "Classified Worker/PA - .50",
+     "cell_row": 19,
+     "ratioWeight": 0.5,
+     "baseWage": 27.55,
+     "fringe": 20.71,
+     "defaultQty": 0
+    }
+   ],
+   "premiumAdds": {
+    "swingPctOfJnyWage": 0.15,
+    "gravePctOfJnyWage": 0.23,
+    "specialPctOfJnyWage": 0.1
+   },
+   "otSubtotalAdder": 0.35,
+   "dtSubtotalAdder": 0.35,
+   "ptiOutside": {
+    "FUTA": 0.006,
+    "SUI": 0.036,
+    "SDI": 0.000419,
+    "SS": 0.062,
+    "MEDIC": 0.0145,
+    "WC_components": {
+     "grossRate_P13": 0.0224,
+     "classCode": "5537",
+     "EMR_Q11": 0.6,
+     "OGSERP_T11": 0.87,
+     "DCBSPremAssessment_W11": 0.831,
+     "OCCPAP_U11": 0.89
+    },
+    "countyTax": 0.009,
+    "GL": 0.013,
+    "TRI": 0.008237,
+    "FMLA": 0.004,
+    "orSickLeave": 0.0144
+   },
+   "wageIncreases": [
+    {
+     "dateStart": "2026-07-01T00:00:00",
+     "amount": 5.5
+    },
+    {
+     "dateStart": "2027-07-01T00:00:00",
+     "amount": 6.25
+    },
+    {
+     "dateStart": "2028-07-01T00:00:00",
+     "amount": 7
+    }
+   ]
+  },
+  "smShop": {
+   "label": "SM Shop Labor Rate",
+   "laborRatePeriod": {
+    "start": "=Crew Mix!I5",
+    "end": "=Crew Mix!I7"
+   },
+   "periodFactorDefault": 0.055,
+   "shopBurdenPerHourDefault": 16.5,
+   "classes": [
+    {
+     "classification": "Senior General Foreman",
+     "cell_row": 74,
+     "ratioWeight": 1.25,
+     "baseWage": 69.99,
+     "fringe": 33.43,
+     "defaultQty": 0
+    },
+    {
+     "classification": "General Foreman",
+     "cell_row": 75,
+     "ratioWeight": 1.2,
+     "baseWage": 67.24,
+     "fringe": 33.43,
+     "defaultQty": 0
+    },
+    {
+     "classification": "Foreman",
+     "cell_row": 76,
+     "ratioWeight": 1.15,
+     "baseWage": 64.49,
+     "fringe": 33.43,
+     "defaultQty": 1
+    },
+    {
+     "classification": "Journeyman",
+     "cell_row": 77,
+     "ratioWeight": 1,
+     "baseWage": 56.24,
+     "fringe": 33.43,
+     "defaultQty": 2
+    },
+    {
+     "classification": "4th Year Apprentice - .90",
+     "cell_row": 78,
+     "ratioWeight": 0.9,
+     "baseWage": 50.62,
+     "fringe": 29.36,
+     "defaultQty": 1
+    },
+    {
+     "classification": "3rd Year Apprentice - .75",
+     "cell_row": 79,
+     "ratioWeight": 0.75,
+     "baseWage": 42.19,
+     "fringe": 28.94,
+     "defaultQty": 0
+    },
+    {
+     "classification": "2nd Year Apprentice - .65",
+     "cell_row": 80,
+     "ratioWeight": 0.65,
+     "baseWage": 36.57,
+     "fringe": 28.66,
+     "defaultQty": 0
+    },
+    {
+     "classification": "1st Year Apprentice - .55",
+     "cell_row": 81,
+     "ratioWeight": 0.55,
+     "baseWage": 30.95,
+     "fringe": 28.38,
+     "defaultQty": 0
+    },
+    {
+     "classification": "Classified Worker/PA - .50",
+     "cell_row": 82,
+     "ratioWeight": 0.5,
+     "baseWage": 27.55,
+     "fringe": 20.71,
+     "defaultQty": 1
+    }
+   ],
+   "premiumAdds": {
+    "swingPctOfJnyWage": 0.15,
+    "gravePctOfJnyWage": 0.23,
+    "specialPctOfJnyWage": 0.1,
+    "_note": "mirrors SM Field F21:F23"
+   },
+   "otSubtotalAdder": 0.0,
+   "dtSubtotalAdder": 0.0,
+   "ptiShop": {
+    "FUTA": "=M6",
+    "SUI": "=M7",
+    "SDI": "=M8",
+    "SS": "=M9",
+    "MEDIC": "=M10",
+    "WC_components": {
+     "grossRate_P76": 0.0177,
+     "classCode": "3076",
+     "EMR": "=Q11",
+     "OGSERP": "=T11",
+     "DCBSPremAssessment": "=W11",
+     "OCCPAP": "=U11"
+    },
+    "countyTax": "=M13",
+    "GL": "=M14",
+    "TRI": "=M16",
+    "FMLA": "=M17",
+    "orSickLeave": "=M18"
+   }
+  },
+  "plumberFitter": {
+   "label": "Plumber/Fitter",
+   "laborRatePeriod": {
+    "start": "2025-04-01T00:00:00",
+    "end": "2026-03-31T00:00:00"
+   },
+   "periodFactorDefault": 0.06,
+   "classes": [
+    {
+     "classification": "Senior General Foreman",
+     "cell_row": 137,
+     "ratioWeight": 1.3,
+     "baseWage": 90.63,
+     "fringe": 38.75,
+     "defaultQty": 0
+    },
+    {
+     "classification": "General Foreman",
+     "cell_row": 138,
+     "ratioWeight": 1.2,
+     "baseWage": 80.67,
+     "fringe": 38.75,
+     "defaultQty": 1
+    },
+    {
+     "classification": "Foreman",
+     "cell_row": 139,
+     "ratioWeight": 1.1,
+     "baseWage": 70.72,
+     "fringe": 38.75,
+     "defaultQty": 3
+    },
+    {
+     "classification": "Journeyman",
+     "cell_row": 140,
+     "ratioWeight": 1,
+     "baseWage": 60.77,
+     "fringe": 38.75,
+     "defaultQty": 0
+    },
+    {
+     "classification": "4th Year Apprentice - .90",
+     "cell_row": 141,
+     "ratioWeight": 0.9,
+     "baseWage": 54.96,
+     "fringe": 36.92,
+     "defaultQty": 0
+    },
+    {
+     "classification": "3rd Year Apprentice - .75",
+     "cell_row": 142,
+     "ratioWeight": 0.75,
+     "baseWage": 45.58,
+     "fringe": 34.17,
+     "defaultQty": 0
+    },
+    {
+     "classification": "2nd Year Apprentice - .65",
+     "cell_row": 143,
+     "ratioWeight": 0.65,
+     "baseWage": 39.5,
+     "fringe": 32.33,
+     "defaultQty": 0
+    },
+    {
+     "classification": "1st Year Apprentice - .55",
+     "cell_row": 144,
+     "ratioWeight": 0.55,
+     "baseWage": 33.42,
+     "fringe": 30.5,
+     "defaultQty": 0
+    }
+   ],
+   "premiumAdds": {
+    "swingGravePctOfAvgBaseWage": 0.1,
+    "swingLossOfProduction": 0.0625,
+    "graveLossOfProduction": 0.125,
+    "notes": [
+     "* Graveyard: Add $1.00",
+     "* Swing: Add $0.75"
+    ]
+   },
+   "otSubtotalAdder": 0.35,
+   "dtSubtotalAdder": 0.35,
+   "ptiOutside": {
+    "FUTA": "=M6",
+    "SUI": "=M7",
+    "SDI": "=M8",
+    "SS": "=M9",
+    "MEDIC": "=M10",
+    "WC_components": {
+     "grossRate_P139": 0.0132,
+     "classCode": "5537",
+     "EMR": "=Q11",
+     "OGSERP": "=T11",
+     "DCBSPremAssessment": "=W11",
+     "OCCPAP": "=U11"
+    },
+    "countyTax": "=M13",
+    "GLcomb": 0.0243,
+    "TRI": "=M16",
+    "FMLA": "=M17",
+    "orSickLeave": "=M18"
+   },
+   "wageIncreases": [
+    {
+     "dateStart": "2026-04-01T00:00:00",
+     "amount": 6
+    },
+    {
+     "dateStart": "2027-04-01T00:00:00",
+     "amount": 6.25
+    },
+    {
+     "dateStart": "2028-04-01T00:00:00",
+     "amount": 6.5
+    }
+   ]
+  }
+ },
+ "otMultiplier": 1.5,
+ "dtMultiplier": 2.0,
+ "compositeRateNotes": {
+  "5/10s": "40 x str + 10 x otr / 50",
+  "6/10s": "40 x str + 20 x otr / 60",
+  "60/60/50s": "120 x str +50 x otr/170"
+ },
+ "cachedOutputs_forVerification": {
+  "PTI_total_SMField_M20": 0.17620387795200002,
+  "PTI_total_SMShop_M83": 0.174389367846,
+  "PTI_total_PlumbFitter_M146": 0.18395207093599997,
+  "WC_SMField_M12": 0.008647877952,
+  "WC_SMShop_M75": 0.006833367846,
+  "WC_PlumbFitter_M138": 0.005096070936,
+  "CrewRate_SMField_Straight_I23": 103.07,
+  "CrewRate_SMField_Overtime_I44": 137.73,
+  "CrewRate_SMField_DoubleTime_I65": 172.03,
+  "CrewRate_SMShop_Straight_I86": 111.45,
+  "CrewRate_SMShop_Overtime_I107": 143.06,
+  "CrewRate_SMShop_DoubleTime_I128": 174.67,
+  "CrewRate_PlumbFitter_Straight_I148": 132.95,
+  "CrewRate_PlumbFitter_Overtime_I168": 179.26,
+  "CrewRate_PlumbFitter_DoubleTime_I188": 225.2,
+  "CrewRate_SMField_Swing_G21": 8.436,
+  "CrewRate_SMField_Grave_G22": 12.935200000000002,
+  "CrewRate_SMField_Special_G23": 5.6240000000000006,
+  "CrewRate_SMShop_Swing_G84": 8.436,
+  "CrewRate_SMShop_Grave_G85": 12.935200000000002,
+  "CrewRate_SMShop_Special_G86": 5.6240000000000006,
+  "CrewRate_PlumbFitter_Swing_G146": 7.32,
+  "PlumbFitter_AvgBaseWage_D145": 73.21,
+  "OCIP_Deduct_N27": -1.737070642522773,
+  "OCIP_Deduct_Plumb_N153": -2.550842972633159,
+  "WageIncreasePct_SM_N39_N41": [
+   0.055397923282941366,
+   0.11835010883173838,
+   0.18885655664639103
+  ],
+  "WageIncreasePct_PF_N165_N167": [
+   0.0543972960917356,
+   0.11106114618729351,
+   0.16999155028667376
+  ],
+  "Driver_Rate_D19_G19": [
+   27.55,
+   20.71,
+   48.260000000000005,
+   4.85
+  ],
+  "hours_SMField_D5_D8": [
+   4269,
+   0,
+   0,
+   4269
+  ],
+  "hours_SMShop_D68_D71": [
+   653,
+   0,
+   0,
+   653
+  ],
+  "hours_Plumb_D131_D134": [
+   169.22,
+   0,
+   0,
+   169.22
+  ],
+  "hours_Pipe_F131_F134": [
+   3495.9,
+   0,
+   0,
+   3495.9
+  ],
+  "crewRatioPct": {
+   "smField_C23": 0.9833333333333334,
+   "smShop_C86": 0.9099999999999999,
+   "plumbFitter_C148": 1.125
+  }
+ }
+}

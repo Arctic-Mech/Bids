@@ -1,0 +1,3294 @@
+{
+"title": "MCAA RECAP",
+"state": "visible",
+"protected": true,
+"max_row": 132,
+"max_col": 30,
+"merged": [
+"B42:D42",
+"B129:F129",
+"L82:M82",
+"L91:M91",
+"E62:F62",
+"L66:M66",
+"B122:F122",
+"B44:D44",
+"B53:D53",
+"H55:I55",
+"B102:C102",
+"E37:H37",
+"L116:M116",
+"B37:D37",
+"L68:M68",
+"I76:J76",
+"B91:E91",
+"B100:E100",
+"L118:M118",
+"L39:M39",
+"I18:J18",
+"B93:E93",
+"L102:M102",
+"B116:F116",
+"L38:M38",
+"B86:E86",
+"L122:M122",
+"L79:M79",
+"D56:E56",
+"F56:G56",
+"C17:D17",
+"B101:E101",
+"B118:F118",
+"B54:D54",
+"L40:M40",
+"L81:M81",
+"B78:E78",
+"F107:G107",
+"B87:E87",
+"L65:M65",
+"B26:C26",
+"B43:D43",
+"D26:E26",
+"F57:G57",
+"E36:H36",
+"L120:M120",
+"L98:M98",
+"B125:F125",
+"E69:G69",
+"B104:E104",
+"B121:F121",
+"E59:G59",
+"H7:J7",
+"E46:G46",
+"L106:M106",
+"L121:M121",
+"B106:E106",
+"L93:M93",
+"B120:F120",
+"L42:M42",
+"B9:D9",
+"A46:A47",
+"E70:G70",
+"B90:E90",
+"A11:D11",
+"J60:J62",
+"L83:M83",
+"L92:M92",
+"B76:D76",
+"L85:M85",
+"E38:H38",
+"L94:M94",
+"L69:M69",
+"L84:M84",
+"L44:M44",
+"E40:H40",
+"A9:A10",
+"B124:F124",
+"G25:H25",
+"I19:J19",
+"L80:M80",
+"B21:D21",
+"B103:E103",
+"B39:D39",
+"B48:D48",
+"B84:E84",
+"B126:F126",
+"E63:G63",
+"H6:J6",
+"B23:D23",
+"L125:M125",
+"L103:M103",
+"E65:G65",
+"B80:E80",
+"B95:E95",
+"B56:C56",
+"H31:I31",
+"B89:E89",
+"B79:E79",
+"L43:M43",
+"A65:B65",
+"B97:E97",
+"B49:D49",
+"D27:E27",
+"G45:I45",
+"L89:M89",
+"B57:C57",
+"B51:D51",
+"L126:M126",
+"L88:M88",
+"E39:H39",
+"B105:E105",
+"L114:M114",
+"B41:D41",
+"L129:M129",
+"L123:M123",
+"B50:D50",
+"E20:H20",
+"B128:F128",
+"D28:E28",
+"E61:F61",
+"A112:A113",
+"L100:M100",
+"D73:H73",
+"B22:D22",
+"L115:M115",
+"L124:M124",
+"B114:F114",
+"B123:F123",
+"E64:G64",
+"B99:E99",
+"L77:M77",
+"D110:H110",
+"L86:M86",
+"B113:F113",
+"L95:M95",
+"B83:E83",
+"L67:M67",
+"B92:E92",
+"L101:M101",
+"N5:P5",
+"I60:I62",
+"B115:F115",
+"E41:H41",
+"L97:M97",
+"L37:M37",
+"B85:E85",
+"B38:D38",
+"B94:E94",
+"A75:A76",
+"L78:M78",
+"L87:M87",
+"B117:F117",
+"D57:E57",
+"E43:H43",
+"E19:F19",
+"B40:D40",
+"G19:H19",
+"L127:M127",
+"A66:B66",
+"E60:F60",
+"E33:H33",
+"L117:M117",
+"B119:F119",
+"B24:D24",
+"E42:H42",
+"A32:A33",
+"L104:M104",
+"E66:G66",
+"B96:E96",
+"B77:H77",
+"L119:M119",
+"E44:H44",
+"L128:M128",
+"L41:M41",
+"B127:F127",
+"C55:F55",
+"G130:I130",
+"E68:G68",
+"B98:E98",
+"B81:D81",
+"H27:I27",
+"L96:M96",
+"E9:H9",
+"A29:B29",
+"L105:M105",
+"E67:G67",
+"L99:M99",
+"L90:M90",
+"B88:E88",
+"B82:E82",
+"B18:D18",
+"B36:C36",
+"B52:D52",
+"L36:M36"
+],
+"col_widths": {
+"A": 12.5390625,
+"B": 13.88671875,
+"E": 15.1015625,
+"H": 18.7421875,
+"I": 19.41796875,
+"J": 21.171875,
+"K": 7.4140625,
+"L": 5.93359375,
+"M": 52.05078125,
+"N": 15.640625,
+"O": 14.83203125,
+"P": 9.3046875,
+"Q": 13.484375,
+"R": 13.88671875,
+"U": 13.34765625,
+"V": 12.80859375,
+"W": 13.88671875
+},
+"row_heights": {
+"1": 19.5,
+"3": 14.25,
+"4": 14.25,
+"5": 18.75,
+"6": 25.5,
+"7": 18.75,
+"8": 15.0,
+"9": 25.5,
+"10": 20.1,
+"11": 20.1,
+"12": 21.6,
+"13": 21.6,
+"14": 21.6,
+"15": 21.6,
+"16": 21.6,
+"17": 21.6,
+"18": 21.6,
+"19": 21.6,
+"20": 21.6,
+"21": 21.6,
+"22": 21.6,
+"23": 21.6,
+"24": 21.6,
+"25": 21.6,
+"26": 21.6,
+"27": 21.6,
+"28": 21.6,
+"29": 21.6,
+"30": 21.6,
+"31": 21.6,
+"32": 21.6,
+"33": 21.6,
+"34": 21.6,
+"35": 21.6,
+"36": 21.6,
+"37": 21.6,
+"38": 21.6,
+"39": 21.6,
+"40": 21.6,
+"41": 21.6,
+"42": 21.6,
+"43": 21.6,
+"44": 21.6,
+"45": 21.6,
+"46": 21.6,
+"47": 21.6,
+"48": 21.6,
+"49": 21.6,
+"50": 21.6,
+"51": 21.6,
+"52": 21.6,
+"53": 21.6,
+"54": 21.6,
+"55": 21.6,
+"56": 21.6,
+"57": 21.6,
+"58": 21.6,
+"59": 21.6,
+"60": 21.6,
+"61": 21.6,
+"62": 34.5,
+"63": 21.6,
+"64": 21.6,
+"65": 21.6,
+"66": 21.6,
+"67": 21.6,
+"68": 21.6,
+"69": 21.6,
+"70": 23.25,
+"71": 14.25,
+"72": 15.75,
+"73": 19.5,
+"74": 17.25,
+"75": 18.95,
+"76": 18.95,
+"77": 21.0,
+"78": 21.0,
+"79": 21.0,
+"80": 21.0,
+"81": 21.0,
+"82": 21.0,
+"83": 21.0,
+"84": 21.0,
+"85": 21.0,
+"86": 21.0,
+"87": 21.0,
+"88": 21.0,
+"89": 21.0,
+"90": 21.0,
+"91": 21.0,
+"92": 21.0,
+"93": 21.0,
+"94": 21.0,
+"95": 21.0,
+"96": 21.0,
+"97": 21.0,
+"98": 21.0,
+"99": 21.0,
+"100": 21.0,
+"101": 21.0,
+"102": 21.0,
+"103": 21.0,
+"104": 21.0,
+"105": 21.0,
+"106": 18.95,
+"107": 18.95,
+"108": 14.25,
+"109": 15.75,
+"110": 19.5,
+"111": 18.95,
+"112": 18.95,
+"113": 18.95,
+"114": 21.0,
+"115": 21.0,
+"116": 21.0,
+"117": 21.0,
+"118": 21.0,
+"119": 21.0,
+"120": 21.0,
+"121": 21.0,
+"122": 21.0,
+"123": 21.0,
+"124": 21.0,
+"125": 21.0,
+"126": 21.0,
+"127": 21.0,
+"128": 21.0,
+"129": 21.0,
+"130": 18.95,
+"131": 15.0,
+"132": 15.0,
+"133": 13.5
+},
+"hidden_cols": [],
+"hidden_rows": [
+34,
+35
+],
+"validations": [
+{
+"ranges": "I36:I44",
+"type": "list",
+"formula1": "$H$34:$H$35",
+"formula2": null,
+"allow_blank": true,
+"operator": null
+},
+{
+"ranges": "B37:D44",
+"type": "list",
+"formula1": "Codes_Subcontractor",
+"formula2": null,
+"allow_blank": false,
+"operator": null
+},
+{
+"ranges": "B101:E101 B103:E105",
+"type": "list",
+"formula1": "Codes_GC",
+"formula2": null,
+"allow_blank": true,
+"operator": null
+},
+{
+"ranges": "B127:F129",
+"type": "list",
+"formula1": "Codes_Subcontractor",
+"formula2": null,
+"allow_blank": true,
+"operator": null
+},
+{
+"ranges": "A66:B66",
+"type": "list",
+"formula1": "\"No, Yes\"",
+"formula2": null,
+"allow_blank": true,
+"operator": null
+},
+{
+"ranges": "C17:D17",
+"type": "list",
+"formula1": "\"5 8's, 5 10's, 6 10's, 60 60 50\"",
+"formula2": null,
+"allow_blank": true,
+"operator": null
+},
+{
+"ranges": "N5",
+"type": "list",
+"formula1": "Type_Of_Work",
+"formula2": null,
+"allow_blank": true,
+"operator": null
+},
+{
+"ranges": "B26:C26",
+"type": "list",
+"formula1": "\"No OCIP,OCIP,OCIP GL Only\"",
+"formula2": null,
+"allow_blank": true,
+"operator": null
+},
+{
+"ranges": "E68:G68",
+"type": "list",
+"formula1": "\"Oregon CAT Tax, Washington B&O Tax, No Tax\"",
+"formula2": null,
+"allow_blank": true,
+"operator": null
+}
+],
+"cells": {
+"L1": {
+"v": "Updated",
+"locked": true
+},
+"M1": {
+"v": "2025-08-26T00:00:00",
+"locked": true,
+"nf": "mm-dd-yy"
+},
+"A2": {
+"v": "Existing",
+"locked": true
+},
+"M2": {
+"v": "Updated SM Labor Rates",
+"locked": true
+},
+"M5": {
+"v": "Project Type",
+"locked": true
+},
+"N5": {
+"v": "Commercial",
+"locked": false,
+"nf": "#,##0"
+},
+"D6": {
+"v": "Estimate Recap",
+"locked": true
+},
+"G6": {
+"v": "Job Name:",
+"locked": true
+},
+"H6": {
+"v": "ENFRA - Columbia Gorge",
+"locked": false,
+"nf": "0"
+},
+"M6": {
+"v": "Project SqFt",
+"locked": true
+},
+"A7": {
+"v": "Bid #",
+"locked": true,
+"nf": "mmm-yy"
+},
+"B7": {
+"v": "25-800",
+"locked": false,
+"nf": "00\\-000"
+},
+"D7": {
+"v": "Bid Date/time:",
+"locked": true,
+"nf": "mmm-yy"
+},
+"G7": {
+"v": "Location:",
+"locked": true
+},
+"M7": {
+"v": "Material Lbs",
+"locked": true
+},
+"A9": {
+"v": "Phase Codes",
+"locked": true
+},
+"B9": {
+"v": "Labor Modifiers",
+"locked": true
+},
+"E9": {
+"v": "Factored Labor from worksheets",
+"locked": true
+},
+"M9": {
+"v": "$/SqFt",
+"locked": true
+},
+"N9": {
+"f": "=IF(N6=0,\"\",Info_Total_Bid/N6)",
+"v": null,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"B10": {
+"v": "Plumb %",
+"locked": true,
+"nf": "@"
+},
+"C10": {
+"v": "Pipe %",
+"locked": true
+},
+"D10": {
+"v": "SM %",
+"locked": true,
+"nf": "0"
+},
+"E10": {
+"v": "5-Plumb",
+"locked": true,
+"nf": "0.00"
+},
+"F10": {
+"v": "6-Pipe",
+"locked": true,
+"nf": "0.00"
+},
+"G10": {
+"v": "3-SM Field",
+"locked": true,
+"nf": "0.00"
+},
+"H10": {
+"v": "2-SM Shop",
+"locked": true,
+"nf": "0.00"
+},
+"M10": {
+"v": "Field Lbs/Hr",
+"locked": true
+},
+"N10": {
+"f": "=IF(N7=0,\"\",N7/SUM(E18:G18))",
+"v": null,
+"locked": true,
+"nf": "0"
+},
+"R10": {
+"v": "Default Percentages",
+"locked": true
+},
+"A11": {
+"v": "Total Hours From Takeoff Worksheets  \u2212\u2212\u2192",
+"locked": true,
+"nf": "@"
+},
+"E11": {
+"f": "=SUMIF(Takeoff_PayType,\"Plumb Takeoff\",SM_FieldLaborColumn)",
+"v": 169.22,
+"locked": true,
+"nf": "0.00"
+},
+"F11": {
+"f": "=SUMIF(Takeoff_PayType,\"Pipe Takeoff\",SM_FieldLaborColumn)",
+"v": 3495.9,
+"locked": true,
+"nf": "0.00"
+},
+"G11": {
+"f": "=SUMIF(Takeoff_PayType,\"Sheet Metal Takeoff\",SM_FieldLaborColumn)",
+"v": 4269,
+"locked": true,
+"nf": "0.00"
+},
+"H11": {
+"f": "=SM_Shop_Labor",
+"v": 653,
+"locked": true,
+"nf": "0.00"
+},
+"M11": {
+"v": "Shop Lbs/Hr",
+"locked": true
+},
+"N11": {
+"f": "=IF(N7=0,\"\",N7/H18)",
+"v": null,
+"locked": true,
+"nf": "0"
+},
+"R11": {
+"v": "Plumb %",
+"locked": true,
+"nf": "@"
+},
+"S11": {
+"v": "Pipe %",
+"locked": true
+},
+"T11": {
+"v": "SM %",
+"locked": true,
+"nf": "0"
+},
+"A12": {
+"v": "1-03/2-05",
+"locked": true,
+"nf": "@"
+},
+"B12": {
+"v": 0.12,
+"locked": false,
+"nf": "0.0%"
+},
+"C12": {
+"v": 0.1,
+"locked": false,
+"nf": "0.0%"
+},
+"D12": {
+"v": 0.12,
+"locked": false,
+"nf": "0.0%"
+},
+"E12": {
+"f": "=SUM($E$11*B12)",
+"v": 20.3064,
+"locked": true,
+"nf": "0.00"
+},
+"F12": {
+"f": "=SUM($F$11*C12)",
+"v": 349.59000000000003,
+"locked": true,
+"nf": "0.00"
+},
+"G12": {
+"f": "=ROUND(SUM($G$11*D12),2)",
+"v": 512.28,
+"locked": true,
+"nf": "0.00"
+},
+"H12": {
+"f": "=$H$11*I12",
+"v": 52.24,
+"locked": true,
+"nf": "0.00"
+},
+"I12": {
+"v": 0.08,
+"locked": false,
+"nf": "0.0%"
+},
+"J12": {
+"v": "Detailing",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"R12": {
+"v": 0.16,
+"locked": false,
+"nf": "0.0%"
+},
+"S12": {
+"v": 0.16,
+"locked": false,
+"nf": "0.0%"
+},
+"T12": {
+"v": 0.16,
+"locked": false,
+"nf": "0.0%"
+},
+"A13": {
+"v": "8-16 / 10",
+"locked": true,
+"nf": "00"
+},
+"B13": {
+"v": 0.04,
+"locked": false,
+"nf": "0.0%"
+},
+"C13": {
+"v": 0.06,
+"locked": false,
+"nf": "0.0%"
+},
+"D13": {
+"v": 0.01,
+"locked": false,
+"nf": "0.0%"
+},
+"E13": {
+"f": "=SUM($E$11*B13)",
+"v": 6.7688,
+"locked": true,
+"nf": "0.00"
+},
+"F13": {
+"f": "=SUM($F$11*C13)",
+"v": 209.754,
+"locked": true,
+"nf": "0.00"
+},
+"G13": {
+"f": "=ROUND(SUM($G$11*D13),2)",
+"v": 42.69,
+"locked": true,
+"nf": "0.00"
+},
+"H13": {
+"f": "=$H$11*I13",
+"v": 0,
+"locked": true,
+"nf": "0.00"
+},
+"I13": {
+"v": 0,
+"locked": false,
+"nf": "0.0%"
+},
+"J13": {
+"v": "Testing",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"M13": {
+"v": "Select this button to insert fixed values in the range to the left.",
+"locked": true
+},
+"R13": {
+"v": 0.04,
+"locked": false,
+"nf": "0.0%"
+},
+"S13": {
+"v": 0.09,
+"locked": false,
+"nf": "0.0%"
+},
+"T13": {
+"v": 0.01,
+"locked": false,
+"nf": "0.0%"
+},
+"A14": {
+"v": "2/3-09",
+"locked": true,
+"nf": "00"
+},
+"B14": {
+"v": 0.02,
+"locked": false,
+"nf": "0.0%"
+},
+"C14": {
+"v": 0.02,
+"locked": false,
+"nf": "0.0%"
+},
+"D14": {
+"v": 0.02,
+"locked": false,
+"nf": "0.0%"
+},
+"E14": {
+"f": "=SUM($E$11*B14)",
+"v": 3.3844,
+"locked": true,
+"nf": "0.00"
+},
+"F14": {
+"f": "=SUM($F$11*C14)",
+"v": 69.918,
+"locked": true,
+"nf": "0.00"
+},
+"G14": {
+"f": "=ROUND(SUM($G$11*D14),2)",
+"v": 85.38,
+"locked": true,
+"nf": "0.00"
+},
+"H14": {
+"f": "=$H$11*I14",
+"v": 0,
+"locked": true,
+"nf": "0.00"
+},
+"I14": {
+"v": 0,
+"locked": false,
+"nf": "0.0%"
+},
+"J14": {
+"v": "Safety",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"R14": {
+"v": 0.02,
+"locked": false,
+"nf": "0.0%"
+},
+"S14": {
+"v": 0.02,
+"locked": false,
+"nf": "0.0%"
+},
+"T14": {
+"v": 0.02,
+"locked": false,
+"nf": "0.0%"
+},
+"A15": {
+"v": 4,
+"locked": true,
+"nf": "00"
+},
+"B15": {
+"v": 0,
+"locked": false,
+"nf": "0.0%"
+},
+"C15": {
+"v": 0,
+"locked": false,
+"nf": "0.0%"
+},
+"D15": {
+"v": 0,
+"locked": false,
+"nf": "0.0%"
+},
+"E15": {
+"f": "=SUM($E$11*B15)",
+"v": 0,
+"locked": true,
+"nf": "0.00"
+},
+"F15": {
+"f": "=SUM($F$11*C15)",
+"v": 0,
+"locked": true,
+"nf": "0.00"
+},
+"G15": {
+"f": "=ROUND(SUM($G$11*D15),2)",
+"v": 0,
+"locked": true,
+"nf": "0.00"
+},
+"H15": {
+"f": "=$H$11*I15",
+"v": 0,
+"locked": true,
+"nf": "0.00"
+},
+"I15": {
+"v": 0,
+"locked": false,
+"nf": "0.0%"
+},
+"J15": {
+"v": "QC",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"R15": {
+"v": 0.05,
+"locked": false,
+"nf": "0.0%"
+},
+"S15": {
+"v": 0.05,
+"locked": false,
+"nf": "0.0%"
+},
+"T15": {
+"v": 0,
+"locked": false,
+"nf": "0.0%"
+},
+"A16": {
+"v": 6,
+"locked": true,
+"nf": "00"
+},
+"B16": {
+"v": 0.1,
+"locked": false,
+"nf": "0.0%"
+},
+"C16": {
+"v": 0.08,
+"locked": false,
+"nf": "0.0%"
+},
+"D16": {
+"v": 0.1,
+"locked": false,
+"nf": "0.0%"
+},
+"E16": {
+"f": "=SUM($E$11*B16)",
+"v": 16.922,
+"locked": true,
+"nf": "0.00"
+},
+"F16": {
+"f": "=SUM($F$11*C16)",
+"v": 279.672,
+"locked": true,
+"nf": "0.00"
+},
+"G16": {
+"f": "=ROUND(SUM($G$11*D16),2)",
+"v": 426.9,
+"locked": true,
+"nf": "0.00"
+},
+"H16": {
+"f": "=$H$11*I16",
+"v": 0,
+"locked": true,
+"nf": "0.00"
+},
+"I16": {
+"v": 0,
+"locked": false,
+"nf": "0.0%"
+},
+"J16": {
+"v": "Material Handling",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"M16": {
+"v": "Quick Commands",
+"locked": true
+},
+"R16": {
+"v": 0.1,
+"locked": false,
+"nf": "0.0%"
+},
+"S16": {
+"v": 0.1,
+"locked": false,
+"nf": "0.0%"
+},
+"T16": {
+"v": 0.1,
+"locked": false,
+"nf": "0.0%"
+},
+"A17": {
+"v": "1-22",
+"locked": true,
+"nf": "@"
+},
+"B17": {
+"v": "Schedule",
+"locked": true,
+"nf": "0.00%"
+},
+"C17": {
+"v": "5 8's",
+"locked": false,
+"nf": "@"
+},
+"E17": {
+"f": "=IF(Schedule_Type=\"5 8's\",E11*$O$21,IF(Schedule_Type=\"5 10's\",E11*$O$22,IF(Schedule_Type=\"6 10's\",E11*$O$23,IF(Schedule_Type=\"60 60 50\",E11*$O$24))))",
+"v": 0,
+"locked": true,
+"nf": "0.00"
+},
+"F17": {
+"f": "=IF(Schedule_Type=\"5 8's\",F11*$O$21,IF(Schedule_Type=\"5 10's\",F11*$O$22,IF(Schedule_Type=\"6 10's\",F11*$O$23,IF(Schedule_Type=\"60 60 50\",F11*$O$24))))",
+"v": 0,
+"locked": true,
+"nf": "0.00"
+},
+"G17": {
+"f": "=IF(Schedule_Type=\"5 8's\",G11*$O$21,IF(Schedule_Type=\"5 10's\",G11*$O$22,IF(Schedule_Type=\"6 10's\",G11*$O$23,IF(Schedule_Type=\"60 60 50\",G11*$O$24))))",
+"v": 0,
+"locked": true,
+"nf": "0.00"
+},
+"H17": {
+"f": "=$H$11*I17",
+"v": 0,
+"locked": true,
+"nf": "0.00"
+},
+"I17": {
+"v": 0,
+"locked": false,
+"nf": "0.0%"
+},
+"J17": {
+"v": "Loss of Production",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"M17": {
+"v": "Ctrl+H=Help Menu",
+"locked": true
+},
+"B18": {
+"v": "Total Field Hours with Adders  \u2212\u2212\u2192",
+"locked": true,
+"nf": "0.00%"
+},
+"E18": {
+"f": "=SUM(E11:E17)",
+"v": 216.6016,
+"locked": true,
+"nf": "0.00"
+},
+"F18": {
+"f": "=SUM(F11:F17)",
+"v": 4404.834000000001,
+"locked": true,
+"nf": "0.00"
+},
+"G18": {
+"f": "=SUM(G11:G17)",
+"v": 5336.249999999999,
+"locked": true,
+"nf": "0.00"
+},
+"H18": {
+"f": "=SUM(H11:H17)",
+"v": 705.24,
+"locked": true,
+"nf": "0.00"
+},
+"M18": {
+"v": "Ctrl+I=Import Menu",
+"locked": true
+},
+"A19": {
+"v": " ",
+"locked": true,
+"nf": "@"
+},
+"M19": {
+"v": "Ctrl+T=Shows Live Total Estimate Value & $ Difference",
+"locked": true
+},
+"N19": {
+"v": "Loss-Of- Productivity (LOP):",
+"locked": true
+},
+"E20": {
+"v": "Labor Rates",
+"locked": true,
+"nf": "0.00"
+},
+"I20": {
+"v": "Labor Value",
+"locked": true,
+"nf": "0.00"
+},
+"J20": {
+"v": "Premium Time Add",
+"locked": true,
+"nf": "0.00"
+},
+"M20": {
+"v": "Ctrl+B=Shows Booking Status and Missing Values",
+"locked": true
+},
+"N20": {
+"v": "Schedule",
+"locked": true
+},
+"O20": {
+"v": "LOP",
+"locked": true
+},
+"Q20": {
+"v": "Default",
+"locked": true
+},
+"A21": {
+"v": " ",
+"locked": true,
+"nf": "@"
+},
+"B21": {
+"v": "Plumb Labor Rate (Blend)",
+"locked": true,
+"nf": "@"
+},
+"E21": {
+"f": "=IF(Schedule_Type=\"5 8's\",CrewRate_PlumbFitter_Straight,IF(Schedule_Type=\"5 10's\",SUM(4*CrewRate_PlumbFitter_Straight+CrewRate_PlumbFitter_Overtime)/5,IF(Schedule_Type=\"6 10's\",SUM(4*CrewRate_PlumbFitter_Straight+2*CrewRate_PlumbFitter_Overtime)/6,IF(Schedule_Type=\"60 60 50\",SUM(12*CrewRate_PlumbFitter_Straight+5*CrewRate_PlumbFitter_Overtime)/17))))",
+"v": 132.95,
+"locked": true,
+"nf": "0.00"
+},
+"I21": {
+"f": "=SUM(E21*E18)",
+"v": 28797.182719999997,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J21": {
+"f": "=SUMIF(Takeoff_PayType,\"Plumb Takeoff\",TakeOff!AL:AL)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"M21": {
+"v": "Ctrl+Q=Quote",
+"locked": true
+},
+"N21": {
+"v": "5/8s",
+"locked": true,
+"nf": "d-mmm"
+},
+"O21": {
+"v": 0,
+"locked": false,
+"nf": "0%"
+},
+"Q21": {
+"v": 0,
+"locked": true
+},
+"A22": {
+"v": " ",
+"locked": true,
+"nf": "@"
+},
+"B22": {
+"v": "Pipe Labor Rate (Blend)",
+"locked": true,
+"nf": "@"
+},
+"F22": {
+"f": "=IF(Schedule_Type=\"5 8's\",CrewRate_PlumbFitter_Straight,IF(Schedule_Type=\"5 10's\",SUM(4*CrewRate_PlumbFitter_Straight+CrewRate_PlumbFitter_Overtime)/5,IF(Schedule_Type=\"6 10's\",SUM(4*CrewRate_PlumbFitter_Straight+2*CrewRate_PlumbFitter_Overtime)/6,IF(Schedule_Type=\"60 60 50\",SUM(12*CrewRate_PlumbFitter_Straight+5*CrewRate_PlumbFitter_Overtime)/17))))",
+"v": 132.95,
+"locked": true,
+"nf": "0.00"
+},
+"I22": {
+"f": "=SUM(F22*F18)",
+"v": 585622.6803,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J22": {
+"f": "=SUMIF(Takeoff_PayType,\"Pipe Takeoff\",TakeOff!AL:AL)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"M22": {
+"v": "Ctrl+W=Plug",
+"locked": true
+},
+"N22": {
+"v": "5/10s",
+"locked": true,
+"nf": "d-mmm"
+},
+"O22": {
+"v": 0.15,
+"locked": true,
+"nf": "0%"
+},
+"Q22": {
+"v": 15,
+"locked": true
+},
+"A23": {
+"v": " ",
+"locked": true,
+"nf": "@"
+},
+"B23": {
+"v": "Sheetmetal Field Labor Rate (Blend)",
+"locked": true,
+"nf": "@"
+},
+"G23": {
+"f": "=IF(Schedule_Type=\"5 8's\",CrewRate_SMField_Straight,IF(Schedule_Type=\"5 10's\",SUM(4*CrewRate_SMField_Straight+CrewRate_SMField_Overtime)/5,IF(Schedule_Type=\"6 10's\",SUM(4*CrewRate_SMField_Straight+2*CrewRate_SMField_Overtime)/6,IF(Schedule_Type=\"60 60 50\",SUM(12*CrewRate_SMField_Straight+5*CrewRate_SMField_Overtime)/17))))",
+"v": 103.07,
+"locked": true,
+"nf": "0.00"
+},
+"I23": {
+"f": "=SUM(G18*G23)",
+"v": 550007.2874999999,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J23": {
+"f": "=SUMIF(Takeoff_PayType,\"Sheet Metal Takeoff\",TakeOff!AL:AL)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"N23": {
+"v": "6/10s",
+"locked": true
+},
+"O23": {
+"v": 0.25,
+"locked": true,
+"nf": "0%"
+},
+"Q23": {
+"v": 25,
+"locked": true
+},
+"A24": {
+"v": " ",
+"locked": true,
+"nf": "@"
+},
+"B24": {
+"v": "Sheetmetal Shop Labor Rate (Blend)",
+"locked": true,
+"nf": "@"
+},
+"H24": {
+"f": "=CrewRate_SMShop_Straight",
+"v": 111.45,
+"locked": true,
+"nf": "0.00"
+},
+"I24": {
+"f": "=SUM(H18*H24)",
+"v": 78598.998,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J24": {
+"f": "=SUM(TakeOff!AM:AM)/2",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"N24": {
+"v": "60/60/50s",
+"locked": true
+},
+"O24": {
+"v": 0.25,
+"locked": true,
+"nf": "0%"
+},
+"Q24": {
+"v": 25,
+"locked": true
+},
+"A25": {
+"v": " ",
+"locked": true,
+"nf": "@"
+},
+"B25": {
+"v": " ",
+"locked": true,
+"nf": "@"
+},
+"D25": {
+"v": " ",
+"locked": true,
+"nf": "0"
+},
+"G25": {
+"v": "Subtotal Labor Cost \u2212\u2212\u2192",
+"locked": true,
+"nf": "0.00%"
+},
+"I25": {
+"f": "=SUM(I21:I24)",
+"v": 1243026.1485199998,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J25": {
+"f": "=SUM(J21:J24)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"K25": {
+"v": 1,
+"locked": false
+},
+"L25": {
+"v": 1,
+"locked": true
+},
+"N25": {
+"v": "7/10s",
+"locked": true
+},
+"P25": {
+"v": "huge",
+"locked": true
+},
+"B26": {
+"v": "No OCIP",
+"locked": false
+},
+"D26": {
+"v": "Arch Hrs in SM Takeoff",
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"K26": {
+"v": 2,
+"locked": false
+},
+"L26": {
+"v": 2,
+"locked": true
+},
+"N26": {
+"v": "7/12s",
+"locked": true
+},
+"P26": {
+"v": "ginormous",
+"locked": true
+},
+"B27": {
+"v": "Amount",
+"locked": true,
+"nf": "00"
+},
+"C27": {
+"f": "=IF(OCIP_GL_Toggle=\"No OCIP\",0,IF(OCIP_GL_Toggle=\"OCIP\",OCIP_Deduct_Total*-1,IF(OCIP_GL_Toggle=\"OCIP GL Only\",OCIP!O169*-1,0)))",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"D27": {
+"v": 0,
+"locked": false
+},
+"H27": {
+"v": "Total Labor Cost       \u2212\u2212\u2192",
+"locked": true,
+"nf": "0.00%"
+},
+"J27": {
+"f": "=SUM(I25:J25,C27)",
+"v": 1243026.1485199998,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"N27": {
+"v": "*Only use up to 60/60/50 for budgeting ",
+"locked": true
+},
+"D28": {
+"f": "=IF(D27>G18,\"ARCH HRS TO HIGH\",\"\")",
+"v": null,
+"locked": true,
+"nf": "0"
+},
+"A29": {
+"v": "Material Costs",
+"locked": true,
+"nf": "0.00"
+},
+"C29": {
+"v": "Plumb",
+"locked": true,
+"nf": "0.00"
+},
+"D29": {
+"f": "=SUMIF(Takeoff_PayType,\"Plumb Takeoff\",SM_MaterialColumn)",
+"v": 43185.5,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"F29": {
+"v": "Pipe",
+"locked": true,
+"nf": "0.00"
+},
+"G29": {
+"f": "=SUMIF(Takeoff_PayType,\"Pipe Takeoff\",SM_MaterialColumn)",
+"v": 1286501.2824,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"I29": {
+"v": "Sheet Metal",
+"locked": true,
+"nf": "0.00"
+},
+"J29": {
+"f": "=SM_Material-'MCAA RECAP'!D29-'MCAA RECAP'!G29",
+"v": 769378.5860000001,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"H31": {
+"v": "Total Material Cost  \u2212\u2212\u2192",
+"locked": true,
+"nf": "0.00%"
+},
+"J31": {
+"f": "=SUM(D29,G29,J29)",
+"v": 2099065.3684,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A32": {
+"v": "Phase Codes",
+"locked": true
+},
+"B32": {
+"v": " ",
+"locked": true,
+"nf": "@"
+},
+"D32": {
+"v": " ",
+"locked": true,
+"nf": "0"
+},
+"N32": {
+"v": "Never COMMIT to anything greater",
+"locked": true
+},
+"B33": {
+"v": " ",
+"locked": true,
+"nf": "@"
+},
+"D33": {
+"v": " ",
+"locked": true,
+"nf": "0"
+},
+"E33": {
+"v": "Subcontractor",
+"locked": true,
+"nf": "0.00"
+},
+"I33": {
+"v": "Quote / Plug",
+"locked": true,
+"nf": "0.00"
+},
+"J33": {
+"v": "Value",
+"locked": true,
+"nf": "0.00"
+},
+"L33": {
+"v": "Notes",
+"locked": true
+},
+"H34": {
+"v": "Quote",
+"locked": true,
+"nf": "0.00"
+},
+"H35": {
+"v": "Plug",
+"locked": true,
+"nf": "0.00"
+},
+"A36": {
+"v": "7-03",
+"locked": true,
+"nf": "@"
+},
+"B36": {
+"v": "Ext Insulation     SqFt",
+"locked": true,
+"nf": "@"
+},
+"A37": {
+"f": "=IF(B37=\"\",\"\",\"7-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B37,Codes_Subcontractor,0),1))",
+"v": "7-01",
+"locked": true,
+"nf": "0\\-00"
+},
+"B37": {
+"v": "Test and Balance",
+"locked": false,
+"nf": "0.00"
+},
+"A38": {
+"f": "=IF(B38=\"\",\"\",\"7-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B38,Codes_Subcontractor,0),1))",
+"v": "7-02",
+"locked": true,
+"nf": "0\\-00"
+},
+"B38": {
+"v": "Instrumentation and Control",
+"locked": false,
+"nf": "0.00"
+},
+"A39": {
+"f": "=IF(B39=\"\",\"\",\"7-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B39,Codes_Subcontractor,0),1))",
+"v": "7-15",
+"locked": true,
+"nf": "0\\-00"
+},
+"B39": {
+"v": "Crane and Hoisting",
+"locked": false,
+"nf": "0.00"
+},
+"A40": {
+"f": "=IF(B40=\"\",\"\",\"7-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B40,Codes_Subcontractor,0),1))",
+"v": "7-07",
+"locked": true,
+"nf": "0\\-00"
+},
+"B40": {
+"v": "Engineering",
+"locked": false,
+"nf": "0.00"
+},
+"A41": {
+"f": "=IF(B41=\"\",\"\",\"7-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B41,Codes_Subcontractor,0),1))",
+"v": null,
+"locked": true,
+"nf": "0\\-00"
+},
+"A42": {
+"f": "=IF(B42=\"\",\"\",\"7-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B42,Codes_Subcontractor,0),1))",
+"v": null,
+"locked": true,
+"nf": "0\\-00"
+},
+"A43": {
+"f": "=IF(B43=\"\",\"\",\"7-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B43,Codes_Subcontractor,0),1))",
+"v": null,
+"locked": true,
+"nf": "0\\-00"
+},
+"A44": {
+"f": "=IF(B44=\"\",\"\",\"7-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B44,Codes_Subcontractor,0),1))",
+"v": null,
+"locked": true,
+"nf": "0\\-00"
+},
+"F45": {
+"v": " ",
+"locked": true,
+"nf": "0.00"
+},
+"G45": {
+"v": "Total Subcontract  \u2212\u2212\u2192",
+"locked": true,
+"nf": "0.00"
+},
+"J45": {
+"f": "=SUM(J36:J44)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A46": {
+"v": "Phase Codes",
+"locked": true
+},
+"E46": {
+"v": "Other Costs",
+"locked": true,
+"nf": "0.00"
+},
+"H46": {
+"v": " ",
+"locked": true,
+"nf": "0.00"
+},
+"J46": {
+"v": " ",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"E47": {
+"v": "% of Labor",
+"locked": true,
+"nf": "0.00"
+},
+"F47": {
+"v": "Hours",
+"locked": true,
+"nf": "0.00"
+},
+"G47": {
+"v": "Rate",
+"locked": true,
+"nf": "0.00"
+},
+"H47": {
+"v": " ",
+"locked": true,
+"nf": "0.00"
+},
+"J47": {
+"v": " ",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"M47": {
+"v": "Select this button to insert fixed values in the range to the left.",
+"locked": true
+},
+"N47": {
+"v": "DEFAULTS",
+"locked": true
+},
+"A48": {
+"v": "1-01",
+"locked": true,
+"nf": "@"
+},
+"B48": {
+"v": "Project Manager ",
+"locked": true
+},
+"E48": {
+"v": 0.1,
+"locked": false,
+"nf": "0.0%"
+},
+"F48": {
+"f": "=ROUND(SUM(E18:H18)*E48,2)",
+"v": 1066.29,
+"locked": true,
+"nf": "0.00"
+},
+"G48": {
+"f": "='Crew Mix'!I12",
+"v": 118.71,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"H48": {
+"f": "=ROUNDUP(SUM(F48*G48),2)",
+"v": 126579.29,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J48": {
+"v": " ",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"L48": {
+"v": "% Trade Field",
+"locked": true
+},
+"N48": {
+"v": 0.1,
+"locked": false,
+"nf": "0.0%"
+},
+"A49": {
+"v": "5-01",
+"locked": true,
+"nf": "@"
+},
+"B49": {
+"v": "Plumb Field Supervision (NW)",
+"locked": true
+},
+"E49": {
+"v": 0.1,
+"locked": false,
+"nf": "0.0%"
+},
+"F49": {
+"f": "=ROUND(SUM(E49*E18),2)",
+"v": 21.66,
+"locked": true,
+"nf": "0.00"
+},
+"G49": {
+"f": "='Crew Mix'!I138",
+"v": 142.32,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"H49": {
+"f": "=ROUNDUP(SUM(F49*G49),2)",
+"v": 3082.6600000000003,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J49": {
+"v": " ",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"L49": {
+"v": "% Trade Field",
+"locked": true
+},
+"N49": {
+"v": 0.15,
+"locked": false,
+"nf": "0.0%"
+},
+"A50": {
+"v": "6-01",
+"locked": true,
+"nf": "@"
+},
+"B50": {
+"v": "Pipe Field Supervision (NW)",
+"locked": true
+},
+"E50": {
+"v": 0.08,
+"locked": false,
+"nf": "0.0%"
+},
+"F50": {
+"f": "=ROUND(SUM(E50*F18),2)",
+"v": 352.39,
+"locked": true,
+"nf": "0.00"
+},
+"G50": {
+"f": "='Crew Mix'!I138",
+"v": 142.32,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"H50": {
+"f": "=ROUNDUP(SUM(F50*G50),2)",
+"v": 50152.15,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"L50": {
+"v": "% Trade Field",
+"locked": true
+},
+"N50": {
+"v": 0.15,
+"locked": false,
+"nf": "0.0%"
+},
+"A51": {
+"v": "8-01",
+"locked": true,
+"nf": "@"
+},
+"B51": {
+"v": "Arch Field Supervision (NW)",
+"locked": true
+},
+"E51": {
+"v": 0,
+"locked": false,
+"nf": "0.0%"
+},
+"F51": {
+"f": "=ROUND(SUM(E51*G18),2)",
+"v": 0,
+"locked": true,
+"nf": "0.00"
+},
+"G51": {
+"f": "='Crew Mix'!I13",
+"v": 115.29,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"H51": {
+"f": "=ROUNDUP(SUM(F51*G51),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J51": {
+"v": " ",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"L51": {
+"v": "% Trade Field",
+"locked": true
+},
+"N51": {
+"v": 0,
+"locked": false,
+"nf": "0.0%"
+},
+"A52": {
+"v": "3-01",
+"locked": true,
+"nf": "@"
+},
+"B52": {
+"v": "Sheetmetal Field Supervision (NW)",
+"locked": true
+},
+"E52": {
+"v": 0.1,
+"locked": false,
+"nf": "0.0%"
+},
+"F52": {
+"f": "=ROUND(SUM(E52*G18),2)",
+"v": 533.63,
+"locked": true,
+"nf": "0.00"
+},
+"G52": {
+"f": "='Crew Mix'!I13",
+"v": 115.29,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"H52": {
+"f": "=SUM(F52*G52)",
+"v": 61522.2027,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J52": {
+"v": " ",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"L52": {
+"v": "% Trade Field",
+"locked": true
+},
+"N52": {
+"v": 0.15,
+"locked": false,
+"nf": "0.0%"
+},
+"A53": {
+"v": "From Pg 3",
+"locked": true,
+"nf": "@"
+},
+"B53": {
+"v": "Equipment Rental",
+"locked": true
+},
+"E53": {
+"v": " ",
+"locked": true,
+"nf": "0%"
+},
+"F53": {
+"v": " ",
+"locked": true,
+"nf": "0.00"
+},
+"H53": {
+"f": "=J130",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J53": {
+"v": " ",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"L53": {
+"v": "From Page 3",
+"locked": true
+},
+"A54": {
+"v": "From Pg 2",
+"locked": true,
+"nf": "@"
+},
+"B54": {
+"v": "Other Project General Conditions Cost",
+"locked": true
+},
+"F54": {
+"v": " ",
+"locked": true,
+"nf": "0.00"
+},
+"H54": {
+"f": "=H107",
+"v": 175172.57,
+"locked": true,
+"nf": "\"$\"#,##0.0_);\\(\"$\"#,##0.0\\)"
+},
+"I54": {
+"f": "=IF(SUM(H53:H54)=0,1,SUM(H53:H54)/H59)",
+"v": 0.04660579786129119,
+"locked": true,
+"nf": "0%"
+},
+"J54": {
+"v": "% GC of Total Cost",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"L54": {
+"v": "From Page 2",
+"locked": true
+},
+"C55": {
+"v": "Work Recovery",
+"locked": true,
+"nf": "0.00"
+},
+"H55": {
+"v": "Total Other Costs  \u2212\u2212\u2192",
+"locked": true,
+"nf": "0.00"
+},
+"J55": {
+"f": "=SUM(H48:H54)",
+"v": 416508.8727,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"B56": {
+"v": "Plumb/Pipe",
+"locked": true,
+"nf": "0"
+},
+"D56": {
+"v": "Architectural",
+"locked": true,
+"nf": "0"
+},
+"F56": {
+"v": "Sheet Metal",
+"locked": true,
+"nf": "0.00"
+},
+"B57": {
+"f": "=ABS(SUM(WorkRecovery_Pipe))*-1",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)"
+},
+"D57": {
+"f": "=ABS(SUM(WorkRecovery_Arch))*-1",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)"
+},
+"F57": {
+"f": "=ABS(SUM(WorkRecovery_SM))*-1",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)"
+},
+"E59": {
+"v": "Total of Direct Costs ",
+"locked": true,
+"nf": "0.00"
+},
+"H59": {
+"f": "=SUM(J55+J45+J27+J31)",
+"v": 3758600.3896199996,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"I59": {
+"v": "% of Bid",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J59": {
+"v": "% Labor M/U",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"E60": {
+"v": "Subcontractor Mark Up",
+"locked": true,
+"nf": "0.00"
+},
+"G60": {
+"v": 0.1,
+"locked": false,
+"nf": "0.0%"
+},
+"H60": {
+"f": "=ROUNDUP(SUM(G60*J45),0)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"I60": {
+"f": "=IF(H62=0,0,(H62+H61+H60)/$H$70)",
+"v": 0.16072596034038533,
+"locked": true,
+"nf": "0%"
+},
+"J60": {
+"f": "=IF(SUM(E11:H11)=0,0,SUM((H62+H61+H60)/$J$27))",
+"v": 0.5966997081140374,
+"locked": true,
+"nf": "0%"
+},
+"K60": {
+"v": 2,
+"locked": false
+},
+"E61": {
+"v": "Equipment Mark Up",
+"locked": true,
+"nf": "0.00"
+},
+"G61": {
+"v": 0.1,
+"locked": false,
+"nf": "0.0%"
+},
+"H61": {
+"f": "=EMO!E12",
+"v": 114536.34,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"E62": {
+"v": "Overhead and Profit\nExcluding Lines from Above",
+"locked": true,
+"nf": "0.00"
+},
+"G62": {
+"v": 0.24,
+"locked": false,
+"nf": "0.0%"
+},
+"H62": {
+"f": "=ROUNDUP((G62*(H59-J45))-EMO!E6,0)",
+"v": 627177,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"M62": {
+"f": "=IF(EMO!E18>0,\"Markup has been reduced by $\" & EMO!E18 & \" due to EMO\",\"\")",
+"v": "Markup has been reduced by $160350.87 due to EMO",
+"locked": true
+},
+"E63": {
+"v": "Project Subtotal",
+"locked": true,
+"nf": "0.00"
+},
+"H63": {
+"f": "=SUM(H59:H62)",
+"v": 4500313.729619999,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J63": {
+"v": " ",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"E64": {
+"v": "Market Recovery",
+"locked": true,
+"nf": "0.00"
+},
+"H64": {
+"f": "=SUM(B57:G57)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)"
+},
+"J64": {
+"v": " ",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"L64": {
+"v": "Notes",
+"locked": true
+},
+"A65": {
+"v": "Bond Required",
+"locked": true,
+"nf": "0.00"
+},
+"E65": {
+"v": "Miscellaneous Cost/Contingency(No Markup)",
+"locked": true,
+"nf": "0.00"
+},
+"J65": {
+"v": " ",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"L65": {
+"v": "Plumbing 18% $99,320.00",
+"locked": false
+},
+"A66": {
+"v": "No",
+"locked": false
+},
+"E66": {
+"v": "Bonds (Performance)",
+"locked": true,
+"nf": "0.00"
+},
+"H66": {
+"f": "=IF(Bond_Req=\"Yes\",Bond,0)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J66": {
+"v": " ",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"L66": {
+"v": "Base 24% 4,512,020.00 ",
+"locked": false
+},
+"E67": {
+"v": "Permits",
+"locked": true,
+"nf": "0.00"
+},
+"H67": {
+"f": "=J83",
+"v": 89211.43000000001,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"E68": {
+"v": "Oregon CAT Tax",
+"locked": false,
+"nf": "0.00"
+},
+"H68": {
+"f": "=SUM(H63:H67)*I68",
+"v": 25242.388377909992,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"I68": {
+"f": "=IF(E68=\"Oregon CAT Tax\", 0.004,IF(E68=\"Washington B&O Tax\", 0.00484,0))+0.0015",
+"v": 0.0055,
+"locked": true,
+"nf": "0.00%"
+},
+"L68": {
+"v": "Multomah Cty Tax (.15% of sell) added into WA and CAT Tax",
+"locked": false
+},
+"E69": {
+"v": "Cost Leveler & Add/Deduct",
+"locked": true,
+"nf": "0.00"
+},
+"H69": {
+"f": "=(ROUNDUP(SUM(H63:H68)/5,0)*5)-SUM(H63:H68)+I69",
+"v": 2.45200209133327,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J69": {
+"v": " ",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"E70": {
+"v": "Total Bid  \u2212\u2212\u2192",
+"locked": true,
+"nf": "0.00"
+},
+"H70": {
+"f": "=SUM(H63:H69)",
+"v": 4614770,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J70": {
+"v": " ",
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"N70": {
+"v": 4614770,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"O70": {
+"v": "2026-06-04T08:46:46",
+"locked": true,
+"nf": "[$-409]m/d/yy\\ h:mm\\ AM/PM;@"
+},
+"P70": {
+"f": "=Info_Total_Bid-Info_Total_Bid_Stored",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"D73": {
+"v": "Project General Conditions/Indirect Costs",
+"locked": true
+},
+"A75": {
+"v": "Phase Codes",
+"locked": true
+},
+"B76": {
+"v": "Description",
+"locked": true
+},
+"E76": {
+"v": "QUAN/DUR",
+"locked": true
+},
+"F76": {
+"v": "QUAN/DUR",
+"locked": true
+},
+"G76": {
+"v": "RATE",
+"locked": true
+},
+"H76": {
+"v": "AMOUNT",
+"locked": true
+},
+"I76": {
+"v": "PERMITS",
+"locked": true
+},
+"L76": {
+"v": "Notes",
+"locked": true
+},
+"A77": {
+"v": "1-17",
+"locked": true,
+"nf": "@"
+},
+"B77": {
+"v": "Permits",
+"locked": true
+},
+"I77": {
+"v": "Plumbing",
+"locked": false
+},
+"J77": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0.00"
+},
+"A78": {
+"v": "1-10",
+"locked": true,
+"nf": "@"
+},
+"B78": {
+"v": "Safety Supplies (Percentage of Materials)",
+"locked": true
+},
+"G78": {
+"v": 0.002,
+"locked": false,
+"nf": "0%"
+},
+"H78": {
+"f": "=ROUND(J31*G78,2)",
+"v": 4198.13,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"I78": {
+"v": "HVAC",
+"locked": false
+},
+"J78": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0.00"
+},
+"A79": {
+"v": "1-15",
+"locked": true,
+"nf": "@"
+},
+"B79": {
+"v": "Small Tools and Consumeables (% of Straight Field Labor)",
+"locked": true
+},
+"G79": {
+"v": 0.03,
+"locked": false,
+"nf": "0%"
+},
+"H79": {
+"f": "=ROUND(I25*G79,2)",
+"v": 37290.78,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"I79": {
+"v": "Med Gas",
+"locked": false
+},
+"J79": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0.00"
+},
+"A80": {
+"v": "1-24",
+"locked": true,
+"nf": "@"
+},
+"B80": {
+"v": "Third Party Freight (% of Total Labor)",
+"locked": true
+},
+"G80": {
+"v": 0,
+"locked": false,
+"nf": "0%"
+},
+"H80": {
+"f": "=ROUND(J27*G80,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"I80": {
+"v": "Boiler",
+"locked": false
+},
+"J80": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0.00"
+},
+"A81": {
+"v": "1-06",
+"locked": true,
+"nf": "@"
+},
+"B81": {
+"v": "Trucking Hrs / #Loads / $ per hr",
+"locked": true
+},
+"G81": {
+"f": "='Crew Mix'!I16",
+"v": 82.88,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"H81": {
+"f": "=ROUND(Trucking_Loads*Trucking_Hrs*Trucking_Rate,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"I81": {
+"v": "Special Insp",
+"locked": false
+},
+"J81": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0.00"
+},
+"A82": {
+"v": "1-14",
+"locked": true,
+"nf": "@"
+},
+"B82": {
+"v": "Temporary Power",
+"locked": true
+},
+"G82": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H82": {
+"f": "=ROUND(F82*G82,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"I82": {
+"v": "Permit Calculator",
+"locked": true
+},
+"J82": {
+"f": "=Permits!S1",
+"v": 89211.43000000001,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"A83": {
+"v": "1-14",
+"locked": true,
+"nf": "@"
+},
+"B83": {
+"v": "Temporary Water",
+"locked": true
+},
+"G83": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H83": {
+"f": "=ROUND(F83*G83,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"I83": {
+"v": "Total Permits",
+"locked": true
+},
+"J83": {
+"f": "=SUM(J77:J82)",
+"v": 89211.43000000001,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"A84": {
+"v": "1-26",
+"locked": true,
+"nf": "@"
+},
+"B84": {
+"v": "Telephones and Fax",
+"locked": true
+},
+"G84": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H84": {
+"f": "=ROUND(F84*G84,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A85": {
+"v": "1-10",
+"locked": true,
+"nf": "@"
+},
+"B85": {
+"v": "Job Safety Supplies",
+"locked": true
+},
+"G85": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H85": {
+"f": "=ROUND(F85*G85,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A86": {
+"v": "1-19",
+"locked": true,
+"nf": "@"
+},
+"B86": {
+"v": "Job Truck",
+"locked": true
+},
+"G86": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H86": {
+"f": "=ROUND(F86*G86,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A87": {
+"v": "1-28",
+"locked": true,
+"nf": "@"
+},
+"B87": {
+"v": "Fuel",
+"locked": true
+},
+"G87": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H87": {
+"f": "=ROUND(F87*G87,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A88": {
+"v": "1-25",
+"locked": true,
+"nf": "@"
+},
+"B88": {
+"v": "Parking",
+"locked": true
+},
+"G88": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H88": {
+"f": "=ROUND(F88*G88,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A89": {
+"v": "1-11",
+"locked": true,
+"nf": "@"
+},
+"B89": {
+"v": "Site Office - Trailer",
+"locked": true
+},
+"G89": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H89": {
+"f": "=ROUND(F89*G89,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A90": {
+"v": "1-12",
+"locked": true,
+"nf": "@"
+},
+"B90": {
+"v": "Site Storage Facility",
+"locked": true
+},
+"G90": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H90": {
+"f": "=ROUND(F90*G90,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A91": {
+"v": "1-07",
+"locked": true,
+"nf": "@"
+},
+"B91": {
+"v": "Miscellaneous",
+"locked": true
+},
+"G91": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H91": {
+"f": "=ROUND(F91*G91,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A92": {
+"v": "1-25",
+"locked": true,
+"nf": "@"
+},
+"B92": {
+"v": "Subsistence - Arch",
+"locked": true
+},
+"G92": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H92": {
+"f": "=ROUND(F92*G92,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A93": {
+"v": "1-25",
+"locked": true,
+"nf": "@"
+},
+"B93": {
+"v": "Subsistence - Service",
+"locked": true
+},
+"G93": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H93": {
+"f": "=ROUND(F93*G93,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A94": {
+"v": "1-25",
+"locked": true,
+"nf": "@"
+},
+"B94": {
+"v": "Subsistence - Sheet Metal",
+"locked": true
+},
+"G94": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H94": {
+"f": "=ROUND(F94*G94,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A95": {
+"v": "1-25",
+"locked": true,
+"nf": "@"
+},
+"B95": {
+"v": "Subsistence - PM/Admin",
+"locked": true
+},
+"G95": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H95": {
+"f": "=ROUND(F95*G95,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A96": {
+"v": "1-02",
+"locked": true,
+"nf": "@"
+},
+"B96": {
+"v": "Administrative Assistance",
+"locked": true
+},
+"G96": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H96": {
+"f": "=ROUND(F96*G96,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A97": {
+"v": "3-11",
+"locked": true,
+"nf": "@"
+},
+"B97": {
+"v": "Job Orientation - Sheet Metal Field",
+"locked": true
+},
+"G97": {
+"f": "='Crew Mix'!I14",
+"v": 105.06,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"H97": {
+"f": "=ROUND(F97*G97,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A98": {
+"v": "1-01",
+"locked": true,
+"nf": "@"
+},
+"B98": {
+"v": "Assistant PM",
+"locked": true
+},
+"G98": {
+"f": "='Crew Mix'!I19",
+"v": 56.03,
+"locked": false,
+"nf": "\"$\"#,##0.00"
+},
+"H98": {
+"f": "=ROUND(F98*G98,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A99": {
+"v": "1-21",
+"locked": true,
+"nf": "@"
+},
+"B99": {
+"v": "Third Party Testing",
+"locked": true
+},
+"G99": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H99": {
+"f": "=ROUND(F99*G99,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A100": {
+"v": "1-05",
+"locked": true,
+"nf": "@"
+},
+"B100": {
+"v": "Laborer- or Non Bargaining (Cleanup Crew)",
+"locked": true
+},
+"G100": {
+"f": "='Crew Mix'!I19",
+"v": 56.03,
+"locked": false,
+"nf": "\"$\"#,##0.00"
+},
+"H100": {
+"f": "=ROUND(F100*G100,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A101": {
+"f": "=IF(B101=\"\",\"\",\"1-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B101,Codes_GC,0),1))",
+"v": "1-10",
+"locked": true,
+"nf": "@"
+},
+"B101": {
+"v": "Safety Supplies",
+"locked": false
+},
+"G101": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H101": {
+"f": "=ROUND(F101*G101,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A102": {
+"f": "=IF(B102=\"\",\"\",\"1-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B102,Codes_GC,0),1))",
+"v": "1-03",
+"locked": true,
+"nf": "@"
+},
+"B102": {
+"v": "CAD Operator",
+"locked": true
+},
+"F102": {
+"f": "=D102*E102",
+"v": 0,
+"locked": true,
+"nf": "0.0"
+},
+"G102": {
+"f": "='Crew Mix'!I12",
+"v": 118.71,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"H102": {
+"f": "=ROUND(F102*G102,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A103": {
+"f": "=IF(B103=\"\",\"\",\"1-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B103,Codes_GC,0),1))",
+"v": null,
+"locked": true,
+"nf": "@"
+},
+"G103": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H103": {
+"f": "=ROUND(F103*G103,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A104": {
+"f": "=IF(B104=\"\",\"\",\"1-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B104,Codes_GC,0),1))",
+"v": null,
+"locked": true,
+"nf": "@"
+},
+"G104": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H104": {
+"f": "=ROUND(F104*G104,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A105": {
+"f": "=IF(B105=\"\",\"\",\"1-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B105,Codes_GC,0),1))",
+"v": null,
+"locked": true,
+"nf": "@"
+},
+"G105": {
+"v": 0,
+"locked": false,
+"nf": "\"$\"#,##0_);\\(\"$\"#,##0\\)"
+},
+"H105": {
+"f": "=ROUND(F105*G105,2)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"A106": {
+"v": "1-22",
+"locked": true,
+"nf": "@"
+},
+"B106": {
+"v": "Miscellaneous (% of Takeoff Labor & Material $'s)",
+"locked": true
+},
+"G106": {
+"v": 0.04,
+"locked": false,
+"nf": "0%"
+},
+"H106": {
+"f": "=ROUND(G106*(J27+J31),2)",
+"v": 133683.66,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"L106": {
+"v": "% of all material and labor costs excluding supervision",
+"locked": false
+},
+"F107": {
+"v": "TOTAL GCs  \u2212\u2212\u2192",
+"locked": true,
+"nf": "0.0"
+},
+"H107": {
+"f": "=SUM(H78:H106)",
+"v": 175172.57,
+"locked": true,
+"nf": "\"$\"#,##0.00_);\\(\"$\"#,##0.00\\)"
+},
+"D110": {
+"v": "Equipment Rentals",
+"locked": true
+},
+"A112": {
+"v": "Phase Codes",
+"locked": true
+},
+"B113": {
+"v": "Description",
+"locked": true
+},
+"G113": {
+"v": "Quantity",
+"locked": true
+},
+"H113": {
+"v": "Duration",
+"locked": true
+},
+"I113": {
+"v": "Rate per Qty",
+"locked": true
+},
+"J113": {
+"v": "Total",
+"locked": true
+},
+"L113": {
+"v": "Notes",
+"locked": true
+},
+"A114": {
+"v": "7-15",
+"locked": true,
+"nf": "@"
+},
+"B114": {
+"v": "Crane/Hoist",
+"locked": true
+},
+"I114": {
+"v": 250,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J114": {
+"f": "=ROUND(SUM(G114*H114*I114),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A115": {
+"v": "7-15",
+"locked": true,
+"nf": "@"
+},
+"B115": {
+"v": "Crane Mobilization - Demobilization and Setup",
+"locked": true
+},
+"I115": {
+"v": 1000,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J115": {
+"f": "=ROUND(SUM(G115*H115*I115),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A116": {
+"v": "1-19",
+"locked": true,
+"nf": "@"
+},
+"B116": {
+"v": "Scissor Lift - Large (Rough Terrain Under 33')",
+"locked": true
+},
+"I116": {
+"v": 1200,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J116": {
+"f": "=ROUND(SUM(G116*H116*I116),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A117": {
+"v": "1-19",
+"locked": true,
+"nf": "@"
+},
+"B117": {
+"v": "Scissor Lift - Small (Under 26')",
+"locked": true
+},
+"I117": {
+"v": 600,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J117": {
+"f": "=ROUND(SUM(G117*H117*I117),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A118": {
+"v": "1-19",
+"locked": true,
+"nf": "@"
+},
+"B118": {
+"v": "Boom Truck",
+"locked": true
+},
+"I118": {
+"v": 0,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J118": {
+"f": "=ROUND(SUM(G118*H118*I118),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A119": {
+"v": "1-19",
+"locked": true,
+"nf": "@"
+},
+"B119": {
+"v": "Articulating Boom - Snorkel (Under 40' Reach)",
+"locked": true
+},
+"I119": {
+"v": 1550,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J119": {
+"f": "=ROUND(SUM(G119*H119*I119),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A120": {
+"v": "1-19",
+"locked": true,
+"nf": "@"
+},
+"B120": {
+"v": "Forklift  - Large, Gradall (5.5K 19' Reach)",
+"locked": true
+},
+"I120": {
+"v": 1750,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J120": {
+"f": "=ROUND(SUM(G120*H120*I120),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A121": {
+"v": "1-19",
+"locked": true,
+"nf": "@"
+},
+"B121": {
+"v": "Forklift - Small (5K Wharehouse Style)",
+"locked": true
+},
+"I121": {
+"v": 1000,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J121": {
+"f": "=ROUND(SUM(G121*H121*I121),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A122": {
+"v": "1-19",
+"locked": true,
+"nf": "@"
+},
+"B122": {
+"v": "Genie Lift",
+"locked": true
+},
+"I122": {
+"v": 0,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J122": {
+"f": "=ROUND(SUM(G122*H122*I122),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A123": {
+"v": "1-19",
+"locked": true,
+"nf": "@"
+},
+"B123": {
+"v": "Weld Machine Electric",
+"locked": true
+},
+"I123": {
+"v": 0,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J123": {
+"f": "=ROUND(SUM(G123*H123*I123),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A124": {
+"v": "1-19",
+"locked": true,
+"nf": "@"
+},
+"B124": {
+"v": "Weld Machine Gas",
+"locked": true
+},
+"I124": {
+"v": 0,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J124": {
+"f": "=ROUND(SUM(G124*H124*I124),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A125": {
+"v": "1-19",
+"locked": true,
+"nf": "@"
+},
+"B125": {
+"v": "Scaffold",
+"locked": true
+},
+"I125": {
+"v": 0,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J125": {
+"f": "=ROUND(SUM(G125*H125*I125),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A126": {
+"v": "8-24",
+"locked": true,
+"nf": "@"
+},
+"B126": {
+"v": "Arch Specialty Rental Equipment",
+"locked": true
+},
+"J126": {
+"f": "=ROUND(SUM(G126*H126*I126),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A127": {
+"f": "=IF(B127=\"\",\"\",\"7-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B127,Codes_Subcontractor,0),1))",
+"v": null,
+"locked": true,
+"nf": "@"
+},
+"I127": {
+"v": 0,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J127": {
+"f": "=ROUND(SUM(G127*H127*I127),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A128": {
+"f": "=IF(B128=\"\",\"\",\"7-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B128,Codes_Subcontractor,0),1))",
+"v": null,
+"locked": true,
+"nf": "@"
+},
+"I128": {
+"v": 0,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J128": {
+"f": "=ROUND(SUM(G128*H128*I128),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"A129": {
+"f": "=IF(B129=\"\",\"\",\"7-\" & INDEX('Phase Codes'!$A$4:$H$102,MATCH(B129,Codes_Subcontractor,0),1))",
+"v": null,
+"locked": true,
+"nf": "@"
+},
+"I129": {
+"v": 0,
+"locked": false,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"J129": {
+"f": "=ROUND(SUM(G129*H129*I129),2)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+},
+"G130": {
+"v": "Total Equipment Rental and Third Party  \u2212\u2212\u2192",
+"locked": true
+},
+"J130": {
+"f": "=SUM(J114:J129)",
+"v": 0,
+"locked": true,
+"nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+}
+}
+}

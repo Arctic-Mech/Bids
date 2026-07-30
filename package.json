@@ -1,0 +1,13 @@
+{
+  "name": "arctic-bid-tool",
+  "private": true,
+  "description": "Single-file bid estimating app that replaces the Arctic Sheet Metal estimate workbook. The app has no runtime dependencies; Playwright is only for the tests.",
+  "scripts": {
+    "build": "python3 build.py",
+    "verify": "./verify.sh",
+    "verify:quick": "./verify.sh --quick"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}

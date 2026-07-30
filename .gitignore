@@ -1,0 +1,13 @@
+build/
+node_modules/
+__pycache__/
+*.pyc
+
+# ---- NOT in this repository, on purpose ----
+# This repo is public. The rate tables and the estimate workbook are Arctic's
+# own commercial data, so they are kept in the company file on the Arctic
+# network instead. index.html builds fine without them; the tests need them.
+# See DEVELOPING.md, "The two files that are not in this repository".
+src/company_data.json
+src/workbook.xlsm
+*.arctic

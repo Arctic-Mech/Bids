@@ -1,0 +1,1380 @@
+{
+ "_source": "Extracted programmatically from extract/MCAA_RECAP.json (cached workbook values).",
+ "sheet": "MCAA RECAP",
+ "dropdowns": {
+  "scheduleType": {
+   "cell": "C17",
+   "options": [
+    "5 8's",
+    "5 10's",
+    "6 10's",
+    "60 60 50"
+   ],
+   "default": "5 8's"
+  },
+  "ocipToggle": {
+   "cell": "B26",
+   "options": [
+    "No OCIP",
+    "OCIP",
+    "OCIP GL Only"
+   ],
+   "default": "No OCIP"
+  },
+  "bondRequired": {
+   "cell": "A66",
+   "options": [
+    "No",
+    "Yes"
+   ],
+   "default": "No"
+  },
+  "catTax": {
+   "cell": "E68",
+   "options": [
+    "Oregon CAT Tax",
+    "Washington B&O Tax",
+    "No Tax"
+   ],
+   "default": "Oregon CAT Tax"
+  },
+  "quotePlug": {
+   "cells": "I36:I44",
+   "options": [
+    "Quote",
+    "Plug"
+   ],
+   "sourceCells": "H34:H35 (hidden rows 34-35)"
+  },
+  "projectType": {
+   "cell": "N5",
+   "options_source": "named range Type_Of_Work = 'Booking Report'!R1:R15",
+   "default": "Commercial"
+  },
+  "subcontractorCodes_source": "named range Codes_Subcontractor = 'Phase Codes'!H4:H102 (applies B37:D44, B127:F129)",
+  "gcCodes_source": "named range Codes_GC = 'Phase Codes'!B4:B102 (applies B101, B103:B105)"
+ },
+ "schedule": {
+  "types": [
+   "5 8's",
+   "5 10's",
+   "6 10's",
+   "60 60 50"
+  ],
+  "lopFactors": {
+   "5 8's": {
+    "cell": "O21",
+    "value": 0,
+    "locked": false
+   },
+   "5 10's": {
+    "cell": "O22",
+    "value": 0.15,
+    "locked": true
+   },
+   "6 10's": {
+    "cell": "O23",
+    "value": 0.25,
+    "locked": true
+   },
+   "60 60 50": {
+    "cell": "O24",
+    "value": 0.25,
+    "locked": true
+   }
+  },
+  "lopFactorDefaults_pct": {
+   "5 8's": 0,
+   "5 10's": 15,
+   "6 10's": 25,
+   "60 60 50": 25
+  },
+  "blendWeights": {
+   "5 8's": {
+    "straight": 1,
+    "overtime": 0,
+    "divisor": 1
+   },
+   "5 10's": {
+    "straight": 4,
+    "overtime": 1,
+    "divisor": 5
+   },
+   "6 10's": {
+    "straight": 4,
+    "overtime": 2,
+    "divisor": 6
+   },
+   "60 60 50": {
+    "straight": 12,
+    "overtime": 5,
+    "divisor": 17
+   }
+  }
+ },
+ "laborModifiers": {
+  "rows": [
+   {
+    "row": 12,
+    "label": "Detailing",
+    "phaseCodeNote": "1-03/2-05",
+    "plumbPct": {
+     "cell": "B12",
+     "default": 0.12
+    },
+    "pipePct": {
+     "cell": "C12",
+     "default": 0.1
+    },
+    "smFieldPct": {
+     "cell": "D12",
+     "default": 0.12
+    },
+    "smShopPct": {
+     "cell": "I12",
+     "default": 0.08
+    }
+   },
+   {
+    "row": 13,
+    "label": "Testing",
+    "phaseCodeNote": "8-16 / 10",
+    "plumbPct": {
+     "cell": "B13",
+     "default": 0.04
+    },
+    "pipePct": {
+     "cell": "C13",
+     "default": 0.06
+    },
+    "smFieldPct": {
+     "cell": "D13",
+     "default": 0.01
+    },
+    "smShopPct": {
+     "cell": "I13",
+     "default": 0
+    }
+   },
+   {
+    "row": 14,
+    "label": "Safety",
+    "phaseCodeNote": "2/3-09",
+    "plumbPct": {
+     "cell": "B14",
+     "default": 0.02
+    },
+    "pipePct": {
+     "cell": "C14",
+     "default": 0.02
+    },
+    "smFieldPct": {
+     "cell": "D14",
+     "default": 0.02
+    },
+    "smShopPct": {
+     "cell": "I14",
+     "default": 0
+    }
+   },
+   {
+    "row": 15,
+    "label": "QC",
+    "phaseCodeNote": 4,
+    "plumbPct": {
+     "cell": "B15",
+     "default": 0
+    },
+    "pipePct": {
+     "cell": "C15",
+     "default": 0
+    },
+    "smFieldPct": {
+     "cell": "D15",
+     "default": 0
+    },
+    "smShopPct": {
+     "cell": "I15",
+     "default": 0
+    }
+   },
+   {
+    "row": 16,
+    "label": "Material Handling",
+    "phaseCodeNote": 6,
+    "plumbPct": {
+     "cell": "B16",
+     "default": 0.1
+    },
+    "pipePct": {
+     "cell": "C16",
+     "default": 0.08
+    },
+    "smFieldPct": {
+     "cell": "D16",
+     "default": 0.1
+    },
+    "smShopPct": {
+     "cell": "I16",
+     "default": 0
+    }
+   }
+  ],
+  "shopColumn": {
+   "cells": "I12:I17",
+   "values": [
+    0.08,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "defaults": {
+   "plumb_R12_R16": [
+    0.16,
+    0.04,
+    0.02,
+    0.05,
+    0.1
+   ],
+   "pipe_S12_S16": [
+    0.16,
+    0.09,
+    0.02,
+    0.05,
+    0.1
+   ],
+   "sm_T12_T16": [
+    0.16,
+    0.01,
+    0.02,
+    0,
+    0.1
+   ]
+  },
+  "lopRow": {
+   "row": 17,
+   "label": "Loss of Production",
+   "phaseCodeNote": "1-22",
+   "smShopPct": {
+    "cell": "I17",
+    "default": 0
+   }
+  }
+ },
+ "supervision": {
+  "rows": [
+   {
+    "row": 48,
+    "phaseCode": "1-01",
+    "label": "Project Manager ",
+    "pctOfLabor": {
+     "cell": "E48",
+     "default": 0.1
+    },
+    "hoursBasis": "SUM(E18:H18)",
+    "rateSource": "'Crew Mix'!I12",
+    "rateCached": 118.71,
+    "amountRounding": "ROUNDUP(hours*rate,2)"
+   },
+   {
+    "row": 49,
+    "phaseCode": "5-01",
+    "label": "Plumb Field Supervision (NW)",
+    "pctOfLabor": {
+     "cell": "E49",
+     "default": 0.1
+    },
+    "hoursBasis": "E18",
+    "rateSource": "'Crew Mix'!I138",
+    "rateCached": 142.32,
+    "amountRounding": "ROUNDUP(hours*rate,2)"
+   },
+   {
+    "row": 50,
+    "phaseCode": "6-01",
+    "label": "Pipe Field Supervision (NW)",
+    "pctOfLabor": {
+     "cell": "E50",
+     "default": 0.08
+    },
+    "hoursBasis": "F18",
+    "rateSource": "'Crew Mix'!I138",
+    "rateCached": 142.32,
+    "amountRounding": "ROUNDUP(hours*rate,2)"
+   },
+   {
+    "row": 51,
+    "phaseCode": "8-01",
+    "label": "Arch Field Supervision (NW)",
+    "pctOfLabor": {
+     "cell": "E51",
+     "default": 0
+    },
+    "hoursBasis": "G18",
+    "rateSource": "'Crew Mix'!I13",
+    "rateCached": 115.29,
+    "amountRounding": "ROUNDUP(hours*rate,2)"
+   },
+   {
+    "row": 52,
+    "phaseCode": "3-01",
+    "label": "Sheetmetal Field Supervision (NW)",
+    "pctOfLabor": {
+     "cell": "E52",
+     "default": 0.1
+    },
+    "hoursBasis": "G18",
+    "rateSource": "'Crew Mix'!I13",
+    "rateCached": 115.29,
+    "amountRounding": "no rounding (F52*G52)"
+   }
+  ],
+  "defaults_N48_N52": [
+   0.1,
+   0.15,
+   0.15,
+   0,
+   0.15
+  ]
+ },
+ "markups": {
+  "subcontractorMarkup": {
+   "cell": "G60",
+   "default": 0.1,
+   "unlocked": true
+  },
+  "equipmentMarkup": {
+   "cell": "G61",
+   "default": 0.1,
+   "unlocked": true,
+   "note": "read by EMO sheet"
+  },
+  "overheadAndProfit": {
+   "cell": "G62",
+   "default": 0.24,
+   "unlocked": true,
+   "note": "read by EMO sheet"
+  }
+ },
+ "taxRates": {
+  "oregonCAT": 0.004,
+  "washingtonBO": 0.00484,
+  "noTax": 0.0,
+  "multnomahCountyAdder": 0.0015,
+  "formulaCell": "I68"
+ },
+ "gcRows": [
+  {
+   "row": 77,
+   "phaseCode": "1-17",
+   "phaseCodeFormula": false,
+   "label": "Permits",
+   "labelUnlocked": false,
+   "rate": null,
+   "quanDur": null,
+   "calc": {
+    "mode": "permits",
+    "formula": "H67 pulls J83; row 77 itself has no H amount"
+   }
+  },
+  {
+   "row": 78,
+   "phaseCode": "1-10",
+   "phaseCodeFormula": false,
+   "label": "Safety Supplies (Percentage of Materials)",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G78",
+    "default": 0.002,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F78",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "pctOfMaterials",
+    "pctCell": "G78",
+    "formula": "ROUND(J31*G78,2)"
+   }
+  },
+  {
+   "row": 79,
+   "phaseCode": "1-15",
+   "phaseCodeFormula": false,
+   "label": "Small Tools and Consumeables (% of Straight Field Labor)",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G79",
+    "default": 0.03,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F79",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "pctOfStraightFieldLabor",
+    "pctCell": "G79",
+    "formula": "ROUND(I25*G79,2)"
+   }
+  },
+  {
+   "row": 80,
+   "phaseCode": "1-24",
+   "phaseCodeFormula": false,
+   "label": "Third Party Freight (% of Total Labor)",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G80",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F80",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "pctOfTotalLabor",
+    "pctCell": "G80",
+    "formula": "ROUND(J27*G80,2)"
+   }
+  },
+  {
+   "row": 81,
+   "phaseCode": "1-06",
+   "phaseCodeFormula": false,
+   "label": "Trucking Hrs / #Loads / $ per hr",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G81",
+    "default": 82.88,
+    "unlocked": true,
+    "sourceFormula": "='Crew Mix'!I16"
+   },
+   "quanDur": {
+    "cell": "F81",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "trucking",
+    "formula": "ROUND(F81*E81*G81,2)  [Loads*Hrs*Rate]"
+   }
+  },
+  {
+   "row": 82,
+   "phaseCode": "1-14",
+   "phaseCodeFormula": false,
+   "label": "Temporary Power",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G82",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F82",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F82*G82,2)"
+   }
+  },
+  {
+   "row": 83,
+   "phaseCode": "1-14",
+   "phaseCodeFormula": false,
+   "label": "Temporary Water",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G83",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F83",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F83*G83,2)"
+   }
+  },
+  {
+   "row": 84,
+   "phaseCode": "1-26",
+   "phaseCodeFormula": false,
+   "label": "Telephones and Fax",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G84",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F84",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F84*G84,2)"
+   }
+  },
+  {
+   "row": 85,
+   "phaseCode": "1-10",
+   "phaseCodeFormula": false,
+   "label": "Job Safety Supplies",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G85",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F85",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F85*G85,2)"
+   }
+  },
+  {
+   "row": 86,
+   "phaseCode": "1-19",
+   "phaseCodeFormula": false,
+   "label": "Job Truck",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G86",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F86",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F86*G86,2)"
+   }
+  },
+  {
+   "row": 87,
+   "phaseCode": "1-28",
+   "phaseCodeFormula": false,
+   "label": "Fuel",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G87",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F87",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F87*G87,2)"
+   }
+  },
+  {
+   "row": 88,
+   "phaseCode": "1-25",
+   "phaseCodeFormula": false,
+   "label": "Parking",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G88",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F88",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F88*G88,2)"
+   }
+  },
+  {
+   "row": 89,
+   "phaseCode": "1-11",
+   "phaseCodeFormula": false,
+   "label": "Site Office - Trailer",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G89",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F89",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F89*G89,2)"
+   }
+  },
+  {
+   "row": 90,
+   "phaseCode": "1-12",
+   "phaseCodeFormula": false,
+   "label": "Site Storage Facility",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G90",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F90",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F90*G90,2)"
+   }
+  },
+  {
+   "row": 91,
+   "phaseCode": "1-07",
+   "phaseCodeFormula": false,
+   "label": "Miscellaneous",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G91",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F91",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F91*G91,2)"
+   }
+  },
+  {
+   "row": 92,
+   "phaseCode": "1-25",
+   "phaseCodeFormula": false,
+   "label": "Subsistence - Arch",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G92",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F92",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F92*G92,2)"
+   }
+  },
+  {
+   "row": 93,
+   "phaseCode": "1-25",
+   "phaseCodeFormula": false,
+   "label": "Subsistence - Service",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G93",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F93",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F93*G93,2)"
+   }
+  },
+  {
+   "row": 94,
+   "phaseCode": "1-25",
+   "phaseCodeFormula": false,
+   "label": "Subsistence - Sheet Metal",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G94",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F94",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F94*G94,2)"
+   }
+  },
+  {
+   "row": 95,
+   "phaseCode": "1-25",
+   "phaseCodeFormula": false,
+   "label": "Subsistence - PM/Admin",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G95",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F95",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F95*G95,2)"
+   }
+  },
+  {
+   "row": 96,
+   "phaseCode": "1-02",
+   "phaseCodeFormula": false,
+   "label": "Administrative Assistance",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G96",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F96",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F96*G96,2)"
+   }
+  },
+  {
+   "row": 97,
+   "phaseCode": "3-11",
+   "phaseCodeFormula": false,
+   "label": "Job Orientation - Sheet Metal Field",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G97",
+    "default": 105.06,
+    "unlocked": false,
+    "sourceFormula": "='Crew Mix'!I14"
+   },
+   "quanDur": {
+    "cell": "F97",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F97*G97,2)"
+   }
+  },
+  {
+   "row": 98,
+   "phaseCode": "1-01",
+   "phaseCodeFormula": false,
+   "label": "Assistant PM",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G98",
+    "default": 56.03,
+    "unlocked": true,
+    "sourceFormula": "='Crew Mix'!I19"
+   },
+   "quanDur": {
+    "cell": "F98",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F98*G98,2)"
+   }
+  },
+  {
+   "row": 99,
+   "phaseCode": "1-21",
+   "phaseCodeFormula": false,
+   "label": "Third Party Testing",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G99",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F99",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F99*G99,2)"
+   }
+  },
+  {
+   "row": 100,
+   "phaseCode": "1-05",
+   "phaseCodeFormula": false,
+   "label": "Laborer- or Non Bargaining (Cleanup Crew)",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G100",
+    "default": 56.03,
+    "unlocked": true,
+    "sourceFormula": "='Crew Mix'!I19"
+   },
+   "quanDur": {
+    "cell": "F100",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F100*G100,2)"
+   }
+  },
+  {
+   "row": 101,
+   "phaseCode": "1-10",
+   "phaseCodeFormula": true,
+   "label": "Safety Supplies",
+   "labelUnlocked": true,
+   "rate": {
+    "cell": "G101",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F101",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F101*G101,2)"
+   }
+  },
+  {
+   "row": 102,
+   "phaseCode": "1-03",
+   "phaseCodeFormula": true,
+   "label": "CAD Operator",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G102",
+    "default": 118.71,
+    "unlocked": true,
+    "sourceFormula": "='Crew Mix'!I12"
+   },
+   "quanDur": {
+    "cell": "F102",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyDurRate",
+    "formula": "F102=D102*E102; H102=ROUND(F102*G102,2)"
+   }
+  },
+  {
+   "row": 103,
+   "phaseCode": null,
+   "phaseCodeFormula": true,
+   "label": null,
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G103",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F103",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F103*G103,2)"
+   }
+  },
+  {
+   "row": 104,
+   "phaseCode": null,
+   "phaseCodeFormula": true,
+   "label": null,
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G104",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F104",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F104*G104,2)"
+   }
+  },
+  {
+   "row": 105,
+   "phaseCode": null,
+   "phaseCodeFormula": true,
+   "label": null,
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G105",
+    "default": 0,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F105",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "qtyTimesRate",
+    "formula": "ROUND(F105*G105,2)"
+   }
+  },
+  {
+   "row": 106,
+   "phaseCode": "1-22",
+   "phaseCodeFormula": false,
+   "label": "Miscellaneous (% of Takeoff Labor & Material $'s)",
+   "labelUnlocked": false,
+   "rate": {
+    "cell": "G106",
+    "default": 0.04,
+    "unlocked": true,
+    "sourceFormula": null
+   },
+   "quanDur": {
+    "cell": "F106",
+    "note": "user qty x duration input (empty by default)"
+   },
+   "calc": {
+    "mode": "pctOfLaborAndMaterial",
+    "pctCell": "G106",
+    "formula": "ROUND(G106*(J27+J31),2)"
+   }
+  }
+ ],
+ "permits": {
+  "rows": [
+   {
+    "label": "Plumbing",
+    "labelCell": "I77",
+    "amountCell": "J77",
+    "amount": 0
+   },
+   {
+    "label": "HVAC",
+    "labelCell": "I78",
+    "amountCell": "J78",
+    "amount": 0
+   },
+   {
+    "label": "Med Gas",
+    "labelCell": "I79",
+    "amountCell": "J79",
+    "amount": 0
+   },
+   {
+    "label": "Boiler",
+    "labelCell": "I80",
+    "amountCell": "J80",
+    "amount": 0
+   },
+   {
+    "label": "Special Insp",
+    "labelCell": "I81",
+    "amountCell": "J81",
+    "amount": 0
+   }
+  ],
+  "calculatorRow": {
+   "label": "Permit Calculator",
+   "cell": "J82",
+   "formula": "=Permits!S1"
+  },
+  "totalCell": "J83"
+ },
+ "equipmentRows": [
+  {
+   "row": 114,
+   "phaseCode": "7-15",
+   "phaseCodeFormula": false,
+   "label": "Crane/Hoist",
+   "quantityCell": "G114",
+   "durationCell": "H114",
+   "ratePerQty": {
+    "cell": "I114",
+    "default": 250,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G114*H114*I114,2)"
+  },
+  {
+   "row": 115,
+   "phaseCode": "7-15",
+   "phaseCodeFormula": false,
+   "label": "Crane Mobilization - Demobilization and Setup",
+   "quantityCell": "G115",
+   "durationCell": "H115",
+   "ratePerQty": {
+    "cell": "I115",
+    "default": 1000,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G115*H115*I115,2)"
+  },
+  {
+   "row": 116,
+   "phaseCode": "1-19",
+   "phaseCodeFormula": false,
+   "label": "Scissor Lift - Large (Rough Terrain Under 33')",
+   "quantityCell": "G116",
+   "durationCell": "H116",
+   "ratePerQty": {
+    "cell": "I116",
+    "default": 1200,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G116*H116*I116,2)"
+  },
+  {
+   "row": 117,
+   "phaseCode": "1-19",
+   "phaseCodeFormula": false,
+   "label": "Scissor Lift - Small (Under 26')",
+   "quantityCell": "G117",
+   "durationCell": "H117",
+   "ratePerQty": {
+    "cell": "I117",
+    "default": 600,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G117*H117*I117,2)"
+  },
+  {
+   "row": 118,
+   "phaseCode": "1-19",
+   "phaseCodeFormula": false,
+   "label": "Boom Truck",
+   "quantityCell": "G118",
+   "durationCell": "H118",
+   "ratePerQty": {
+    "cell": "I118",
+    "default": 0,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G118*H118*I118,2)"
+  },
+  {
+   "row": 119,
+   "phaseCode": "1-19",
+   "phaseCodeFormula": false,
+   "label": "Articulating Boom - Snorkel (Under 40' Reach)",
+   "quantityCell": "G119",
+   "durationCell": "H119",
+   "ratePerQty": {
+    "cell": "I119",
+    "default": 1550,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G119*H119*I119,2)"
+  },
+  {
+   "row": 120,
+   "phaseCode": "1-19",
+   "phaseCodeFormula": false,
+   "label": "Forklift  - Large, Gradall (5.5K 19' Reach)",
+   "quantityCell": "G120",
+   "durationCell": "H120",
+   "ratePerQty": {
+    "cell": "I120",
+    "default": 1750,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G120*H120*I120,2)"
+  },
+  {
+   "row": 121,
+   "phaseCode": "1-19",
+   "phaseCodeFormula": false,
+   "label": "Forklift - Small (5K Wharehouse Style)",
+   "quantityCell": "G121",
+   "durationCell": "H121",
+   "ratePerQty": {
+    "cell": "I121",
+    "default": 1000,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G121*H121*I121,2)"
+  },
+  {
+   "row": 122,
+   "phaseCode": "1-19",
+   "phaseCodeFormula": false,
+   "label": "Genie Lift",
+   "quantityCell": "G122",
+   "durationCell": "H122",
+   "ratePerQty": {
+    "cell": "I122",
+    "default": 0,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G122*H122*I122,2)"
+  },
+  {
+   "row": 123,
+   "phaseCode": "1-19",
+   "phaseCodeFormula": false,
+   "label": "Weld Machine Electric",
+   "quantityCell": "G123",
+   "durationCell": "H123",
+   "ratePerQty": {
+    "cell": "I123",
+    "default": 0,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G123*H123*I123,2)"
+  },
+  {
+   "row": 124,
+   "phaseCode": "1-19",
+   "phaseCodeFormula": false,
+   "label": "Weld Machine Gas",
+   "quantityCell": "G124",
+   "durationCell": "H124",
+   "ratePerQty": {
+    "cell": "I124",
+    "default": 0,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G124*H124*I124,2)"
+  },
+  {
+   "row": 125,
+   "phaseCode": "1-19",
+   "phaseCodeFormula": false,
+   "label": "Scaffold",
+   "quantityCell": "G125",
+   "durationCell": "H125",
+   "ratePerQty": {
+    "cell": "I125",
+    "default": 0,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G125*H125*I125,2)"
+  },
+  {
+   "row": 126,
+   "phaseCode": "8-24",
+   "phaseCodeFormula": false,
+   "label": "Arch Specialty Rental Equipment",
+   "quantityCell": "G126",
+   "durationCell": "H126",
+   "ratePerQty": {
+    "cell": "I126",
+    "default": 0,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G126*H126*I126,2)"
+  },
+  {
+   "row": 127,
+   "phaseCode": null,
+   "phaseCodeFormula": true,
+   "label": null,
+   "quantityCell": "G127",
+   "durationCell": "H127",
+   "ratePerQty": {
+    "cell": "I127",
+    "default": 0,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G127*H127*I127,2)"
+  },
+  {
+   "row": 128,
+   "phaseCode": null,
+   "phaseCodeFormula": true,
+   "label": null,
+   "quantityCell": "G128",
+   "durationCell": "H128",
+   "ratePerQty": {
+    "cell": "I128",
+    "default": 0,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G128*H128*I128,2)"
+  },
+  {
+   "row": 129,
+   "phaseCode": null,
+   "phaseCodeFormula": true,
+   "label": null,
+   "quantityCell": "G129",
+   "durationCell": "H129",
+   "ratePerQty": {
+    "cell": "I129",
+    "default": 0,
+    "unlocked": true
+   },
+   "totalFormula": "ROUND(G129*H129*I129,2)"
+  }
+ ],
+ "subcontractorRows": [
+  {
+   "row": 36,
+   "phaseCode": "7-03",
+   "label": "Ext Insulation     SqFt",
+   "labelLocked": true,
+   "descriptionCells": "E36:H36 (merged)",
+   "quotePlugCell": "I36",
+   "valueCell": "J36"
+  },
+  {
+   "row": 37,
+   "phaseCodeCell": "A37",
+   "phaseCodeCached": "7-01",
+   "tradeCell": "B37",
+   "tradeCached": "Test and Balance",
+   "tradeDropdown": "Codes_Subcontractor",
+   "descriptionCells": "E37:H37 (merged)",
+   "quotePlugCell": "I37",
+   "valueCell": "J37"
+  },
+  {
+   "row": 38,
+   "phaseCodeCell": "A38",
+   "phaseCodeCached": "7-02",
+   "tradeCell": "B38",
+   "tradeCached": "Instrumentation and Control",
+   "tradeDropdown": "Codes_Subcontractor",
+   "descriptionCells": "E38:H38 (merged)",
+   "quotePlugCell": "I38",
+   "valueCell": "J38"
+  },
+  {
+   "row": 39,
+   "phaseCodeCell": "A39",
+   "phaseCodeCached": "7-15",
+   "tradeCell": "B39",
+   "tradeCached": "Crane and Hoisting",
+   "tradeDropdown": "Codes_Subcontractor",
+   "descriptionCells": "E39:H39 (merged)",
+   "quotePlugCell": "I39",
+   "valueCell": "J39"
+  },
+  {
+   "row": 40,
+   "phaseCodeCell": "A40",
+   "phaseCodeCached": "7-07",
+   "tradeCell": "B40",
+   "tradeCached": "Engineering",
+   "tradeDropdown": "Codes_Subcontractor",
+   "descriptionCells": "E40:H40 (merged)",
+   "quotePlugCell": "I40",
+   "valueCell": "J40"
+  },
+  {
+   "row": 41,
+   "phaseCodeCell": "A41",
+   "phaseCodeCached": null,
+   "tradeCell": "B41",
+   "tradeCached": null,
+   "tradeDropdown": "Codes_Subcontractor",
+   "descriptionCells": "E41:H41 (merged)",
+   "quotePlugCell": "I41",
+   "valueCell": "J41"
+  },
+  {
+   "row": 42,
+   "phaseCodeCell": "A42",
+   "phaseCodeCached": null,
+   "tradeCell": "B42",
+   "tradeCached": null,
+   "tradeDropdown": "Codes_Subcontractor",
+   "descriptionCells": "E42:H42 (merged)",
+   "quotePlugCell": "I42",
+   "valueCell": "J42"
+  },
+  {
+   "row": 43,
+   "phaseCodeCell": "A43",
+   "phaseCodeCached": null,
+   "tradeCell": "B43",
+   "tradeCached": null,
+   "tradeDropdown": "Codes_Subcontractor",
+   "descriptionCells": "E43:H43 (merged)",
+   "quotePlugCell": "I43",
+   "valueCell": "J43"
+  },
+  {
+   "row": 44,
+   "phaseCodeCell": "A44",
+   "phaseCodeCached": null,
+   "tradeCell": "B44",
+   "tradeCached": null,
+   "tradeDropdown": "Codes_Subcontractor",
+   "descriptionCells": "E44:H44 (merged)",
+   "quotePlugCell": "I44",
+   "valueCell": "J44"
+  }
+ ],
+ "sampleJobSnapshot": {
+  "bidNumber_B7": "25-800",
+  "jobName_H6": "ENFRA - Columbia Gorge",
+  "projectType_N5": "Commercial",
+  "totalBid_H70": 4614770,
+  "storedTotal_N70": 4614770,
+  "storedTime_O70": "2026-06-04T08:46:46",
+  "totalDirectCosts_H59": null,
+  "legacyCells": {
+   "K25": 1,
+   "K26": 2,
+   "L25": 1,
+   "L26": 2,
+   "P25": "huge",
+   "P26": "ginormous",
+   "K60": 2
+  }
+ }
+}

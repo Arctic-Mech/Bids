@@ -1,0 +1,39 @@
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <div class="logo"><img id="logoImg" alt="Arctic"></div>
+    <div class="bidname" id="bidName"><b>No bid open</b>Open or create one from Home</div>
+    <nav id="nav">
+      <a href="#/home" data-page="home">🏠 Home / Bids</a>
+      <a href="#/howto" data-page="howto">❓ How To</a>
+      <div class="sep"></div>
+      <a href="#/recap" data-page="recap">Estimate Recap</a>
+      <a href="#/takeoff" data-page="takeoff">TakeOff</a>
+      <a href="#/smimport" data-page="smimport">SM Import (CAE)</a>
+      <a href="#/crewmix" data-page="crewmix">Crew Mix</a>
+      <a href="#/indirects" data-page="indirects">Indirect Costs</a>
+      <a href="#/pricebreakdown" data-page="pricebreakdown">Price Breakdown</a>
+      <a href="#/proposal" data-page="proposal">Proposal</a>
+      <a href="#/booking" data-page="booking">Booking Report</a>
+      <a href="#/notes" data-page="notes">Takeoff Notes</a>
+      <a href="#/schedule" data-page="schedule">SM Schedule</a>
+      <div class="sep"></div>
+      <a href="#/export" data-page="export">⬇ Export / PDF</a>
+      <a href="#/settings" data-page="settings">⚙ Company Settings</a>
+      <a href="#/functions" data-page="functions">ℹ Function Map</a>
+    </nav>
+    <div class="foot">Arctic Bid Tool<br><span id="verLabel"></span></div>
+  </aside>
+  <div id="main">
+    <div id="topbar">
+      <h1 id="pageTitle">Home</h1>
+      <span class="total noprint" id="totalWrap"><small>Total Bid</small><span id="topTotal">—</span></span>
+      <button class="btn sec noprint" id="btnUndo" title="Nothing to undo  (Ctrl+Z)" disabled>↶ Undo</button>
+      <button class="btn sec noprint" id="btnRedo" title="Nothing to redo  (Ctrl+Shift+Z)" disabled>↷ Redo</button>
+      <button class="btn sec noprint" id="btnSave" title="Bids autosave; this forces a save">Save</button>
+    </div>
+    <div id="view"></div>
+  </div>
+</div>
+<input type="file" id="fileImport" accept=".json,.pdf,.zip,.xlsm,.xlsx,application/json,application/pdf,application/zip,application/vnd.ms-excel.sheet.macroEnabled.12,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" multiple style="display:none">
+</body>

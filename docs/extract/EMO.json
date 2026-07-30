@@ -1,0 +1,137 @@
+{
+"title": "EMO",
+"state": "visible",
+"protected": true,
+"max_row": 18,
+"max_col": 8,
+"merged": [
+"A1:E1"
+],
+"col_widths": {
+"A": 19.41796875,
+"B": 6.875,
+"C": 13.6171875,
+"D": 6.875,
+"E": 16.31640625,
+"F": 9.16796875,
+"H": 12.26953125,
+"I": 9.16796875
+},
+"row_heights": {
+"1": 14.25,
+"5": 13.5,
+"6": 13.5,
+"11": 13.5,
+"12": 13.5,
+"17": 13.5,
+"18": 13.5
+},
+"hidden_cols": [],
+"hidden_rows": [],
+"validations": [],
+"cells": {
+"A1": {
+"v": "Equipment Markup Override",
+"locked": true,
+"nf": "0"
+},
+"C3": {
+"v": "Markup %",
+"locked": true
+},
+"A4": {
+"v": "Total Equipment Value",
+"locked": true
+},
+"C4": {
+"v": "amount from",
+"locked": true
+},
+"E4": {
+"v": "Original",
+"locked": true
+},
+"A5": {
+"v": "Marked as EMO from ",
+"locked": true
+},
+"C5": {
+"v": "MCAA RECAP",
+"locked": true
+},
+"E5": {
+"v": "Equipment Markup",
+"locked": true
+},
+"A6": {
+"f": "=SUMIFS(SM_MaterialColumn,TakeOff!P:P,\"Yes\")",
+"v": 1145363.3684,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"C6": {
+"f": "='MCAA RECAP'!G62",
+"v": 0.24,
+"locked": true,
+"nf": "0.00%"
+},
+"E6": {
+"f": "=ROUND(A6*C6,2)",
+"v": 274887.21,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"C9": {
+"v": "Revised",
+"locked": true
+},
+"C10": {
+"v": "Markup %",
+"locked": true
+},
+"E10": {
+"v": "Revised",
+"locked": true
+},
+"C11": {
+"v": "For Equipment",
+"locked": true
+},
+"E11": {
+"v": "Equipment Markup",
+"locked": true
+},
+"C12": {
+"f": "='MCAA RECAP'!G61",
+"v": 0.1,
+"locked": true,
+"nf": "0.00%"
+},
+"E12": {
+"f": "=ROUND(A6*C12,2)",
+"v": 114536.34,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"E15": {
+"f": "=IF(E6-E12<0,\"Amount added\",\"Amount reduced\")",
+"v": "Amount reduced",
+"locked": true
+},
+"E16": {
+"f": "=IF(E6-E12<0,\"to estimate\",\"from estimate\")",
+"v": "from estimate",
+"locked": true
+},
+"E17": {
+"v": "Overhead & Profit",
+"locked": true
+},
+"E18": {
+"f": "=ABS(E6-E12)",
+"v": 160350.87000000002,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+}
+}
+}

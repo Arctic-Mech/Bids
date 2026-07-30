@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Keeps index.html in step with src/. Enable once per clone:
+#     git config core.hooksPath .githooks
+set -e
+cd "$(git rev-parse --show-toplevel)"
+
+if python3 build.py --check >/dev/null 2>&1; then
+  exit 0                      # already in step
+fi
+
+if git diff --cached --name-only | grep -qE '^(src/|FUNCTIONS\.md)' \
+   || git diff --name-only | grep -qE '^(src/|FUNCTIONS\.md)'; then
+  echo "index.html was out of date — rebuilding and including it in this commit."
+  python3 build.py
+  git add index.html
+  exit 0
+fi
+
+cat >&2 <<'MSG'
+STOP: index.html does not match src/, and you have not changed src/.
+
+That usually means index.html was edited by hand. It is a generated file —
+those edits are destroyed by the next build. Make the change in src/parts/
+and run: python3 build.py
+MSG
+exit 1

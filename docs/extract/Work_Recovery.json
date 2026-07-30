@@ -1,0 +1,150 @@
+{
+"title": "Work Recovery",
+"state": "visible",
+"protected": true,
+"max_row": 14,
+"max_col": 8,
+"merged": [],
+"col_widths": {
+"A": 22.25,
+"B": 18.87890625,
+"C": 5.66015625,
+"D": 15.91015625,
+"E": 5.66015625,
+"F": 11.8671875,
+"G": 5.66015625,
+"H": 22.65234375,
+"I": 9.16796875
+},
+"row_heights": {
+"1": 15.0,
+"3": 15.0,
+"4": 15.0,
+"5": 15.0,
+"6": 15.0,
+"7": 15.0,
+"8": 15.0,
+"9": 15.0,
+"10": 15.0,
+"11": 15.0,
+"12": 15.0,
+"13": 15.0,
+"14": 14.25
+},
+"hidden_cols": [],
+"hidden_rows": [],
+"validations": [],
+"cells": {
+"B1": {
+"v": "Work Recovery Calculations",
+"locked": true,
+"nf": "0"
+},
+"B3": {
+"v": "Takeoff Hours",
+"locked": true
+},
+"D3": {
+"v": "$/Hr Approved",
+"locked": true
+},
+"F3": {
+"v": "Max Hours",
+"locked": true
+},
+"H3": {
+"v": "Work Recovery Used",
+"locked": true
+},
+"A4": {
+"v": "SM Field",
+"locked": true
+},
+"B4": {
+"f": "='MCAA RECAP'!G18-'MCAA RECAP'!D27-'MCAA RECAP'!G12",
+"v": 4823.969999999999,
+"locked": true,
+"nf": "0.00"
+},
+"H4": {
+"f": "=IF(F4>B4,ROUND(D4*B4,0),ROUND(D4*F4,0))",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"A6": {
+"v": "SM Shop",
+"locked": true
+},
+"B6": {
+"f": "='MCAA RECAP'!H18",
+"v": 705.24,
+"locked": true,
+"nf": "0.00"
+},
+"H6": {
+"f": "=IF(F6>B6,ROUND(D6*B6,0),ROUND(D6*F6,0))",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"A8": {
+"v": "Arch Field",
+"locked": true
+},
+"B8": {
+"f": "='MCAA RECAP'!D27",
+"v": 0,
+"locked": true,
+"nf": "0.00"
+},
+"H8": {
+"f": "=IF(F8>B8,ROUND(D8*B8,0),ROUND(D8*F8,0))",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"A10": {
+"v": "Plumber",
+"locked": true
+},
+"B10": {
+"f": "='MCAA RECAP'!E18-'MCAA RECAP'!E12",
+"v": 196.2952,
+"locked": true,
+"nf": "0.00"
+},
+"H10": {
+"f": "=IF(F10>B10,ROUND(D10*B10,0),ROUND(D10*F10,0))",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"A12": {
+"v": "Fitter",
+"locked": true
+},
+"B12": {
+"f": "='MCAA RECAP'!F18-'MCAA RECAP'!F12",
+"v": 4055.2440000000006,
+"locked": true,
+"nf": "0.00"
+},
+"H12": {
+"f": "=IF(F12>B12,ROUND(D12*B12,0),ROUND(D12*F12,0))",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+},
+"G14": {
+"v": "Total",
+"locked": true
+},
+"H14": {
+"f": "=SUM(H4:H12)",
+"v": 0,
+"locked": true,
+"nf": "\"$\"#,##0.00"
+}
+}
+}
